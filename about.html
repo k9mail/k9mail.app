@@ -1,0 +1,20 @@
+---
+title: About
+nav_order: 1
+---
+{% include header.html %}
+    	<div class="row-fluid">
+    		<div class="span9">
+{% capture about_content %}{% include about_content.md %}{% endcapture %}
+{{ about_content | markdownify }}    		
+</div>
+    		<div class="span3">
+    			<h3 class="">Download</h3>
+    			<p class="">K-9 Mail is available in multiple flavors and through a variety of channels. Find out which version is best for you and how to get it.</p>
+                <p class="text-center">
+    			    <a class="btn btn-primary" href="{{site.url}}/download.html">Get K-9 Mail&nbsp;»</a>
+                </p>
+    		</div>
+    		
+    	</div>
+{% include footer.html %}
