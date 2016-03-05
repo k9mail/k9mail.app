@@ -29,6 +29,6 @@ There, K-9 Mail comes in two flavors. One is the official version created by the
 * [F-Droid's build of K-9 Mail](https://f-droid.org/repository/browse/?fdid=org.fdroid.k9) (can be installed parallel to the official version)
 
 
-## Google Code
+## GitHub 
 
-Both stable and development versions are available on the project's [Google Code site](https://code.google.com/p/k9mail/downloads/list).
+Both stable and development versions are available on the project's [GitHub site](https://github.com/k9mail/k-9/releases).
