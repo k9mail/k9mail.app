@@ -21,7 +21,7 @@ For the latest news about the project [follow us on Google+](https://plus.google
 
 ## IRC
 
-Many of the developers use IRC to chat in real-time. You can find them on the [Feenode](https://freenode.net/) network, channel #k-9 ([Webchat](https://webchat.freenode.net/?channels=#k-9)).
+Many of the developers use IRC to chat in real-time. You can find them on the [Freenode](https://freenode.net/) network, channel #k-9 ([Webchat](https://webchat.freenode.net/?channels=#k-9)).
 
 
 ## Bug tracker
@@ -29,7 +29,7 @@ Many of the developers use IRC to chat in real-time. You can find them on the [F
 Use the [issue tracker](https://code.google.com/p/k9mail/issues/list) to report bugs or request new features. 
 
 
-## Github
+## GitHub
 
-The [source code](https://github.com/k9mail/k-9) is hosted on Github. Star the project if you like to keep track of development. 
+The [source code](https://github.com/k9mail/k-9) is hosted on GitHub. Star the project if you like to keep track of development. 
 
