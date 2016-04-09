@@ -75,9 +75,7 @@ I want to see just my Inbox, Janet and Carl folders, and want all of those to be
 </tr>
 </tbody></table>
 
-
-<nowiki>*</nowiki> You could use ''All'', instead, for the Account "Folder sync mode", because only displayed folders are automatically synchronized. However, if you switched to displaying all folders, K-9 would then automatically sync all folders, which might be time consuming and battery draining.
-
+\* You could use ''All'', instead, for the Account "Folder sync mode", because only displayed folders are automatically synchronized. However, if you switched to displaying all folders, K-9 would then automatically sync all folders, which might be time consuming and battery draining.
 
 ### Use case 2: All but a few folders
 
