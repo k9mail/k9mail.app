@@ -1,6 +1,5 @@
 ---
 title: Settings 
-nav_order: 3 
 nav_off: true
 layout: default
 ---
