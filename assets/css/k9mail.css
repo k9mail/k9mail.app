@@ -2,3 +2,15 @@
   float: right;
   width: 130px;
 }
+.submenu {
+    margin-left: 0;
+    margin-top: -2px;
+    font-size: 10px;
+    list-style: none;
+}
+.submenu li {
+    border-bottom: 1px solid #dedede;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 0;
+}
