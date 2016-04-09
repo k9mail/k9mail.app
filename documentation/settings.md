@@ -1,6 +1,6 @@
 ---
 title: Settings 
-nav_off: true
+nav_hide: true 
 layout: default
 ---
 
