@@ -17,15 +17,13 @@ K-9 Mail is available through a variety of channels.
 
 ## Amazon
 
-<a href="http://www.amazon.com/K-9-Dog-Walkers-Mail/dp/B004JK61K0/"><img src="assets/img/amazon-underground-black.png" alt="K-9 Mail in Amazon's Appstore for Android" /></a>
-
+<a href="http://www.amazon.com/K-9-Dog-Walkers-Mail/dp/B004JK61K0/"><img src="/assets/img/amazon-underground-app-us-black.png" alt="K-9 Mail in Amazon's Appstore for Android" /></a>
 
 ## F-Droid
 
 K-9 Mail is also available from the F-Droid Repository -- a catalog of FOSS (Free and Open Source Software) applications for the Android platform. F-Droid builds are built from source by the F-Droid team and signed by them.
 
- * [K-9 Mail on F-Droid](https://f-droid.org/repository/browse/?fdid=com.fsck.k9)
-
+<a href="https://f-droid.org/repository/browse/?fdid=com.fsck.k9"><img src="/assets/img/get-it-on-fdroid.png" alt="K-9 Mail on F-Droid" /></a>
 
 ## GitHub
 
