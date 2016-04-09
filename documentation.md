@@ -8,14 +8,4 @@ layout: default
 
 # Documentation
 
-## Composing E-mail
-
-## Managing Folders
-
-## Encryption
-
-### OpenPGP
-
-### S/MIME
-
 ## Debugging
