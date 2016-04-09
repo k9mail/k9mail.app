@@ -91,6 +91,7 @@ I want to see and sync all of the folders, except for Carl. (Imagine I have 100 
 <th>Janet</th>
 <th>Carl</th>
 <th>John</th>
+</tr>
 <tr>
 <th>Display mode/class</th>
 <td>''All except 2nd Class Folders''</td>
@@ -98,7 +99,7 @@ I want to see and sync all of the folders, except for Carl. (Imagine I have 100 
 <td>''None''</td>
 <td>''2nd Class''</td>
 <td>''None''</td>
-<tr>
+</tr><tr>
 <th>Sync mode/class</th>
 <td>''All except 2nd Class Folders''</td>
 <td>''Same as display class''</td>
@@ -122,6 +123,7 @@ I want to see only my Inbox, Carl and John folders, but I do not want the Carl f
 <th>Janet</th>
 <th>Carl</th>
 <th>John</th>
+</tr>
 <tr>
 <th>Display mode/class</th>
 <td>''Only 1st Class folders''</td>
@@ -129,6 +131,7 @@ I want to see only my Inbox, Carl and John folders, but I do not want the Carl f
 <td>''None’’</td>
 <td>''1st Class''</td>
 <td>''1st Class''</td>
+</tr>
 <tr>
 <th>Sync mode/class</th>
 <td>''Only 1st Class folders''</td>
@@ -153,6 +156,7 @@ I want to normally only see my Carl and Janet folders, often want to see my Inbo
 <th>Janet</th>
 <th>Carl</th>
 <th>John</th>
+</tr>
 <tr>
 <th>Display mode/class</th>
 <td>''Only 1st Class folders''*</td>
@@ -160,6 +164,7 @@ I want to normally only see my Carl and Janet folders, often want to see my Inbo
 <td>''1st Class’’</td>
 <td>''1st Class''</td>
 <td>''None''</td>
+</tr>
 <tr>
 <th>Sync mode/class</th>
 <td>''1st and 2nd Class folders''</td>
@@ -187,6 +192,7 @@ I want to normally only see my Carl and Janet folders, often want to see my Inbo
 <th>Janet</th>
 <th>Carl</th>
 <th>John</th>
+</tr>
 <tr>
 <th>Display mode/class</th>
 <td>''Only 1st Class folders''*</td>
@@ -194,6 +200,7 @@ I want to normally only see my Carl and Janet folders, often want to see my Inbo
 <td>''1st Class''</td>
 <td>''1st Class''</td>
 <td>''None''</td>
+</tr>
 <tr>
 <th>Sync mode/class</th>
 <td>''Only 1st Class folders''</td>
