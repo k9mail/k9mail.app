@@ -1,6 +1,6 @@
 ---
 title: Global Settings 
-nav_order: 3 
+nav_hide: true 
 layout: default
 ---
 
