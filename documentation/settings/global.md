@@ -4,33 +4,35 @@ nav_order: 3
 layout: default
 ---
 
-{% include documentation-header.html %}
-
 {% include settings-header.html %}
+
+{% include documentation-header.html %}
 
 # Global Settings 
 
 *Global settings* are account-independent settings. Most of them define how the user interface should look like.
 
-#### Display
+## Display
 The Display settings provide a lot of flexibility to control the global appearance of the app, as well as each of the main views, such as the account list, message lists and message display.
 
-##### Global/Language
+### Global 
+
+#### Language
 By default K-9 Mail will display the user interface in the language you're using for your Android system. With this setting you can override the system language, e.g. if your Android version doesn't support your native language but K-9 Mail does.
 
-#### Global/Theme
+#### Theme
 Available themes:
 
 * Light (default)
 * Dark
 
-#### Global/Fixed message theme
+#### Fixed message theme
 When using the dark theme messages can look wrong. This is why K-9 Mail allows you to override the app theme.
 
 Enabling this setting will always use the theme configured in *Message view theme* below for the message view.
 Not using a fixed message theme means you can select a theme in the menu of the message view.
 
-#### Global/Message view theme
+#### Message view theme
 This setting specifies the theme that is used for the message view.
 
 Available settings:
@@ -39,7 +41,7 @@ Available settings:
 * Dark
 * Use app theme (default)
 
-#### Global/Composer theme
+#### Composer theme
 This setting specifies the theme that is used when composing a message.
 
 Available settings:
@@ -48,67 +50,73 @@ Available settings:
 * Dark
 * Use app theme (default)
 
-#### Global/Font size
+#### Font size
 Please see the wiki page [Font size](Manual-globalsettings-fonts) for details on font size settings.
 
-#### Global/Animation
+#### Animation
 Here you can configure whether or not K-9 Mail will use animations. Currently this is only affects the animation when switching from the message list to the message view and back.
 
-#### Account List/Show account size
+### Account List
+
+#### Show account size
 This setting controls whether or not the account size is displayed in the list of accounts. Disabling it can speed up the display a bit.
 
-#### Account List/Count search results
+#### Count search results
 Unchecking this will disable counting the number of unread and starred messages in the special accounts (*Unified Inbox* and *All messages*).
 
-#### Account List/Hide special accounts
+#### Hide special accounts
 Here you can disable the special accounts *Unified Inbox* and *All messages*.
 
 **Note:** As of K-9 Mail v4.802, third-party applications can only access information about messages in the *Unified Inbox*. So disabling this can lead to those apps no longer working properly.
 
-### Folder lists/Wrap long folder names
+### Folder lists
+
+#### Wrap long folder names
 When this setting is enabled folder names that are longer than can be displayed in one line in the folder list will be wrapped and displayed using multiple lines rather than being shortened with "..."
 
-### Message lists/Preview lines
+### Message lists
+
+#### Preview lines
 Here you can specify how many lines of preview of a message you want to see in the message list.
 
 **Note:** If you set preview lines to *0* and disable contact pictures (see below) you get a special single line message list view.
 
-#### Message lists/Show stars
+#### Show stars
 With this you can disable the star icon that is used to indicate flagged messages.
 
-#### Message lists/Multi-select checkboxes
+#### Multi-select checkboxes
 Enable this to always show the checkboxes to select a message.
 
-#### Message lists/Show correspondent names
+#### Show correspondent names
 Disable this to display email addresses instead of correspondent names.
 
-#### Message lists/Correspondent above subject
+#### Correspondent above subject
 Show correspondent names above the subject line, rather than below it.
 
-#### Message lists/Show contact names
+#### Show contact names
 Show correspondent names from Contacts when available.
 
-#### Message lists/Colorize contacs
+#### Colorize contacs
 Here you can select the color to use for correspondent names from your Contacts. All other correspondents will be displayed in the default color.
 
-#### Message lists/Show contact pictures
+#### Show contact pictures
 Disable this if you don't want to display contact pictures (or place holder images) in the message list.
 
-#### Message lists/Colorize contact pictures
+#### Colorize contact pictures
 If this is checked the place holder images for correspondents with missing contact pictures or ones not in your Contacts will be displayed in different colors.
 If this is disabled the images will be displayed with a grey background.
 
-#### Message lists/Dim messages after reading
+#### Dim messages after reading
 Disabling this will display read and unread messages using the same background color in the message list. Then bold text in the first line is the only indicator that a message hasn't been read yet.
 
-#### Message lists/Threaded view
+#### Threaded view
 Threaded view is enabled by default and groups messages that belong to the same thread. Currently only messages in the same folder are grouped. Specifically, this will not include messages sent by you if those messages are not also stored in the current folder.
 
 Please note that this is not the same as the conversation view you might know from e.g. Gmail. 
 
 To add own messages in threaded view: change *Sent folder* to *INBOX* in *Folder* settings under *Account settings*. Note: own messages are no longer stored (and synced) in *Sent* folder.
 
-#### Message lists/Show split-screen
+#### Show split-screen
 This setting allows you to display the message list next to the message view. This is mainly useful for devices with a rather large screen, i.e. tablets.
 
 Available settings:
@@ -118,19 +126,23 @@ Available settings:
 * When in Landscape orientation
 
 
-### Messages/Fixed-width fonts
+### Fixed-width fonts
 When this is checked a fixed-width font will be used for plain text messages. The display of HTML messages is not influenced by this setting.
 
-#### Messages/Visible message actions
+#### Visible message actions
 Configure which message actions will be promoted to the first level of the menu in the message view.
 
 **Note:** Checking an item doesn't mean that this action will be displayed in the action bar. There is only a limited number of actions that will be displayed in the action bar, the rest will move to the so called overflow menu that is accessible using the icon with the three dots.
 
-#### Messages/Auto-fit message
+### Messages
+
+#### Auto-fit message
 Enable this to shrink messages to fit the screen width.
 
 
-## Interaction/Start in Unified Inbox
+### Interaction
+
+####  Start in Unified Inbox
 When this setting is enabled K-9 Mail starts in the *Unified Inbox*.
 
 **Note:** You shouldn't use this setting. Pressing the launcher icon when K-9 Mail has been started before will restore the app to its old state rather than starting it again. Put a "K-9 Accounts" shortcut on your home screen to always open the *Unified Inbox*.
