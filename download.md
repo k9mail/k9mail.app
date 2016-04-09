@@ -23,7 +23,7 @@ K-9 Mail is available through a variety of channels.
 
 K-9 Mail is also available from the F-Droid Repository -- a catalog of FOSS (Free and Open Source Software) applications for the Android platform. F-Droid builds are built from source by the F-Droid team and signed by them.
 
-<a href="https://f-droid.org/repository/browse/?fdid=com.fsck.k9"><img src="/assets/img/get-it-on-fdroid.png" alt="K-9 Mail on F-Droid" /></a>
+<a href="https://f-droid.org/repository/browse/?fdid=com.fsck.k9"><img width="200" src="/assets/img/get-it-on-fdroid.png" alt="K-9 Mail on F-Droid" /></a>
 
 ## GitHub
 
