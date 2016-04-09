@@ -1,6 +1,7 @@
 .documentation-nav {
   float: right;
   width: 130px;
+  margin: 0 14px;
 }
 .submenu {
     margin-left: 0;
