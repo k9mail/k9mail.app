@@ -1,7 +1,7 @@
 ---
 title: Reading E-mail 
 layout: default
-nav_off: true
+nav_hide: true 
 ---
 
 {% include documentation-header.html %}
