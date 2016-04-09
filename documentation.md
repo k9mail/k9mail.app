@@ -2,9 +2,7 @@
 title: Documentation 
 nav_order: 3 
 layout: default
-nav_hide: true 
 ---
-{% include header.html %}
 
 {% include documentation-header.html %}
 
