@@ -5,9 +5,10 @@ nav_off: true
 layout: default
 ---
 
+{% include settings-header.html %}
+
 {% include documentation-header.html %}
 
-{% include settings-header.html %}
 
 # Settings
 
