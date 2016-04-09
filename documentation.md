@@ -2,21 +2,11 @@
 title: Documentation 
 nav_order: 3 
 layout: default
+nav_hide: true 
 ---
+{% include header.html %}
 
-<div class="documentation-nav">
-			<ul class="submenu">
-				<li id="n-mainpage"><a href="/documentation.md">Home Page</a></li>	
-				<li><a href="/installation.md">Installation</a></li>
-				<li><a href="/setup.md">Initial Set-up</a></li>
-				<li><a href="/accounts.md">Accounts</a></li>
-				<li><a href="/folders.md">Folders</a></li>
-				<li><a href="/reading.md">Reading E-mail</a></li>
-				<li><a href="/sending.md">Sending E-mail</a></li>
-				<li><a href="/encryption.md">Encryption</a></li>
-				<li><a href="/settings.md">Settings</a></li>
-			</ul>
-		</div>
+{% include documentation-header.html %}
 
 # Documentation
 
