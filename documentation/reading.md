@@ -1,6 +1,5 @@
 ---
 title: Reading E-mail 
-nav_order: 3 
 layout: default
 nav_off: true
 ---
