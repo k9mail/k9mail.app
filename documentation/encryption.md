@@ -13,7 +13,7 @@ layout: default
 # Encryption
 
 Communication security is an increasingly important subject. K-9 Mail aims to provide intuitive e-mail security in many forms, 
-both in terms of <a href="accounts/authentication.html>supporting secure login to your e-mail server</a> 
+both in terms of <a href="accounts/authentication.html">supporting secure login to your e-mail server</a> 
 and in the security of the e-mail itself.
 
 To this end, K-9 Mail has had longstanding support for OpenPGP and future plans to support S/MIME.
