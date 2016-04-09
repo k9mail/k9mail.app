@@ -1,4 +1,5 @@
-.documentation-nav {
+.documentation-nav, .settings-nav {
+  clear: right;
   float: right;
   width: 130px;
   margin: 0 14px;
