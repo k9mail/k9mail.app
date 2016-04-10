@@ -17,6 +17,8 @@ that work towards the protocol used by newer Exchange versions, [Exchange Active
 
 **Note**: WebDav support in K-9 Mail is not great but under gradual development. The developers welcome constructive feedback on improving the situation.
 
+<img src="/assets/img/account_setup_step3_webdav_incoming_server.png" width="300" alt="WebDAV server settings" />
+
 **Username**: This is the user name that is required to authenticate to your Exchange server. It's usually of the form `domain\username`.
 
 **Password**: Here you enter the password to access your emails.
