@@ -354,7 +354,7 @@ This section allows you to select a crypto provider that allows you to encrypt/d
 **Note:** Currently only [APG](https://play.google.com/store/apps/details?id=org.thialfihar.android.apg) (Android Privacy Guard) is supported as crypto provider. Check the [APG](Manual-APG) chapter in this user manual for details on how to use it.
 
 ### OpenPGP Provider
-This allows you to select the crypto provider to use. Right now the only options are *None* and *APG*.
+This allows you to select the crypto provider to use. Right now the only options are *None*, *APG* and *OpenKeychain*
 
 ### Auto-sign
 Enable this if you want to sign all messages sent with K-9 Mail. You will still be able to override this on a case-by-case basis in the screen to compose a message.
