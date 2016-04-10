@@ -10,7 +10,9 @@ layout: default
 
 K-9 provides the ability to import and export your settings. This is useful when changing/adding a device.
 
-The settings are exported as a file. They do not contain your password.
+The settings are exported as a file, stored in [external storage](/documentation/storage.html) in the directory `com.fsck.k9`, e.g. `/storage/sdcard/com.fsck.k9/settings.k9s`.
+You can now move this file to a new device or just keep it there when you uninstall and then re-install K-9 Mail on the same device.
+ They do not contain your password.
 
 To export your settings tap the bottom action bar's overflow menu on the accounts page, then "Export settings and accounts"
 
