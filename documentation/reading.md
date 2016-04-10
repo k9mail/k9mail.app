@@ -40,7 +40,7 @@ At this point, you can tap on a message in the list to open it for reading, or l
 
 ## Keyboard Navigation
 
-<table border="2" cellspacing="0" cellpadding="6">
+<table>
 <thead>
 <tr><th>Shortcut</th><th>Message List</th><th>Message Details</th></tr>
 </thead>
