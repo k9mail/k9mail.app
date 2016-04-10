@@ -13,8 +13,6 @@ K-9 Mail is available through a variety of channels.
 
 <a href="https://play.google.com/store/apps/details?id=com.fsck.k9"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" width="200" alt="Get it on Google Play" /></a>
 
-(Android, Google Play and the Google Play logo are trademarks of Google Inc.)
-
 ## Amazon
 
 <a href="http://www.amazon.com/K-9-Dog-Walkers-Mail/dp/B004JK61K0/"><img src="/assets/img/amazon-underground-app-us-black.png" alt="K-9 Mail in Amazon's Appstore for Android" /></a>
