@@ -12,7 +12,9 @@ layout: default
 
 *Global settings* are account-independent settings. Most of them define how the user interface should look like.
 
-## <a name="Display">Display</a>
+[Display](#display) | [Interaction](#interaction) | [Notifications](#notifications) | [Network](#network) | [Miscellaneous](#miscellaneous) | [Privacy](#privacy) | [Debugging](#debugging)
+
+## Display
 The Display settings provide a lot of flexibility to control the global appearance of the app, as well as each of the main views, such as the account list, message lists and message display.
 
 ### Global 
