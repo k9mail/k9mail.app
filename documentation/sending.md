@@ -11,7 +11,7 @@ layout: default
 A core part of an e-mail client is of course writing and sending emails. 
 The 'Compose' screen of K-9 makes this straightforward.
 
-<img src="/assets/img/compose_screen.png" width="300" alt="Message Compose screen" style="float:right" />
+<img src="/assets/img/compose_screen.png" width="300" alt="Message Compose screen" />
 
 On the action bar are icons for attaching files and sending the e-mail. 
 The file attachment action links to an installed file manager if present.
