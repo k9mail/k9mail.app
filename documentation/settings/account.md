@@ -1,5 +1,5 @@
 ---
-title: Global Settings 
+title: Account Settings 
 nav_hide: true 
 layout: default
 ---
