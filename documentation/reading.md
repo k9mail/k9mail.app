@@ -37,3 +37,7 @@ At this point, you can tap on a message in the list to open it for reading, or l
 * Copy - present a list of folders in the current email account to which the message can be copied; do so if one is selected
 * Share - hand the message body off to the Android Sharing facility, so the user can share it with someone in some fashion other than an email forward
 * More from this sender - take the user to a new Message List, showing only messages sent From the same email address as the current message
+
+## Keyboard Navigation
+
+TODO: K-9's keyboard bindings.
