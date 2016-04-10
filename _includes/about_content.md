@@ -34,5 +34,5 @@ In some incarnations, Doctor Who had a robotic dog named "K-9". The dog was, in 
 ## Open Source
 
 K-9 Mail is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
-The source code is available on [Github](https://github.com/k9mail/k-9/).
+The source code is available on [GitHub](https://github.com/k9mail/k-9/).
 
