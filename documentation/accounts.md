@@ -1,5 +1,5 @@
 ---
-title: Inital Setup
+title: Accounts
 nav_order: 0 
 layout: default
 nav_hide: true 
