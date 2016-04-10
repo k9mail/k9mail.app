@@ -4,6 +4,10 @@ nav_hide: true
 layout: default
 ---
 
+{% include accounts-header.html %}
+
+{% include documentation-header.html %}
+
 # Accounts
 
 The Accounts screen shows you a list of all the accounts you have configured in K-9, along with a number of special folders.
