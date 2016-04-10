@@ -10,6 +10,6 @@ nav_hide: true
 ## Initial Set-Up / Welcome Screen
 
 When you first launch K-9 you will be shown a welcome screen giving you a 
-run down of the features and then be prompted to <a href="/documentation/accounts.md">add an account</a>.
+run down of the features. Clicking 'Next' allows you to <a href="/documentation/accounts/add.html">add an account</a>. Alternatively if you have previously saved settings you can <a href="/documentation/settings/import_export.html">import them</a>.
 
-TODO: Image of Setup Screen
+<img src="/assets/img/welcome_screen.png" alt="Welcome Screen" />
