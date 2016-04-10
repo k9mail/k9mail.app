@@ -4,7 +4,7 @@ nav_hide: true
 layout: default
 ---
 
-{% include settings-header.html %}
+{% include accounts-header.html %}
 
 {% include documentation-header.html %}
 
