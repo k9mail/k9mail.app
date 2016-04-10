@@ -37,3 +37,43 @@ At this point, you can tap on a message in the list to open it for reading, or l
 * Copy - present a list of folders in the current email account to which the message can be copied; do so if one is selected
 * Share - hand the message body off to the Android Sharing facility, so the user can share it with someone in some fashion other than an email forward
 * More from this sender - take the user to a new Message List, showing only messages sent From the same email address as the current message
+
+## Keyboard Navigation
+
+<table>
+<thead>
+<tr><th>Shortcut</th><th>Message List</th><th>Message Details</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Del</b></td><td>delete</td><td>delete</td></tr>
+<tr><td><b>Volume up</b></td><td>next message (1)</td><td>next message (1)</td></tr>
+<tr><td><b>Volume down</b></td><td>prev message (1)</td><td>prev message (1)</td></tr>
+<tr><td><b>Back</b></td><td>managed back (2)</td><td>managed back (2)</td></tr>
+<tr><td><b>a</b></td><td>reply-all</td><td>reply-all</td></tr>
+<tr><td><b>c</b></td><td>compose</td><td></td></tr>
+<tr><td><b>d</b></td><td>delete</td><td>delete</td></tr>
+<tr><td><b>f</b></td><td>forward</td><td>forward</td></tr>
+<tr><td><b>g</b></td><td>toggle flag</td><td>toggle flag</td></tr>
+<tr><td><b>h</b></td><td>show keys help</td><td>show keys help</td></tr>
+<tr><td><b>i</b></td><td>toggle sort order</td><td></td></tr>
+<tr><td><b>j</b></td><td></td><td>prev message</td></tr>
+<tr><td><b>k</b></td><td></td><td>next message</td></tr>
+<tr><td><b>m</b></td><td>move</td><td>move</td></tr>
+<tr><td><b>n</b></td><td></td><td>next message</td></tr>
+<tr><td><b>p</b></td><td></td><td>prev message</td></tr>
+<tr><td><b>q</b></td><td>up-to folder list</td><td></td></tr>
+<tr><td><b>r</b></td><td>reply</td><td>reply</td></tr>
+<tr><td><b>o</b></td><td>cycle sort key</td><td></td></tr>
+<tr><td><b>s</b></td><td>toggle selected</td><td>move-to-spam</td></tr>
+<tr><td><b>u</b></td><td>mark as unread</td><td>mark as unread</td></tr>
+<tr><td><b>v</b></td><td>archive</td><td>archive</td></tr>
+<tr><td><b>y</b></td><td>copy</td><td>copy</td></tr>
+<tr><td><b>shift-z</b></td><td></td><td>zoom in</td></tr>
+<tr><td><b>z</b></td><td>toggle read</td><td>zoom out</td></tr>
+</tbody>
+</table>
+
+Footnotes:
+
+  * *(1)* - if manage volume keys is turned on
+  * *(2)* - if manage back button is turned on

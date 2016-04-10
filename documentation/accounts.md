@@ -1,5 +1,5 @@
 ---
-title: Inital Setup
+title: Accounts
 nav_order: 0 
 layout: default
 nav_hide: true 
@@ -21,3 +21,4 @@ K-9 supports three main types of email account at present:
 
 * [Adding an Account](/documentation/accounts/add.html)
 * [Managing / Viewing Accounts](/documentation/accounts/view.html)
+* [Removing Accounts](/documentation/accounts/remove.html)
