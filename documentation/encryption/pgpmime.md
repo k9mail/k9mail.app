@@ -14,7 +14,7 @@ In K-9 we aim to support OpenPGP, a specification of Pretty Good Privacy (PGP), 
 in the early 90s that uses a 'web of trust' to validate certificates.
 
 In previous releases of K-9 Mail we have supported basic integration with 
-[Android Privacy Guard (APG)](http://www.thialfihar.org/projects/apg/)</a>. 
+[Android Privacy Guard (APG)](http://www.thialfihar.org/projects/apg/). 
 
 However with development on the project stalled and with a desire to better support PGP/MIME in the app, 
 newer releases move to support [OpenKeychain](https://www.openkeychain.org/) via a public API 
