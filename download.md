@@ -26,6 +26,6 @@ K-9 Mail is also available from the F-Droid Repository -- a catalog of FOSS (Fre
 * [Official K-9 Mail on F-Droid](https://f-droid.org/repository/browse/?fdid=com.fsck.k9)
 
 
-## Google Code
+## GitHub 
 
-Both stable and development versions are available on the project's [Google Code site](https://code.google.com/p/k9mail/downloads/list).
+Both stable and development versions are available on the project's [GitHub site](https://github.com/k9mail/k-9/releases).
