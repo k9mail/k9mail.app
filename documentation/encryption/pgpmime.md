@@ -13,20 +13,28 @@ layout: default
 In K-9 we aim to support OpenPGP, a specification of Pretty Good Privacy (PGP), an encryption method developed 
 in the early 90s that uses a 'web of trust' to validate certificates.
 
-In the current release of K-9 Mail we support basic integration with 
-<a href="http://www.thialfihar.org/projects/apg/">Android Privacy Guard (APG)</a>. 
+In previous releases of K-9 Mail we have supported basic integration with 
+[Android Privacy Guard (APG)](http://www.thialfihar.org/projects/apg/)</a>. 
 
 However with development on the project stalled and with a desire to better support PGP/MIME in the app, 
-the beta and future releases move to support <a href="https://www.openkeychain.org/">OpenKeychain</a> via a public API 
+newer releases move to support [OpenKeychain](https://www.openkeychain.org/) via a public API 
 which we hope other apps which want to provide PGP key storage can support.
 
-## APG Usage
+## Open Keychain & APG Usage
 
 ### Signing & Encrypting Mail
 
-### Decrypting Mail
+When an OpenPGP provider has been set-up in the [account settings](/documentation/settings/account.html) a new set of options are shown in the message compose window:
 
-### Verifying Signed Mail
+<img src="/assets/img/encryption_current_compose_dialog.png" alt="Encrypting email" width="300" />
+
+Selecting Sign and Encrypt accordingly allows e-mails to be sent in a verified and secure way (respectively).
+
+### Decrypting & Verifying Signed Mail
+
+Decryption and verification of e-mail is done automatically and corresponding header is shown when viewing the e-mail:
+
+<img src="/assets/img/encryption_current_decryption.png" alt="Viewing encrypted email" width="300" />
 
 ## Open Keychain Usage (Beta)
 
@@ -49,6 +57,4 @@ Tapping the icon leads to dialog that allows you to change between one of four s
 
 <img src="/assets/img/encryption_openkeychain_crypto_dialog.png" alt="Compose Crypto Dialog" width="300" />
 
-### Decrypting Mail
-
-### Verifying Signed Mail
+### Decrypting & Verifying Signed Mail
