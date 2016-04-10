@@ -8,7 +8,7 @@ layout: default
 
 The Accounts screen shows you a list of all the accounts you have configured in K-9, along with a number of special folders.
 
-<img src="/assets/img/accounts_list.png" alt="Accounts List" />
+<img src="/assets/img/accounts_list.png" alt="Accounts List" width="300" />
 
 ## Unified Inbox
 
