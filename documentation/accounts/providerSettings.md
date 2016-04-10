@@ -111,13 +111,14 @@ Web.DE supports both IMAP and POP3
         Server: pop3.web.de
         Port: 995
         Verschlüsselung: SSL-Verschlüsselung
->(Steht in einem Programm "SSL" nicht zur Verfügung, genügt es, die Option "Verschlüsselung" zu aktivieren.)
+        
+> (Steht in einem Programm "SSL" nicht zur Verfügung, genügt es, die Option "Verschlüsselung" zu aktivieren.)
 
         Server: smtp.web.de
         Port: 587
         Verschlüsselung: STARTTLS
 
->(Steht in einem Programm "STARTTLS" nicht zur Verfügung, nutzen Sie bitte das Protokoll "TLS". Existiert auch hierfür keine Option, genügt es, die Option "Verschlüsselung" zu aktivieren.)
+> (Steht in einem Programm "STARTTLS" nicht zur Verfügung, nutzen Sie bitte das Protokoll "TLS". Existiert auch hierfür keine Option, genügt es, die Option "Verschlüsselung" zu aktivieren.)
 
 ## Yahoo
 
