@@ -24,3 +24,11 @@ If you have any comments please feel free to <a href="contribute.md">provide fee
 * [Sending E-mail](/documentation/sending.html)
 * [Encryption](/documentation/encryption.html)
 * [Settings](/documentation/settings.html)
+* [Debugging](/documentation/debugging.html)
+
+## In other languages
+
+There are some translations of this documentation in other language. K-9 developers can not vouch for their accuracy or future status given they are externally hosted. Should interest in other languages pick up, this website may be internationalised.
+
+* [Documentation in Farsi](http://en.flossmanuals.net/k9-fa/)
+* [Documentation in Burmese](http://en.flossmanuals.net/k9my/)
