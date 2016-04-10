@@ -17,7 +17,7 @@ We didn't want either use case to require going through nearly all of the folder
 
 ## Assigning classes
 
-Classes can be used to adjust both the display of your folders and the automatic synchronization. ***Only displayed folders will be synchronized, irrespective of the synchronization Class settings.***
+Classes can be used to adjust both the display of your folders and the automatic synchronization. ***Only displayed folders will be synchronized, irrespective of the synchronization class settings.***
 
 You can adjust the Account Class settings through the normal Account Settings Activity.  To adjust the folder Class settings, use the new Folder Settings Activity. In the main folder list, long-press a folder. In Android Email, a long press on a folder does nothing. In K-9, it brings up a context menu, providing "Refresh" and "Folder settings" Click "Folder settings" to adjust the Classes to which the folder is assigned.
 
