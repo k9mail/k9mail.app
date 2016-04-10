@@ -8,37 +8,51 @@ layout: default
 
 # Folders
 
-The most confusing aspect of K-9 is the use of Classes to control the display and synchronization behavior of accounts and folders.  The goal of the Class system is to provide an easy way for a person with a large number of folders to accomplish either of these two goals:
+Perhaps most confusing aspect of K-9 is the use of Classes to control the display and synchronization behavior of accounts and folders.  The goal of the Class system is to provide an easy way for a person with a large number of folders to accomplish either of these two goals:
+
 * Show only a select few of the available folders
 * Show all '''but''' a select few of the available folders
 
-
 We didn't want either use case to require going through nearly all of the folders, setting a parameter on each folder.  To this end, there are settings to be made on both Account and Folders. If you do not make any Class setting changes, K-9 will display all of your folders, but will not perform automatic synchronization on any of them, until you change the "Email check frequency" in the Account settings.
 
-Classes can be used to adjust both the display of your folders and the automatic synchronization. '''Only displayed folders will be synchronized, irrespective of the synchronization Class settings.'''
+## Assigning classes
+
+Classes can be used to adjust both the display of your folders and the automatic synchronization. ***Only displayed folders will be synchronized, irrespective of the synchronization Class settings.***
+
 You can adjust the Account Class settings through the normal Account Settings Activity.  To adjust the folder Class settings, use the new Folder Settings Activity. In the main folder list, long-press a folder. In Android Email, a long press on a folder does nothing. In K-9, it brings up a context menu, providing "Refresh" and "Folder settings" Click "Folder settings" to adjust the Classes to which the folder is assigned.
+
+### Folder display class
 
 First is the "Folder display class"  A folder can be assigned to be in ''1st Class'', ''2nd Class'' or ''None''. The default is ''None''. If you have a lot of folders, and only want to display a few, then assign those few to ''1st Class''. If you have a lot of folders, and only want to hide a few, assign those few to ''2nd Class'', and leave the multitude set to ''None''.
 
+### Folder sync class
+
 Second, it is also possible to separately set the "Folder sync class". By default, the folder's sync class is the same as the folder's display class. However, there are cases in which it is useful to have a different class for synchronization purposes. For instance, if there is a folder that you want to appear in your normal short list, but you do not want it to be automatically synced. Drafts is a good example of such a folder. In this case, assign the Drafts folder to be ''1st Class'' for display but ''2nd Class'' for sync. You will always have it in your folder list, but will not waste any battery power automatically keeping it in sync.
+
+## Modes
 
 Now, in order to make use of the folder Class assignment, it is necessary to adjust two settings in the "Account settings": "Folder display mode" and "Folder sync mode".
 
+### Display mode
+
 "Folder display mode" determines which folders are to be displayed.
 There are four choices:
+
 * '''All''': All folders are displayed.
 * '''Only 1st Class folders''': Only folders that were explictly set to be ''1st Class'' for their "display class" are shown.
 * '''1st and 2nd Class folders''': Only folders that were explicitly set to be either ''1st Class'' or ''2nd Class'' for their "display class" are shown.
 * '''All except 2nd Class folders''': All folders are shown, except those that are selected to be in ''2nd Class'' for their display class.
 
+## Sync mode
 
 "Folder sync mode" determines which folders are to be automatically synchronized at the "Email check frequency".
+
 There are four choices:
+
 * '''All''': All displayed folders are automatically synchronized.
 * '''Only 1st Class folders''': Only displayed folders that were explictly set to be ''1st Class'' for their "sync class" are automatically synchronized
 * '''1st and 2nd Class folders''': Only displayed folders that were explicitly set to be either ''1st Class'' or ''2nd Class'' for their "sync class" are automatically synchronized.
 * '''All except 2nd Class folders''': All displayed folders, except those that are selected to be in ''2nd Class'' for their sync class, are automatically synchronized.
-
 
 ## Examples
 
