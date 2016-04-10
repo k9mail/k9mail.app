@@ -33,7 +33,7 @@ Do whatever causes the problem/error.
 To fetch the debug log you can either attach the device to your PC and use the tool `adb` from the Android SDK or you can use the application `aLogcat` to display the debug log on the device.
 
 * **Using `adb`**
-  0. Follow [[these instructions|Installing-adb]] to install adb and to connect your device.
+  0. [Install adb and connect to your device](https://github.com/k9mail/k-9/wiki/Installing-adb).
   0. To capture the debug log in a file named `k9-log.txt`, enter the command:
 
              adb logcat -d -v time k9:V '*:S' AndroidRuntime:E > k9-log.txt
