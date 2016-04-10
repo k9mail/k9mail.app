@@ -10,7 +10,7 @@ layout: default
 
 # Common Provider Settings 
 
-This page provides common settings usable K-9 for the major e-mail providers:
+This page provides common settings usable in K-9 for the major e-mail providers:
 
 ## AOL Mail
 
