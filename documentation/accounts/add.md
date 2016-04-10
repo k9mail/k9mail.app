@@ -28,13 +28,15 @@ We also [list information on the settings for major e-mail providers](/documenta
 
 If you need to configure it manually, you will need to first choose an account type. The available options are POP3, IMAP, and WebDAV (supported by Exchange versions up to 2007).
 
-![Account type selection](/assets/img/account_setup_step2_account_type_selection.png)
-
 All of these are names of protocols to access your mailbox. If your email provider supports it, we strongly recommend you use IMAP. It is superior to the others and well supported by K-9 Mail.
 
-* [IMAP](/documentation/accounts/imap.html)
-* [POP3](#wiki-pop3)
-* [WebDAV](#wiki-webdav-exchange)
+For more information see the linked Wikipedia entries:
+
+* [IMAP](http://en.wikipedia.org/wiki/IMAP)
+* [POP3](http://en.wikipedia.org/wiki/POP3)
+* [WebDAV](http://en.wikipedia.org/wiki/WebDAV)
+
+![Account type selection](/assets/img/account_setup_step2_account_type_selection.png)
 
 ## Incoming Server Settings
 
@@ -46,13 +48,13 @@ To configure your incoming server settings see the corresponding page
 
 ## Configuring the outgoing server
 
-To be able to send mail K-9 Mail needs to know the settings to your provider's SMTP server. In this step of the account creation process you have to provide those details. Below is an explanation of the different settings. In certain circumstances, you may need to use a different outgoing server than you'd expect; we'll discuss those later.
+To be able to send mail K-9 Mail needs to know the settings to your provider's [SMTP](http://en.wikipedia.org/wiki/SMTP) server. In this step of the account creation process you have to provide those details. Below is an explanation of the different settings. In certain circumstances, you may need to use a different outgoing server than you'd expect; we'll discuss those later.
 
 Because of the nature of email service, you often (if not always, these days) send outgoing mail to one server, but pick up incoming mail from a separate one; this is why many of the items below say "this is often, but not always, the same as the setting for incoming mail".
 
 ![Outgoing server settings](/assets/img/account_setup_step4_smtp_outgoing_server.png)
 
-**SMTP server**: This is the hostname or IP address of your SMTP server. As discussed above under **IMAP Server**, this name or IP must be accessible from any network from which you may want to send mail, whether your cellular carrier's WAN or a private LAN via wifi. See below for more details if you have trouble.
+**SMTP server**: This is the hostname or IP address of your SMTP server. As discussed above under **IMAP Server**, this name or IP must be accessible from any network from which you may want to send mail, whether your cellular carrier's WAN or a private LAN via Wi-Fi. See below for more details if you have trouble.
 
 **Security type**: This specifies the cryptographic protocol that should be used when connecting to your SMTP server. Available options are:
 
@@ -119,9 +121,9 @@ For a run-down on battery usage and the difference between the two see the [FAQ]
 * 1000 messages
 * all messages
 
-Higher values have some performance implications. Read the description of the setting *Local folder size* in chapter [Account settings](Manual-AccountSettings) for more information.
+Higher values have some performance implications. Read the description of the setting *Local folder size* in chapter [Account settings](/documentation/settings/account_settings.html) for more information.
 
-**Notify me when mail arrives**: If this is checked you are notified when a new message was downloaded in this mailbox. Notification type (LED, vibration) and ringtone can be configured later. See *Notifications* in chapter [Account settings](Manual-AccountSettings).
+**Notify me when mail arrives**: If this is checked you are notified when a new message was downloaded in this mailbox. Notification type (LED, vibration) and ringtone can be configured later. See *Notifications* in the [Account settings](/documentation/settings/account_settings.html).
 
 **Notify me while mail is being checked**: If this option is enabled K-9 Mail will inform the user when an account is being synchronized by displaying a message in the Android title bar.
 
