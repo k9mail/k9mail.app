@@ -9,15 +9,15 @@ layout: default
 There are a couple of ways to interact with the community.
 
 
-## All-purpose mailinglist and forum
+## Mailing Lists
 
-If you have any questions related to K-9 Mail the [mailing list](https://groups.google.com/forum/#!forum/k-9-mail) is the right place to ask.
+If you have any questions related to K-9 Mail the [general purpose mailing list](https://groups.google.com/forum/#!forum/k-9-mail) is the right place to ask.
 
+For development talk, the [developer mailing list](https://groups.google.com/forum/#!forum/k-9-dev) is a low-traffic list covering broad development issues.
 
 ## Google+
 
 For the latest news about the project [follow us on Google+](https://plus.google.com/114221735215588688400).
-
 
 ## IRC
 
