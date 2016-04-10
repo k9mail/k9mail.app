@@ -38,7 +38,7 @@ When composing e-mail with OpenKeychain setup and installed a new pad-lock icon
 appears in the top left of the composition screen. The icon represents the type of signing 
 and encryption that will be applied to the message.
 
-<img src="/assets/img/encryption/openkeychain_compose_dialog.png" alt="Compose Screen" />
+<img src="/assets/img/encryption_openkeychain_compose_dialog.png" alt="Compose Screen" />
 
 Tapping the icon leads to dialog that allows you to change between one of four states:
 
@@ -47,7 +47,7 @@ Tapping the icon leads to dialog that allows you to change between one of four s
 * Always Sign, Encrypt if posssible.
 * Always Sign, Always Encrypt
 
-<img src="/assets/img/encryption/openkeychain_crypto_dialog.png" alt="Compose Crypto Dialog" />
+<img src="/assets/img/encryption_openkeychain_crypto_dialog.png" alt="Compose Crypto Dialog" />
 
 ### Decrypting Mail
 
