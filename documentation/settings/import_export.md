@@ -24,6 +24,7 @@ Similarly, tapping "Import settings" allows you to import your settings. The set
 <img src="/assets/img/settings_export_success.png" width="300" alt="Export Success" /> 
 <img src="/assets/img/settings_import_selection.png" width="300" alt="Import Selection" />
 
+When the import is complete you will be asked to provide the passwords to all the accounts you just imported. You can defer the account activation by pressing "Cancel", but you won't be able to use the account until you provide a password.
 
-
+<img src="/assets/img/settings_import_activate_account.png" width="300" alt="Import Selection" />
 
