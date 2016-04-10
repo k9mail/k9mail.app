@@ -16,6 +16,8 @@ K-9 will display a notifier on the window-shade for each mailbox which has new m
 
 ## Browsing E-mail
 
+<img src="/assets/img/reading_folder_view.png" width="300" alt="Folder Message List" /> <img src="/assets/img/reading_email_view.png" width="300" alt="Message View" />
+
 At this point, you're looking at a Message List -- a list of all (or only the unread) messages in a given folder; in this case, the Inbox folder for that email account.  This list will display message titles (in *bold* if not yet read, highlighted if not fully down loaded), a time or date (depending on the age of the message), and either the sender's email address or "real name".  It may also display a short preview of the body text of the message, a Star icon for flagging messages and/or a multi-select checkbox, if you've enabled those options in Global Settings->Display.
 
 At this point, you can tap on a message in the list to open it for reading, or long-press to get the message's Context Menu, which contains these options, on a scrolling pop-up menu with the message's title at its top:
