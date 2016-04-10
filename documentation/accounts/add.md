@@ -16,9 +16,9 @@ and then tapping the 'Add account' option in the overflow menu.
 
 First you are asked for your email address and password.
 
-![Screen to enter email address and password](/assets/img/account_setup_step1_empty.png)
-
 The buttons "Manual setup" and "Next" become only activated after a correctly formatted email address and a password have been typed in.
+
+![Screen to enter email address and password](/assets/img/account_setup_step1_empty.png)
 
 ![Email address and password filled in](/assets/img/account_setup_step1_filled_in.png)
 
