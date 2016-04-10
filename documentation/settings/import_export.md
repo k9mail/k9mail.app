@@ -1,0 +1,29 @@
+---
+title: Import/Export Settings 
+nav_hide: true 
+layout: default
+---
+
+{% include settings-header.html %}
+
+{% include documentation-header.html %}
+
+K-9 provides the ability to import and export your settings. This is useful when changing/adding a device.
+
+The settings are exported as a file. They do not contain your password.
+
+To export your settings tap the bottom action bar's overflow menu on the accounts page, then "Export settings and accounts"
+
+<img src="/assets/img/accounts_menu.png" width="300" alt="Accounts Menu" /> 
+<img src="/assets/img/settings_import_export_menu.png" width="300" alt="Import/Export Menu" />
+
+Assuming the export is succesful they will be stored in the K9 folder. This can then be e-mailed or otherwise transferred.
+
+Similarly, tapping "Import settings" allows you to import your settings. The settings are split into sections, allow you to import the section you want.
+
+<img src="/assets/img/settings_export_success.png" width="300" alt="Export Success" /> 
+<img src="/assets/img/settings_import_selection.png" width="300" alt="Import Selection" />
+
+
+
+
