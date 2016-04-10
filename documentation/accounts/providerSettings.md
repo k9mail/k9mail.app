@@ -51,6 +51,74 @@ To configure the 'Email' app on an Android device for access to Gmail, just foll
     On the next screen, you can give the account a nickname and choose the name to display on your outgoing messages. 
     Tap Done.
 
+## Hotmail / MSN / Outlook Live
+
+Hotmail supports IMAP, POP3 and Exchange ActiveSync. Unfortunately, we do not yet support Exchange Active Sync in K-9. 
+
+### IMAP
+
+        Server address: imap-mail.outlook.com
+        Port: 993
+        Encrypted Connection: SSL
+        User name: Your email address
+        Password: Your password
+
+### POP3
+
+To use POP3 first enable it in your e-mail settings:
+
+> * Sign in to your Outlook.com account.
+> * Click the Options icon Options icon, and then click More mail settings or Options.
+> * Under Managing your account, click Connect devices and apps with POP.
+> * Under POP, select Enable.
+> * Click Save.
+    
+        Server address: pop-mail.outlook.com
+        Port: 995
+        Encrypted Connection: SSL
+        User name: Your email address
+        Password: Your password
+
+### SMTP
+
+        Server address: smtp-mail.outlook.com
+        Port: 25 (or 587 if 25 is blocked)
+        Authentication: Yes
+        Encrypted Connection: TLS
+        User name: Your email address
+        Password: Your password
+
+## Web.DE
+
+Web.DE supports both IMAP and POP3
+
+### IMAP
+
+        Server: imap.web.de
+        Port: 993
+        Verschlüsselung: SSL-Verschlüsselung
+>(Steht in einem Programm "SSL" nicht zur Verfügung, genügt es, die Option "Verschlüsselung" zu aktivieren.)
+
+        Server: smtp.web.de
+        Port: 587
+        Verschlüsselung: STARTTLS
+>(Steht in einem Programm "STARTTLS" nicht zur Verfügung, nutzen Sie bitte das Protokoll "TLS". Existiert auch hierfür keine Option, genügt es, die Option "Verschlüsselung" zu aktivieren.)
+
+### POP3
+
+> Steht für die englische Abkürzung "Post Office Protocol Version 3". Per POP3 werden E-Mails von einem Server in ein E-Mail-Programm übertragen und gleichzeitig vom jeweiligen Server gelöscht.
+
+        Server: pop3.web.de
+        Port: 995
+        Verschlüsselung: SSL-Verschlüsselung
+>(Steht in einem Programm "SSL" nicht zur Verfügung, genügt es, die Option "Verschlüsselung" zu aktivieren.)
+
+        Server: smtp.web.de
+        Port: 587
+        Verschlüsselung: STARTTLS
+
+>(Steht in einem Programm "STARTTLS" nicht zur Verfügung, nutzen Sie bitte das Protokoll "TLS". Existiert auch hierfür keine Option, genügt es, die Option "Verschlüsselung" zu aktivieren.)
+
 ## Yahoo
 
 Yahoo supports IMAP only for fetching e-mail:
@@ -70,19 +138,3 @@ Yahoo supports IMAP only for fetching e-mail:
         Requires SSL: Yes
         Requires authentication: Yes
         Same password as incoming: Yes
-        
-## Web.DE
-
-Web.DE supports both IMAP and POP3
-
-### IMAP
-
-        Server: imap.web.de
-        Port: 993
-        Verschlüsselung: SSL-Verschlüsselung
->(Steht in einem Programm "SSL" nicht zur Verfügung, genügt es, die Option "Verschlüsselung" zu aktivieren.)
-
-        Server: smtp.web.de
-        Port: 587
-        Verschlüsselung: STARTTLS
->(Steht in einem Programm "STARTTLS" nicht zur Verfügung, nutzen Sie bitte das Protokoll "TLS". Existiert auch hierfür keine Option, genügt es, die Option "Verschlüsselung" zu aktivieren.)
