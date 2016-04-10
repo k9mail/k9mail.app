@@ -18,7 +18,7 @@ Use the [issue tracker](https://code.google.com/p/k9mail/issues/list) to report 
 
 ### Translate the app
 
-TODO: Create wiki page for translators
+K9 Mail uses <a href="https://www.transifex.com/k-9/k9mail/">Transifex</a> for translations. As features are added, there is often a need for translators to localise the text accordingly.
 
 
 ### Help other users
@@ -30,10 +30,12 @@ Help other users by answering questions on the [mailing list](https://groups.goo
 
 ### Get the source
 
-The [source code](https://github.com/k9mail/k-9) is hosted on Github.
+The [source code](https://github.com/k9mail/k-9) is hosted on GitHub.
 
+## Read the development documents
+
+We maintain documentation on the design of the app on the [project wiki](https://github.com/k9mail/k-9/wiki). Feel free to contribute towards this and read it to guide patches to submit.
 
 ### Submit a patch
 
-Create a pull request based on K-9's master branch.
-
+Create a pull request based on K-9's master branch. See the <a href="https://github.com/k9mail/k-9/wiki/CodeStyle">Code Style</a> for more information
