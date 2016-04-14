@@ -17,7 +17,7 @@ To this end,K-9 Mail supports a variety of mail server authentication methods an
 
 ## Authentication
 
-We currently support the following secure <a href=/documentation/account/authentication.html">authentication</a> methods
+We currently support the following secure authentication methods
 
 * Client-side SSL certificates
 * CRAM-MD5 encryption (the most common form)
