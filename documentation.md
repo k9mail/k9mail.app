@@ -26,7 +26,7 @@ If you have any comments please feel free to <a href="contribute.html">provide f
 * [Folders](/documentation/folders.html)
 * [Reading E-mail](/documentation/reading.html)
 * [Sending E-mail](/documentation/sending.html)
-* [Encryption](/documentation/encryption.html)
+* [Security](/documentation/security.html)
 * [Settings](/documentation/settings.html)
 * [Debugging](/documentation/debugging.html)
 

@@ -4,7 +4,7 @@ nav_hide: true
 layout: default
 ---
 
-{% include encryption-header.html %}
+{% include security-header.html %}
 
 {% include documentation-header.html %}
 
