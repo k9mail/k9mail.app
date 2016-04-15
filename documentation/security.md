@@ -13,7 +13,8 @@ layout: default
 Communication security is an increasingly important subject. K-9 Mail aims to provide intuitive e-mail security in many forms, 
 both in terms of supporting secure login to your e-mail server and in the security of the e-mail itself.
 
-To this end,K-9 Mail supports a variety of mail server authentication methods and has had longstanding support for PGP/MIME (OpenPGP) and future plans to support S/MIME.
+To this end,K-9 Mail supports a variety of mail server authentication methods and has had 
+longstanding support for OpenPGP and future plans to support S/MIME.
 
 ## Authentication
 
