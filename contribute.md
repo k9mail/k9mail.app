@@ -13,7 +13,7 @@ Help us make K-9 Mail even better!
 
 ### Report a bug
 
-Use the [issue tracker](https://code.google.com/p/k9mail/issues/list) to report bugs or request new features.
+Use the [issue tracker](https://github.com/k9mail/k-9/issues to report bugs or request new features.
 
 
 ### Translate the app
@@ -39,3 +39,11 @@ We maintain documentation on the design of the app on the [project wiki](https:/
 ### Submit a patch
 
 Create a pull request based on K-9's master branch. See the <a href="https://github.com/k9mail/k-9/wiki/CodeStyle">Code Style</a> for more information
+
+## Documentation
+
+Like everything else, this manual is the work of volunteers. If you feel it could be improved with information on a certain topic, feel free to contribute by [creating an issue on the website's tracker](https://github.com/k9mail/k9mail.github.io/issues).
+
+## Finance
+
+ If you feel like contributing financially, please make a donation to [F-Droid](https://f-droid.org/about/), the repository of Free and Open Source Software (FOSS) for the Android platform.
