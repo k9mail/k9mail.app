@@ -133,7 +133,7 @@ For the website see: [the K-9 website source code](https://github.com/k9mail/k9m
 
 ### <a name="anchor13"></a> Why are there no release notes/list of changes for version X?
 
-We only publish [[release notes|https://github.com/k9mail/k-9/wiki/ReleaseNotes]] for stable releases (see next question) that are also pushed to Google Play (formerly Android Market).
+We only publish [release notes](https://github.com/k9mail/k-9/wiki/ReleaseNotes) for stable releases (see next question) that are also pushed to Google Play (formerly Android Market).
 
 ### <a name="anchor13b"></a> What is the difference between version 4.0xx and 4.1xx?
 
@@ -149,7 +149,7 @@ Stable releases are changed only minimally when necessary, and should work just 
 
 Development releases are the latest and (hopefully) greatest, but may introduce new bugs or break things that were working before. You might find that K-9 no longer works on your device with an older version of Android (somewhere in 4.1xx we quit supporting Android older than 2.1, which means that K-9 4.2xx will only support Android 2.1 and newer). This is where new features happen (as well as bug fixes and security updates), and by using development releases you can help us to spot and fix new bugs early.
 
-Every version of K-9 is available to be downloaded [[here|https://github.com/k9mail/k-9/releases]]. They are sorted by date, most recent first, and you can see that some 4.0xx releases are listed above some 4.1xx releases. Often a 4.0xx release will happen at the same time as a 4.1xx release.
+Every version of K-9 is available to be downloaded [here](https://github.com/k9mail/k-9/releases). They are sorted by date, most recent first, and you can see that some 4.0xx releases are listed above some 4.1xx releases. Often a 4.0xx release will happen at the same time as a 4.1xx release.
 
 ### <a name="anchor14"></a> What is the difference between pushing and polling?
 
