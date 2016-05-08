@@ -7,7 +7,7 @@ nav_hide: true
 
 {% include documentation-header.html %}
 
-#Frequently Asked Questions (FAQ)
+# Frequently Asked Questions (FAQ)
 
 [Where did the name 'K-9' come from? What's with that icon?](#anchor0.1)
 
