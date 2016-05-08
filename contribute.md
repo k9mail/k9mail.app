@@ -13,12 +13,12 @@ Help us make K-9 Mail even better!
 
 ### Report a bug
 
-Use the [issue tracker](https://github.com/k9mail/k-9/issues to report bugs or request new features.
+Use the [issue tracker](https://github.com/k9mail/k-9/issues) to report bugs or request new features.
 
 
 ### Translate the app
 
-K9 Mail uses <a href="https://www.transifex.com/k-9/k9mail/">Transifex</a> for translations. As features are added, there is often a need for translators to localise the text accordingly.
+K9 Mail uses [Transifex](https://www.transifex.com/k-9/k9mail/) for translations. As features are added, there is often a need for translators to localise the text accordingly.
 
 
 ### Help other users
@@ -38,7 +38,7 @@ We maintain documentation on the design of the app on the [project wiki](https:/
 
 ### Submit a patch
 
-Create a pull request based on K-9's master branch. See the <a href="https://github.com/k9mail/k-9/wiki/CodeStyle">Code Style</a> for more information
+Create a pull request based on K-9's master branch. See the [Code Style](https://github.com/k9mail/k-9/wiki/CodeStyle) for more information
 
 ## Documentation
 
