@@ -45,11 +45,13 @@ nav_hide: true
 
 [Why is K-9 telling me, "Syncing disabled"?](#anchor15)
 
-[I added a new folder to the account on the server, but I don't see it in K-9](#anchor16)
+[I added a new folder to the account on the server - why don't I see it in K-9?](#anchor16)
 
-[How do I add additional Mail Accounts](#anchor17)
+[How do I add additional Mail Accounts?](#anchor17)
 
-[How do I add Unified Mail Inbox](#anchor18)
+[How do I add Unified Mail Inbox?](#anchor18)
+
+[When will 'X' be developed/released?](#anchor19)
 
 ### <a name="anchor0.1"></a>Where did the name 'K-9' come from? What's with that icon?
 
@@ -171,11 +173,11 @@ Most of these settings are under Settings > Account settings > Fetching mail. Se
 
 The global K-9 setting is under Settings > Global settings > Network > Background sync.
 
-### <a name="anchor16"></a> I added a new folder to the account on the server, but I don't see it in K-9
+### <a name="anchor16"></a> I added a new folder to the account on the server - why don't I see it in K-9?
 
 K-9 currently does not automatically update the list of folders. To refresh, while viewing the current folders, select Menu > Folders > Refresh Folders. This will also delete folders from K-9 that have been removed from the server.
 
-### <a name="anchor17"></a> How do I add additional Mail Accounts
+### <a name="anchor17"></a> How do I add additional Mail Accounts?
 
 When you start K-9 it goes to the inbox (or Unified Inbox if that is setup)
  
@@ -189,7 +191,7 @@ When you start K-9 it goes to the inbox (or Unified Inbox if that is setup)
 
 Note: If you are using Unified inbox, you only need to tap the < (less than symbol)
 
-### <a name="anchor18"></a> How do I add Unified Mail Inbox
+### <a name="anchor18"></a> How do I add Unified Mail Inbox?
 
 1) Start K-9
 
@@ -197,3 +199,14 @@ Note: If you are using Unified inbox, you only need to tap the < (less than symb
 
 - check the "start in Unified Inbox option 
 -  Tap return to set
+
+
+### <a name="anchor19"></a>When will 'X' be developed/released?
+
+K-9 has no fixed release schedule. Nor does it have any full-time developers at time of writing. Fixes to bugs and enhancements are done by interested developers according to their own priorities.
+
+In terms of releases:
+
+* Big features tend to be released in isolation
+* Stable releases are delayed until highly visible / common bugs are fixed
+* Backporting bug fixes from the current unstable release to the current stable is generally reserved for bugs causing security vulnerabilities or data loss
