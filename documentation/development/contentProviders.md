@@ -12,7 +12,7 @@ layout: default
 
 ## Requirements
 
-Due to the shared nature of content providers, applications querying a ContentProvider have to be **fair** in their use of the obtained Cursor instance.
+Due to the shared nature of content providers, applications querying a [ContentProvider]( https://developer.android.com/guide/topics/providers/content-providers.html) have to be **fair** in their use of the obtained Cursor instance.
 
 Since K-9 has no way to enforce fair-use of its ContentProviders, it is up to each querying application to obey a short set of rules in order not to step on each other toes:
 
