@@ -8,7 +8,7 @@ layout: default
 
 {% include development-header.html %}
 
-# Intents Broadcasted
+# Intents Broadcast
 
 The following Intents are produced by K-9. Third-party apps can listen for this intents act accordingly
 
