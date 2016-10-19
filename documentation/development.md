@@ -6,6 +6,8 @@ layout: default
 
 {% include documentation-header.html %}
 
+{% include development-header.html %}
+
 # Development
 
 This section of the documentation covers information for developers.
