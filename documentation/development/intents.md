@@ -8,13 +8,13 @@ layout: default
 
 {% include development-header.html %}
 
-# Intents Broadcast
+# Intents
 
-The following Intents are produced by K-9. Third-party apps can listen for this intents act accordingly
+The following [Intents][https://developer.android.com/guide/components/intents-filters.html] are produced by K-9. Third-party apps can listen for these and act accordingly.
 
 ## com.fsck.k9.intent.action.EMAIL_RECEIVED
 
-As of v. 2.3, K-9 package name as changed from `com.android.email` to `com.fsck.k9`. Hence, the intent action and extra were also changed.
+As of [v2.3][/documentation/versionHistory.html], K-9 package name as changed from `com.android.email` to `com.fsck.k9`. Hence, the intent action and extra were also changed.
 
 * scheme: email _(Neccessary for \<intent-filter\>)_
 * host: messages
