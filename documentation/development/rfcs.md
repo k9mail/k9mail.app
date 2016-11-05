@@ -6,6 +6,8 @@ layout: default
 
 {% include documentation-header.html %}
 
+{% include development-header.html %}
+
 # RFCs
 
 RFCs or 'Request for Comment' documents are the way in which internet standards develop. 
@@ -16,7 +18,7 @@ In this section we cover the areas of internet standardisation that are relevant
 
 ### Email addresses
 
-* RFC 3696 - Application Techniques for Checking and Transformation of Names
+* [RFC 3696 - Application Techniques for Checking and Transformation of Names](rfcs/rfc3696.html)
 * RFC 5321 - Internet Message Format (and errata)
 
 We obviously must support valid e-mail address formats.

@@ -32,7 +32,6 @@ table tr:nth-child(2n) {
 }
 table {
     display: block;
-    width: 100%;
     overflow: auto;
     word-break: normal;
     margin-top: 0;
