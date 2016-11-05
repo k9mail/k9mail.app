@@ -30,7 +30,7 @@ If you have any comments please feel free to <a href="contribute.html">provide f
 * [Settings](/documentation/settings.html)
 * [Debugging](/documentation/debugging.html)
 
-## In other languages
+### In other languages
 
 There are some translations of this documentation in other language. K-9 developers can not vouch for their accuracy or future status given they are externally hosted. Should interest in other languages pick up, this website may be internationalised.
 
