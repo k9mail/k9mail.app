@@ -28,6 +28,7 @@ If you have any comments please feel free to <a href="contribute.html">provide f
 * [Sending E-mail](/documentation/sending.html)
 * [Security](/documentation/security.html)
 * [Settings](/documentation/settings.html)
+* [Widgets](/documentation/widgets.html)
 * [Debugging](/documentation/debugging.html)
 
 ### In other languages
