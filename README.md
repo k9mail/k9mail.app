@@ -14,8 +14,7 @@ To submit new content, provide a pull-request.
 
 ## Writing a blog
 
-These are mainly written using HTML. There is not yet much templating surrounding this area 
-- to get the basic structure copy an existing blog post.
+These are mainly written using HTML. There is not yet much templating surrounding this area - to get the basic structure copy an existing blog post.
 
 ## Suggesting content
 
