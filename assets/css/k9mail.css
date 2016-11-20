@@ -1,3 +1,9 @@
+.postedInfo {
+  font-size: small;
+  color: grey;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
 .documentation-nav, .settings-nav, .accounts-nav, .security-nav, .development-nav {
   clear: right;
   float: right;
