@@ -129,7 +129,7 @@ If you can't find a similar problem on our [issue tracker](https://github.com/k9
 ### <a name="anchor12"></a> Where is the source code?
 
 For the application see: [the K-9 source code](https://github.com/k9mail/k-9) 
-and [developer wiki](https://github.com/k9mail/wiki/).
+and [developer wiki](https://github.com/k9mail/k-9/wiki).
 
 For the website see: [the K-9 website source code](https://github.com/k9mail/k9mail.github.io)
 
