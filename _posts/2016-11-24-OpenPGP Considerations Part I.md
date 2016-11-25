@@ -6,7 +6,7 @@ author: valodim
 ---
 
 I have been working [for some time now](https://www.openkeychain.org/k-9) on the OpenPGP support in K-9 Mail.
-During this time, I have not only worked on the implementation to get receiving and sending of encrypted emails into a working state.
+At this point, I finished implementing basic OpenPGP functionality, which is now in the [alpha channel](https://play.google.com/apps/testing/com.fsck.k9) and due for release soon.
 I also spent a lot of time thinking about use cases, user experience, and usability of OpenPGP as a protocol and as an ecosystem.
 I was lucky to meet people who would share their point of view on this subject, including fellow developers, activists, and both hardcore and casual users.
 Unfortunately, these groups of people often have conflicting views, and there is no consensus about the direction OpenPGP is going.
@@ -66,7 +66,7 @@ Been there, done that.
 
 Complexity in the user interface is *bad*.
 For most users, the bearable complexity for a "How secure am I?" indicator is two states: "You are safe", and "You are not safe".
-We're already in trouble with handling expired or revoked keys, and insecure algorithms, but those aren't thing we can get rid of easily.
+We're already in trouble with handling expired or revoked keys, and insecure algorithms, but those aren't things we can get rid of easily.
 An indicator state for authenticated but non-confidential communication introduces a whole set of states of "I have no idea what is going on" to everyone but the most technical of users.
 Right into the place where we really want to inform the user about *important stuff*, in a way that is *as clear and concise* as possible.
 
