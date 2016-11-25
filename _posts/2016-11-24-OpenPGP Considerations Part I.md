@@ -1,13 +1,9 @@
 ---
-title: OpenPGP Considerations, Part I: Signed-Only Mails
-excerpt: Background on the decisions taken in our stab at OpenPGP.
+title: "OpenPGP Considerations, Part I: Signed-Only Mails"
+excerpt: "Background on the decisions taken in our stab at OpenPGP."
+layout: post
+author: valodim
 ---
-{% include header.html %}
-
-= OpenPGP Considerations, Part I: Signed-Only Mails
-<div class="postedInfo">Posted by [Vincent Breitmoser](https://github.com/Valodim) on November 24th 2016.</div>
-
-== Prologue
 
 I have been working [for some time now](https://www.openkeychain.org/k-9) on the OpenPGP support in K-9 Mail.
 During this time, I have not only worked on the implementation to get receiving and sending of encrypted emails into a working state.
@@ -23,7 +19,7 @@ But I feel like I should make a better effort to keep everyone on the same page,
 
 I'll start in this post with one of the later changes I made:
 
-== Signed-Only Mails Considered Harmful
+## Signed-Only Mails Considered Harmful
 
 (I apologize for the section title, but it's true!)
 
@@ -37,7 +33,7 @@ I firmly believe that both of those are *misfeatures*, which stand in the way of
 The *thing to be done* with OpenPGP for email is *secure communication*.
 For today, I will stick to the former part, signed-only mails.
 
-=== Signed-Only Mails are Useless
+### Signed-Only Mails are Useless
 
 No, really.
 Signed-Only mails, for general communication, are useless.
@@ -54,7 +50,7 @@ If someone wants to send a secure e-mail to me, they will encrypt it.
 There are [times](https://riseup.net/en/canary) and [places](https://lists.debian.org/debian-ctte/2014/02/msg00281.html) for signed text, and it's nice that OpenPGP supports this.
 But in day-to-day communication, where you just want to *communicate*, it serves no purpose.
 
-=== Signed-Only Mails are Not Free
+### Signed-Only Mails are Not Free
 
 So, what's the issue?
 Signatures may not be very useful, but some people really like sending people `signature.asc` attachments!
@@ -83,4 +79,4 @@ There is a name for this, plain and simple: it's bloat.
 It's bloat we've been dragging along in the OpenPGP user experience for far too long.
 It's time we got rid of it.
 
- - V
+ \- V
