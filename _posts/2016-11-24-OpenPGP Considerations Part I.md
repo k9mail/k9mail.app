@@ -78,5 +78,3 @@ Signatures are a thing that few people understand, that even less people really 
 There is a name for this, plain and simple: it's bloat.
 It's bloat we've been dragging along in the OpenPGP user experience for far too long.
 It's time we got rid of it.
-
- \- V
