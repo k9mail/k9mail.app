@@ -1,0 +1,13 @@
+{% include header.html %}
+{% assign author = site.data.authors[page.author] %}
+
+<h1>{{ page.title }}</h1>
+
+{% if author %}
+<div class="postedInfo">
+    Posted by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a> on {{ page.date }}
+</div>
+{% endif %}
+
+{{content}}
+{% include footer.html %}

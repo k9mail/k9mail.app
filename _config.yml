@@ -1,3 +1,6 @@
 url: https://k9mail.github.io
 title: K-9 Mail
 description: "K-9 Mail is an open source email client focused on making it easy to chew through large volumes of email"
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown:    kramdown
