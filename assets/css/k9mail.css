@@ -1,3 +1,11 @@
+.post-meta {
+  font-size: small;
+  color: grey;
+  margin-bottom: 0.8em;
+}
+.post-excerpt {
+  margin-bottom: 1em;
+}
 .postedInfo {
   font-size: small;
   color: grey;

@@ -32,7 +32,10 @@ nav_hide: true
 			  </div>
 			  <div class="media-body">
 			    <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+			    <div class="post-meta">Posted on {{ post.date | date: "%B %-d, %Y" }}</div>
+			    <div class="post-excerpt">
 			    {{ post.excerpt }}
+			    </div>
 			  </div>
 			</div>
 			  {% endfor %}
