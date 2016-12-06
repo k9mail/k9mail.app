@@ -5,7 +5,7 @@
 
 {% if author %}
 <div class="postedInfo">
-    Posted by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a> on {{ page.date }}
+    Posted by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a> on {{ page.date | date: "%B %-d, %Y" }}
 </div>
 {% endif %}
 
