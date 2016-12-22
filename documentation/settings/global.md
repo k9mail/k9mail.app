@@ -55,7 +55,7 @@ Available settings:
 * Use app theme (default)
 
 #### Font size
-Please see the wiki page [Font size](Manual-globalsettings-fonts) for details on font size settings.
+K-9 allows you to configure the font-size for various sections of the app.
 
 #### Animation
 Here you can configure whether or not K-9 Mail will use animations. Currently this is only affects the animation when switching from the message list to the message view and back.
