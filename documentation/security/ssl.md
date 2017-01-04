@@ -16,7 +16,7 @@ In it's most common form it involves a client obtaining a certificate which cont
 
 Over the years the protocol has been refined and the ciphers that are considered secure has changed.
 
-The versions still in use are:
+The versions still in some use are:
 
 * TLSv1.2
 * TLSv1.1
@@ -24,6 +24,8 @@ The versions still in use are:
 * SSLv3
 
 SSLv3 is the oldest of them and is considered insecure. Organisations like the <a href="https://tools.ietf.org/html/rfc7568">IETF</a>, <a href="http://csrc.nist.gov/groups/STM/cmvp/documents/fips140-2/FIPS1402IG.pdf">NIST</a> have deprecated / blocked SSLv3 since July 2015. Chrome for Android has disabled SSLv3 by default since v40 and removed it in v44.
+
+As of v5.200 K-9 no longer supports SSLv3.
 
 TLSv1.0, v1.1 and v1.2 are considered secure providing the correct ciphers are used and with various client and server mitigations. 
 In terms of mitigations we use the SSL implementation provided on the device. 
