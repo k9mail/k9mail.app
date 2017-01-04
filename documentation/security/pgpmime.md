@@ -17,10 +17,10 @@ In previous releases of K-9 Mail we have supported basic integration with
 [Android Privacy Guard (APG)](http://www.thialfihar.org/projects/apg/). 
 
 However with development on the project stalled and with a desire to better support PGP/MIME in the app, 
-newer releases move to support [OpenKeychain](https://www.openkeychain.org/) via a public API 
+newer releases (5.200 and later) move to support [OpenKeychain](https://www.openkeychain.org/) via a public API 
 which we hope other apps which want to provide PGP key storage can support.
 
-* [Beta Instructions](pgpmime_beta.html)
 * [Current Instructions](pgpmime_current.html)
+* [Pre 5.2x Instructions](pgpmime_historic.html)
 
 
