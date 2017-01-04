@@ -4,7 +4,7 @@ nav_hide: true
 layout: default
 ---
 
-## Open Keychain Usage (Beta)
+## Open Keychain Usage
 
 ### Selecting OpenKeychain as a Crypto Provider
 
