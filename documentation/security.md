@@ -20,10 +20,10 @@ longstanding support for OpenPGP and future plans to support S/MIME.
 
 We currently support the following secure authentication methods
 
-* Client-side SSL certificates
+* Client-side TLS certificates
 * CRAM-MD5 encryption (the most common form)
 
-We support both the STARTTLS and running over SSL. We review our <a href="/documentation/security/ssl.html">SSL protocols and ciphers</a> in response to recent attacks.
+We support both the STARTTLS and running over TLS. We review our <a href="/documentation/security/ssl.html">TLS protocols and ciphers</a> in response to recent attacks.
 
 ## Encryption
 
