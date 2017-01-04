@@ -26,7 +26,7 @@ Many of the developers use IRC to chat in real-time. You can find them on the [F
 
 ## Bug tracker
 
-Use the [issue tracker](https://code.google.com/p/k9mail/issues/list) to report bugs or request new features. 
+Use the [issue tracker](https://github.com/k9mail/k-9/issues) to report bugs or request new features. 
 
 
 ## GitHub
