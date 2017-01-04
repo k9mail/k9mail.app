@@ -1,5 +1,5 @@
 ---
-title: Current PGP/MIME Usage
+title: Pre 5.2x PGP Integration
 nav_hide: true 
 layout: default
 ---
@@ -8,7 +8,7 @@ layout: default
 
 {% include documentation-header.html %}
 
-## Open Keychain & APG Usage
+## Pre 5.2x PGP Integration
 
 ### Signing & Encrypting Mail
 
