@@ -13,7 +13,6 @@ here are some of the more useful-looking ones.
 Security / Encryption:
 
 * [OpenKeychain](https://www.openkeychain.org/) - End-to-end email encryption with the OpenPGP standard
-* [APG](https://play.google.com/store/apps/details?id=org.thialfihar.android.apg) - Predecessor of OpenKeychain (not actively maintained)
 * [X509Tools](https://play.google.com/store/apps/details?id=at.rundquadrat.android.x509tools)
 
 Widgets:
