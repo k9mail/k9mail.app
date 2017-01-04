@@ -13,7 +13,7 @@ here are some of the more useful-looking ones.
 Security / Encryption:
 
 * [OpenKeychain](https://www.openkeychain.org/) - End-to-end email encryption with the OpenPGP standard
-* [X509Tools](https://play.google.com/store/apps/details?id=at.rundquadrat.android.x509tools)
+* [X509Tools](https://play.google.com/store/apps/details?id=at.rundquadrat.android.x509tools) - Allows S/MIME based email encryption in K-9. Note that this application is no longer supported by it's developers so may have serious unfixed vulnerabilities (Last release September 2013)
 
 Widgets:
 
