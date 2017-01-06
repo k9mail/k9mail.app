@@ -4,3 +4,6 @@ description: "K-9 Mail is an open source email client focused on making it easy 
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown:    kramdown
+
+gems:
+  - jekyll-feed
