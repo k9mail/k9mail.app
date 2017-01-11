@@ -9,7 +9,7 @@ nav_hide: true
 
 ## Installation
 
-Once you have obtained the APK file from <a href="download.html">one of the app stores</a> it will be installed 
+Once you have obtained the APK file from <a href="/download.html">one of the app stores</a> it will be installed 
 automatically. Depending on the version of Android you have you may be prompted to accept K-9's use of permissions.
 
 ## Permissions
