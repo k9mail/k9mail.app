@@ -18,7 +18,7 @@ K-9 Mail is an open source email client for Android with many advanced features.
 * Message list sorting 
 * Keyboard shortcuts
 * Many performance enhancements
-* GPG integration using OpenKeychain (formerly APG)
+* [GPG & PGP/MIME support](https://k9mail.github.io/documentation/security/pgpmime.html) using OpenKeychain (formerly APG)
 * Emoji support
 * Pinch-to-zoom
 * Mail on SD
