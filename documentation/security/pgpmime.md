@@ -20,7 +20,13 @@ However with development on the project stalled and with a desire to better supp
 newer releases (5.200 and later) move to support [OpenKeychain](https://www.openkeychain.org/) via a public API 
 which we hope other apps which want to provide PGP key storage can support.
 
+## Using a PGP-MIME app
+
 * [Current Instructions](pgpmime_current.html)
+* [Open Keychain How To Page](https://www.openkeychain.org/howto/)
+
+## Historical Information
+
 * [Pre 5.2x Instructions](pgpmime_historic.html)
 
 
