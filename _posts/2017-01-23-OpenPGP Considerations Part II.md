@@ -29,10 +29,10 @@ Unfortunately, it's not quite so easy.
 To see why, let's explore what it says about a message's security if the sender doesn't trust the sending device with their signing key:
 The sender themself knows that the message can only be read by the intended recipient, so from their perspective all seems well.
 But from the recipient's perspective, it's impossible to tell what is going on.
-We have no way of telling who sent the message, and no assurances that it was sent from a device the sender even trusts, or if the signature was simply stripped by an attacker.
-What is the mail client supposed to display to the user in this case?
+If we regularly receive messages without signature, the user has no way to figure out whether a message was tampered with by an attacker, or sent without a signature because the sender just happened to not have their signing key available.
+So what is the mail client supposed to display to the user in this case?
+The answer is that we must treat missing signatures as insecure, since otherwise an attacker can forge encrypted messages for a man-in-the-middle attack that don't trigger a warning simply by stripping the signature of the original message.
 
-It is clear that treating the message as anything other than insecure would enable an attacker to forge messages that don't ring any alarm bells, simply by stripping signatures.
 Just like other insecure messages (sent from expired keys, revoked keys, insecure keys, or using insecure algorithms), an encrypted-only message is displayed in K-9 with a full-screen warning.
 Users are warned of the security issue at hand, and have to do an extra click to read message content.
 In this way, the message now looks more dangerous than a plaintext one.
