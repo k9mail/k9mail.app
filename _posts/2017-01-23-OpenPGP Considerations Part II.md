@@ -9,7 +9,7 @@ Following my first post [on signed-only mails](https://k9mail.github.io/2016/11/
 
 In contrast to signed-only mails, which are still a supported workflow, we believe that the sending of encrypted-only mails reduces the security of the ecosystem as a whole, which is why we decided to drop support for it altogether.
 This decision led to a number of reports from disgruntled users who had sent encrypted-only mails from earlier versions of K-9.
-We realize it sucks to have your workflow broken, so I will try to explain why we made this decision, and why we are not going to revert it.
+We realize it sucks to have your workflow broken, so I will try to explain why we made this decision, and why we are unlikely to revert it.
 
 The idea of encrypted-only mails is to send messages that are encrypted to the recipient's public key, but not signed with the sender's secret key.
 This provides weaker security properties than properly signed-then-encrypted mails, but it loses the requirement of having the signing key available on the sender side, which makes for a deceptively convenient and attractive workflow.
