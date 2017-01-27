@@ -29,6 +29,7 @@ If you have any comments please feel free to <a href="contribute.html">provide f
 * [Notifications](/documentation/notifications.html)
 * [Security](/documentation/security.html)
 * [Settings](/documentation/settings.html)
+* [Permissions](/documentation/permissions.html)
 * [Widgets](/documentation/widgets.html)
 * [Debugging](/documentation/debugging.html)
 
