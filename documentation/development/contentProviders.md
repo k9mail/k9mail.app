@@ -4,9 +4,9 @@ nav_hide: true
 layout: default
 ---
 
-{% include documentation-header.html %}
-
 {% include development-header.html %}
+
+{% include documentation-header.html %}
 
 # Content Providers
 
@@ -24,41 +24,117 @@ Failure to comply to these rules is likely to result in other applications using
 Application developers need to keep in mind that each content provider invocation can be a costly and lengthly operation: if you don't want your application to appear to be unresponsive while waiting for a content resolver response (and possibly trigger the *Application Not Responding* (ANR) dialog), you have to properly use multithreading in order not to hog your application UI thread. More on that at http://developer.android.com/guide/practices/design/responsiveness.html.
 Please note that just firing up Threads to invoke K-9 content provider isn't enough to properly implement multithreading: chances are that you need to properly serialize/throttle your invocations not to overwhelm the system with fast-paced `query()`.
 
+
 ## URIs
-(work in progress, URIs may evolve)
+
+Correct as of **5.203**
 
 
- * Messages retrieval
- URI: `content://com.fsck.k9.messageprovider/inbox_messages/`<br/>
- Columns:
-  * `_id`
-  Type: INTEGER (long)<br/>
-  Description: The unique ID for a row.
-  * `_count`
-  Type: INTEGER<br/>
-  Description:  The count of rows in a directory.
-  * `date`
-  Type: INTEGER (long)<br/>
-  Description: The number of milliseconds since Jan. 1, 1970, midnight GMT.
-  * `sender`
-  Type: TEXT<br/>
-  * `subject`
-  Type: TEXT<br/>
-  * `preview`
-  Type: TEXT<br/>
-  * `account`
-  Type: -
-  * `uri`
-  Type: -
-  * `delUri`
-  Type: -
+### Accounts
 
- * Account list retrieval
- URI: `content://com.fsck.k9.messageprovider/accounts/`
+K-9 provides a list of accounts via the ContentProvider:
+
+*URI:* `content://com.fsck.k9.messageprovider/accounts/`
+
+#### Columns:
+
+*`accountNumber`*
+
+Type: int
+
+The number of the account
+
+*`accountName`*
+
+Type: String
+
+The name of the account
+
+*`accountUuid`*
+
+Type: String
+
+The unique ID of the account
+
+*`accountColor`*
+
+Type: int
+
+The colour (see [android.graphics.Color](https://developer.android.com/reference/android/graphics/Color.html)) of the account
+
+
+### Unified Inbox Messages
+
+URI: `content://com.fsck.k9.messageprovider/inbox_messages/`
+
+#### Columns
+
+*`_id`*
+
+Type: long<br/>
+
+Description: The unique ID for a row.
+
+*`_count`*
+
+Type: int<br/>
+
+Description:  The count of rows in a directory.
+
+*`date`*
+
+Type: long
+
+Description: The number of milliseconds since Jan. 1, 1970, midnight GMT.
+
+*`sender`*
+
+Type: String
+  
+*`subject`*
+
+Type: TEXT
+  
+*`preview`*
+
+Type: TEXT
+
+*`account`*
+
+Type: -
+
+*`uri`*
+
+Type: String
+
+*`delUri`*
+  
+Type: String
+	
+### Unread Messages
+
+URI: `content://com.fsck.k9.messageprovider/account_unread/<AccountNumber>`
+
+#### Columns
+
+*`accountName`*
+
+Type: String
+
+Description: Name of account
+
+*`unread`*
+  
+Type: Int
+
+Description: Number of unread e-mail.
+
 
 ## Motivations behind usage restriction
 
-Below is an excerpt from an e-mail I made on 2010-10-17 -- fiouzy
+One of our developers wrote the following e-mail surrounding Content Provider usage:
+
+    17th December 2010-10-17
 
     I added mutual exclusion to the content provider to
     prevent resource starvation and that is a way to implement thread
@@ -114,3 +190,5 @@ Below is an excerpt from an e-mail I made on 2010-10-17 -- fiouzy
     (which can be combined with the provider API). If one needs to keep
     data for later usage (and maintain future latency/CPU usage at its
     minimum), keep the actual data and not the Cursor instance.
+
+    -- fiouzy
