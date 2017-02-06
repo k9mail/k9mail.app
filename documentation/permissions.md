@@ -9,7 +9,8 @@ layout: default
 
 # Permissions
 
-In order to perform various tasks and provide a cohesive email client, K-9 uses various permissions:
+In order to perform various tasks and provide a cohesive email client, K-9 uses various permissions. See our [Privacy Policy](/privacy-policy.html) for information on how we handle personal information obtained via these permissions.
+
 
 ### Network Communication
 
