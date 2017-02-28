@@ -39,11 +39,23 @@ There are many parts to K-9. This list gives a rough outline of some of them.
 
 K-9 currently uses the [`AlarmManager`](https://developer.android.com/reference/android/app/AlarmManager.html) API for scheduling tasks related to fetching email
 
+#### Classes
+
 * `K9AlarmManager` provides a slight abstraction over the `AlarmManager` to use `setAndAllowWhereIdle` where available
-* `BootReceiver` and `CoreReceiver` are responsible for receiving `Intent`s from Android and requests for scheduling. The `BootManager` calls the `K9AlarmManager` to set alarms for scheduling
+* `BootReceiver` and `CoreReceiver` are responsible for receiving `Intent`s from Android 
+* `BootReceiver` schedules and receives scheduled intents with the `K9AlarmManager`
 * The `MailService` dispatches `Intent`s to the BootReceiver to reschedule polls and refresh push receipt connections
+* To create IMAP PUSH email connections, the `MailService` service starts the `PushService` and then instructs the `MessagingController` to start pushing
+* The `PushService` does very little. It's purpose is to ensure that K-9 remains running while push connections are established
+* The `PollService` performs a poll on the given account - again done as a service to ensure K-9 remains running during this period, regardless of whether UI is visible.
 * The `RemoteControlService` also dispatches `Intent`s to refresh pushing and polling as demanded by the remote application.
 * The `SleepService` is used to delay push reconnection on error.
+
+#### Intents
+
+* `SCHEDULE_INTENT` - Indicates an application wants the given `ALARMED_INTENT` extra to occur `AT_TIME` in the future
+* `FIRE_INTENT` - Dispatched by the `K9AlarmManager` when a scheduled `ALARMED_INTENT` should happen
+* `CANCEL_INTENT` - Cancels a previously scheduled `ALARMED_INTENT` from firing.
 
 
 ## Third Party Integration
