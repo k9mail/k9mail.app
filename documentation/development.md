@@ -35,7 +35,7 @@ There are many parts to K-9. This list gives a rough outline of some of them.
 * Activities and Fragments (`.activity` , `.fragments`) - These back the various layout files to react to and display information to the user.
 * Notifications (`.notification`) - This comprises the Android notification handling
 
-## Scheduling & System Intents
+### Scheduling & System Intents
 
 K-9 currently uses the [`AlarmManager`](https://developer.android.com/reference/android/app/AlarmManager.html) API for scheduling tasks related to fetching email
 
