@@ -37,7 +37,7 @@ Long-pressing on an account provides a list of options:
 * Move up - This moves the account up in the account list
 * Move down - This moves the account down in the account list
 * Empty Trash - This empties the accounts' Trash folder
-* Account settings - This provides a link to the accounts [settings page](/documentation/settings/account_settings.html)
+* Account settings - This provides a link to the accounts [settings page](/documentation/settings/account.html)
 * Remove account - This deletes the account
 * Clear messages - This deletes all the local messages
 * Recreate data - This removes all the local emails, attachments and other data, but not the settings, meaning it is recreated from the information on the server.
