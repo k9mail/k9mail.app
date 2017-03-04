@@ -24,4 +24,4 @@ Below the From address, the To address is initially visible. Tapping the down ar
 Depending on the settings the message body is shown below the subject, along with a reply if relevant.
 
 Finally at the bottom the default signature is shown. This can be changed in 
-[Settings/Account Settings/Manage identities/*Identity*/Signature](/documentation/settings/account_settings)
+[Settings/Account Settings/Manage identities/*Identity*/Signature](/documentation/settings/account.html)
