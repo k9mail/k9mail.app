@@ -121,7 +121,7 @@ For a run-down on battery usage and the difference between the two see the [FAQ]
 * 1000 messages
 * all messages
 
-Higher values have some performance implications. Read the description of the setting *Local folder size* in chapter [Account settings](/documentation/settings/account_settings.html) for more information.
+Higher values have some performance implications. Read the description of the setting *Local folder size* in chapter [Account settings](/documentation/settings/account.html) for more information.
 
 **Notify me when mail arrives**: If this is checked you are notified when a new message was downloaded in this mailbox. Notification type (LED, vibration) and ringtone can be configured later. See *Notifications* in the [Account settings](/documentation/settings/account_settings.html).
 
