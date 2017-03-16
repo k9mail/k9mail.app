@@ -8,7 +8,7 @@ K-9 Mail is an open source email client for Android with many advanced features.
 * Push IMAP support
 * WebDAV support
 * Attachment saving 
-* Attach any file on the SD card type when [OI File Manager](http://www.openintents.org/en/node/159) is installed
+* Attach any file on the SD card type when [OI File Manager](http://www.openintents.org/filemanager/) is installed
 * BCC to self
 * Signatures
 * Message flagging
