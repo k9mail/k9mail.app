@@ -24,6 +24,10 @@ that greatly reduces network traffic used for message synchronization. He will
 further work on moving messages between different accounts, improvements to
 server-side search, and better handling for subfolders and namespaces.
 
+We had a large number of applicants, but could only pick two due to our limited
+mentoring resources. A huge thanks to everyone who applied and made the
+competition strong!
+
 We are looking forward to a great summer and successful projects!
 
  \- The K-9 Team
