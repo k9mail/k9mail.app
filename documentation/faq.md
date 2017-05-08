@@ -173,7 +173,7 @@ Most of these settings are under Settings > Account settings > Fetching mail. Se
 
 The global K-9 setting is under Settings > Global settings > Network > Background sync.
 
-If you are using Andriod version 6 or later, you are also likely to suffer from problems related to the "Doze" battery saving feature. For more information and potential workarounds see ticket [857](https://github.com/k9mail/k-9/issues/857) in the K-9 github repository.
+If you are using Andriod version 6 or later, you are also likely to suffer from problems related to the "Doze" battery saving feature. For more information and potential workarounds see ticket [857](https://github.com/k9mail/k-9/issues/857) in the K-9 GitHub repository.
 
 ### <a name="anchor16"></a> I added a new folder to the account on the server - why don't I see it in K-9?
 
