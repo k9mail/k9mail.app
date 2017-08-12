@@ -1,7 +1,7 @@
 ---
-title: Reading E-mail 
+title: Reading E-mail
 layout: default
-nav_hide: true 
+nav_hide: true
 ---
 
 {% include documentation-header.html %}
@@ -13,6 +13,18 @@ nav_hide: true
 When you receive new mail, K-9 will retrieve it (POP) or poll for it or receive a PUSH notification about it (IMAP/WebDAV).  If so configured, K-9 will use the Android system notifier facility to alert you to the new messages so you can read them.
 
 K-9 will display a notifier on the window-shade for each mailbox which has new messages.  When you tap on this notifier, you will be taken to either the Folder List or the Unread Message List for that mailbox/account, depending on the setting of Account Settings->Notifications->Notification Opens Unread for that account.  If you have not turned that setting on, you can tap Inbox to be taken into it.
+
+#### Sync Types & K-9 Behaviour
+
+There are two ways of being notified of new mail synchronized to your device, push and poll. Push means that the server notifies you of new email. Poll means you check the server to see if new mail exists.
+
+You can configure synchronization of each folder using Folder Classes.
+
+You can also manually synchronize an account. This performs a poll of subscribed folders.
+
+Various actions may perform a manual poll to ensure that the state is consistent before/after they perform the action.
+
+('Sync' in the app generally refers to polling.)
 
 ## Browsing E-mail
 
