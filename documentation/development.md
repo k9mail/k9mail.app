@@ -12,6 +12,20 @@ layout: default
 
 This section of the documentation covers information for developers.
 
+## Getting Started
+
+To develop K-9 you need a working understanding of:
+
+* Java
+* XML
+* Android
+
+With just Java knowledge you may be able to make minor logic changes and small fixes. But the Android APIs are used extensively (as well as Android based libraries), particularly in the front-end.
+
+XML provides the translation (however that’s pulled in from Transifex anyway) and some of UI layout.
+
+Once you’ve gained a solid understanding of these we recommend you look at our existing issues and pick one tagged beginner. If there’s not a beginner-tagged one not being worked on then feel free to pick an issue that interests you. If there’s no developer comments on the issue you select (and it’s not marked beginner) feel free to ask about the best approach before you start!
+
 ## Architecture
 
 The general structure of K-9 is as follows:
