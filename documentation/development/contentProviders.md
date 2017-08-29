@@ -29,14 +29,15 @@ Please note that just firing up Threads to invoke K-9 content provider isn't eno
 
 Correct as of **5.203**
 
+### External
 
-### Accounts
+#### Accounts
 
 K-9 provides a list of accounts via the ContentProvider:
 
 *URI:* `content://com.fsck.k9.messageprovider/accounts/`
 
-#### Columns:
+##### Columns:
 
 *`accountNumber`*
 
@@ -62,12 +63,11 @@ Type: int
 
 The colour (see [android.graphics.Color](https://developer.android.com/reference/android/graphics/Color.html)) of the account
 
-
-### Unified Inbox Messages
+#### Unified Inbox Messages
 
 URI: `content://com.fsck.k9.messageprovider/inbox_messages/`
 
-#### Columns
+##### Columns
 
 *`_id`*
 
@@ -111,11 +111,11 @@ Type: String
   
 Type: String
 	
-### Unread Messages
+#### Unread Messages
 
 URI: `content://com.fsck.k9.messageprovider/account_unread/<AccountNumber>`
 
-#### Columns
+##### Columns
 
 *`accountName`*
 
@@ -129,28 +129,75 @@ Type: Int
 
 Description: Number of unread e-mail.
 
+### Internal
+
+#### EmailProvider
+
+*Used by:* `MessageListFragment`, `com.fsck.k9.Account`, `EmailProviderCache`, `LocalStore`
+
+The EmailProvider is probably the most complex of providers in K-9. Currently it’s only aimed at external usage. It exposes: 
+
+* `MessageColumns`
+* `FolderColumns`
+* `SpecialColumns`
+* `ThreadColumns`
+* `StatsColumns`
+
+The URIs it exposes are:
+
+* `content://com.fsck.k9.provider.email/account/*/messages`
+* `content://com.fsck.k9.provider.email/account/*/messages/threaded`
+* `content://com.fsck.k9.provider.email/account/*/thread/#`
+* `content://com.fsck.k9.provider.email/account/*/stats`
+
+In order to return the data it performs some fairly complex SQL queries on the underlying data.
+
+##### Message Columns
+
+* `id`
+* `uid`
+* `internal_date`
+* `subject`
+* `date`
+* `message_id`
+* `sender_list`
+* `to_list`
+* `cc_list`
+* `bcc_list`
+* `reply_to_list`
+* `flags`
+* `attachment_count`
+* `folder_id`
+* `preview_type`
+* `preview`
+* `read`
+* `flagged`
+* `answered`
+* `forwarded`
+
+
 
 ## Motivations behind usage restriction
 
 One of our developers wrote the following e-mail surrounding Content Provider usage:
 
-    17th December 2010-10-17
-
-    I added mutual exclusion to the content provider to
-    prevent resource starvation and that is a way to implement thread
-    safety: http://en.wikipedia.org/wiki/Thread_safety#Implementation
-    
-    Back on the content provider issue, it's a shame that Android
-    documentation doesn't focus on the ContentResolver side (actually
+> **17th December 2010-10-17**
+>
+> I added mutual exclusion to the content provider to
+    prevent resource starvation and that is a way to [implement thread
+    safety](http://en.wikipedia.org/wiki/Thread_safety#Implementation)
+> 
+> Back on the content provider issue, it's a shame that Android
+    documentation doesn't focus on the `ContentResolver` side (actually
     that shouldn't need to be explained but that seems to mislead people
-    unaware of shared environments): since the ContentProvider is a shared
-    resource, ContentResolvers have to be fair in their use of the shared
+    unaware of shared environments): since the `ContentProvider` is a shared
+    resource, `ContentResolver`s have to be fair in their use of the shared
     resource and that implicitly mean they shouldn't keep a hold on
     anything that might prevent other resolvers to proceed (regardless of
     any mutual exclusion, Cursor retention is a resource consuming
     operation).
-    
-    Since there is no way to actually prevent (from K-9's perspective)
+> 
+> Since there is no way to actually prevent (from K-9's perspective)
     unfair use of the content provider, mutual exclusion was set to the
     minimum so that implementors can discover quickly enough that
     something's wrong with the resource or their usage of the resource.
@@ -160,10 +207,9 @@ One of our developers wrote the following e-mail surrounding Content Provider us
     we're maximizing the odds that they find out something's wrong.
     If I'd have to summarize all this mutual exclusion thing, I would say
     it's all about fairness.
-     
-    
-    One might then wonder why "Cursor" (and its "closeable" concept) was
-    chosen for ContentProviders when it was originatively designed for
+>         
+> One might then wonder why `Cursor` (and its `closeable` concept) was
+    chosen for `ContentProvider`s when it was originatively designed for
     database purpose (its actual package name is android.database): my
     understanding is that it was chosen because it offers a lightweight
     transportation channel API that is able to stream data.
@@ -174,8 +220,8 @@ One of our developers wrote the following e-mail surrounding Content Provider us
     business logic to properly build messages isn't implemented in the DB
     layer (I'm not saying it can't be done but could involve logic
     duplication/maintenance issues).
-    Moreover, even if using a database as the actual Cursor source (which
-    is likely to mitigate the MatrixCursor memory hog issue), that would
+    Moreover, even if using a database as the actual `Cursor` source (which
+    is likely to mitigate the `MatrixCursor` memory hog issue), that would
     tightly couple the provider application with the resolver application:
     if the provider application wants (for its own personal reasons) close
     its DB, that would invalidate the cursor used by the resolver and make
@@ -183,12 +229,12 @@ One of our developers wrote the following e-mail surrounding Content Provider us
     flat files, XML files, network storage, etc.) is an application
     internal and an application should be able to use/open/close that
     backend at its own and sole discretion.
-    Such matters (Cursor lifecycle/application coupling) go way beyond the
+    Such matters (`Cursor` lifecycle/application coupling) go way beyond the
     simple provider/resolver semantic and should be avoided by closing the
-    Cursor early (right after query() and data extraction). If one needs a
+    Cursor early (right after `query()` and data extraction). If one needs a
     realtime communication channel, there's an API for that: Intents
     (which can be combined with the provider API). If one needs to keep
     data for later usage (and maintain future latency/CPU usage at its
-    minimum), keep the actual data and not the Cursor instance.
-
-    -- fiouzy
+    minimum), keep the actual data and not the `Cursor` instance.
+>
+> -- fiouzy
