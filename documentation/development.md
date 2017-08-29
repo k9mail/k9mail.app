@@ -73,6 +73,19 @@ K-9 currently uses the [`AlarmManager`](https://developer.android.com/reference/
 * `FIRE_INTENT` - Dispatched by the `K9AlarmManager` when a scheduled `ALARMED_INTENT` should happen
 * `CANCEL_INTENT` - Cancels a previously scheduled `ALARMED_INTENT` from firing.
 
+### Database
+
+Each `LocalStore` has a separate `LockableDatabase` which controls access to an SQLiteDatabase. Hence querying multiple accounts  requires accessing separate database files. The database is stored by a StorageProvider (of which there are several types with specific support for Samsung Galaxy and HTC devices).
+
+#### Tables
+
+* `folders` - Contains the list of folders (and caches various parameters like unread count)
+* `messages` - Contains the messages. Has fields to store useful fields like preview, text, subject. References it’s root message part’s id (`message_part_id`).
+* `message_parts` - Contains a MIME message part
+* `threads` - Stores a message_id, it’s parent message_id and root message_id.
+* `pending_commands` - The queued outstanding commands requiring processing.
+* Virtual Table: `messages_fulltext` - Used for searching message contents
+ 
 
 ## Third Party Integration
 
