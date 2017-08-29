@@ -916,13 +916,14 @@ blockquote {
   margin: 0 0 20px;
   border-left: 5px solid #eeeeee;
 }
-
+/**
 blockquote p {
   margin-bottom: 0;
   font-size: 17.5px;
   font-weight: 300;
   line-height: 1.25;
 }
+**/
 
 blockquote small {
   display: block;
