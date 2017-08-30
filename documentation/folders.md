@@ -96,6 +96,7 @@ I want to see just my Inbox, Janet and Carl folders, and want all of those to be
 I want to see and sync all of the folders, except for Carl. (Imagine I have 100 other folders I want to see.)
 
 <table>
+<tbody>
 <tr>
 <th>Setting</th>
 <th>Account</th>
@@ -128,6 +129,7 @@ I want to see and sync all of the folders, except for Carl. (Imagine I have 100 
 I want to see only my Inbox, Carl and John folders, but I do not want the Carl folder to be automatically synchronized.
 
 <table>
+<tbody>
 <tr>
 <th>Setting</th>
 <th>Account</th>
@@ -161,6 +163,7 @@ I want to see only my Inbox, Carl and John folders, but I do not want the Carl f
 I want to normally only see my Carl and Janet folders, often want to see my Inbox, but never want to see my John folder.  All displayed folders are automatically synchronized.
 
 <table>
+<tbody>
 <tr>
 <th>Setting</th>
 <th>Account</th>
@@ -197,6 +200,7 @@ I want to normally only see my Carl and Janet folders, often want to see my Inbo
 I want to normally only see my Carl and Janet folders, often want to see my Inbox, never want to see my John folder, but only Carl and Janet are automatically synchronized.
 
 <table>
+<tbody>
 <tr>
 <th>Setting</th>
 <th>Account</th>
