@@ -35,7 +35,7 @@ Now, in order to make use of the folder Class assignment, it is necessary to adj
 
 ### Display mode
 
-"Folder display mode" determines which folders are to be displayed.
+**Folder display mode** determines which folders are to be displayed.
 There are four choices:
 
 * **All**: All folders are displayed.
@@ -45,7 +45,7 @@ There are four choices:
 
 ## Sync mode
 
-"Folder sync mode" determines which folders are to be automatically synchronized at the "Email check frequency".
+**Folder sync mode** determines which folders are to be automatically synchronized at the "Email check frequency".
 
 There are four choices:
 
