@@ -34,7 +34,6 @@ At this point, you're looking at a Message List -- a list of all (or only the un
 
 At this point, you can tap on a message in the list to open it for reading, or long-press to get the message's Context Menu, which contains these options, on a scrolling pop-up menu with the message's title at its top:
 
-* Open - Open the message for viewing
 * Select - Select the message for group moving, copying or deleting
 * Delete - Delete the message (Move it to the Trash folder [CHECKME])
 * Forward - Forward the message by email
