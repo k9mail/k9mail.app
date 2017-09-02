@@ -81,7 +81,7 @@ This page provides documentation on known commands extensions and their level of
 | UTF8=USER (OBSOLETE | ? | ? | RFC5738 / RFC6855 |
 | WITHIN | ? | ? | RFC5032 |
 | XLIST | Google Mail specific deprecated list command | No |
-| X-GM-EXT-1 | Google Mail custom behaviour: | No | [GMail][https://developers.google.com/gmail/imap_extensions] |
+| X-GM-EXT-1 | Google Mail custom behaviour: | No | [GMail](https://developers.google.com/gmail/imap_extensions) |
 
 
 
