@@ -27,7 +27,7 @@ This page provides documentation on known commands extensions and their level of
 | BINARY | Binary CTE support | No | RFC3516 |
 | CAPABILITY | List available capabilities | Supported | N/A |
 | CATENATE | Concatenate data with existing message | No | RFC4469 |
-| CHILDREN | Child folder mailbox command - https://www.ietf.org/rfc/rfc3348.txt | No | RFC3348 |
+| CHILDREN | Child folder mailbox command | No | RFC3348 |
 | COMPRESS=DEFLATE| Support for using DEFLATE to compress data | Supported | RFC4978 |
 | CONDSTORE | Conditional STORE operation | No | RFC7162 |
 | CONTEXT=SEARCH | ? | No | RFC5267 |
