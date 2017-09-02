@@ -135,7 +135,7 @@ Description: Number of unread e-mail.
 
 *Used by:* `MessageListFragment`, `com.fsck.k9.Account`, `EmailProviderCache`, `LocalStore`
 
-The EmailProvider is probably the most complex of providers in K-9. Currently it’s only aimed at external usage. It exposes: 
+The EmailProvider is probably the most complex of providers in K-9. Currently it’s only aimed at internal usage. It exposes: 
 
 * `MessageColumns`
 * `FolderColumns`
