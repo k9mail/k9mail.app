@@ -59,7 +59,7 @@ This page provides documentation on known commands extensions and their level of
 | NAMESPACE | Support for namespaces |  Partial support | RFC 2343 |
 | NOTIFY | Request unsolicited notifications | No | RFC5465 |
 | QRESYNC | ? | ? | RFC7162 |
-| QUOTA | Resource usage restriction information - https://tools.ietf.org/html/rfc2087 | No |
+| QUOTA | Resource usage restriction information | No | RFC2087 |
 | RIGHTS= | ? | ? | RFC4314 |
 | SASL-IR | Initial Client Response form of SASL authentication | No | RFC4959 |
 | SEARCH=FUZZY | ? | ? | RRFC6203 |
@@ -69,8 +69,8 @@ This page provides documentation on known commands extensions and their level of
 | SPECIAL-USE | ? | ? | RRFC6154 |
 | STARTTLS | Support for upgrading to TLS | Supported | RFC2595 / RFC3501 |
 | THREAD | ? | ? | RFC5256]
-| UIDPLUS | UID-based responses - https://tools.ietf.org/html/rfc4315 | No |
-| UNSELECT | Closing mailboxes without expunging - https://tools.ietf.org/html/rfc3691 | Unknown |
+| UIDPLUS | UID-based responses | No | RFC4315 |
+| UNSELECT | Closing mailboxes without expunging | Unknown | RFC3691 |
 | URLFETCH=BINARY | ? | ? | RFC5524 |
 | URL-PARTIAL | ? | ? | RFC5550 |
 | URLAUTH | ? | ? | RFC4467 |
@@ -81,7 +81,7 @@ This page provides documentation on known commands extensions and their level of
 | UTF8=USER (OBSOLETE | ? | ? | RFC5738 / RFC6855 |
 | WITHIN | ? | ? | RFC5032 |
 | XLIST | Google Mail specific deprecated list command | No |
-| X-GM-EXT-1 | Google Mail custom behaviour: | No | [GMail]https://developers.google.com/gmail/imap_extensions] |
+| X-GM-EXT-1 | Google Mail custom behaviour: | No | [GMail][https://developers.google.com/gmail/imap_extensions] |
 
 
 
