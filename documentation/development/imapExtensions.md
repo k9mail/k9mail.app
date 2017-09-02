@@ -14,27 +14,75 @@ This page provides documentation on known commands extensions and their level of
 
 ## Capabilities
 
-| Capability | Description | Support |
-| ------------- | ------------- | ------ |
-| CAPABILITY | List available capabilities | Supported |
-| IMAP4rev1 | Support for modern IMAP | Supported |
-| IDLE | Indicates the server supports IMAP IDLE | Supported |
-| AUTH=CRAM_MD5 | Authentication via SASL CRAM-MD5 | Supported |
-| AUTH=PLAIN | Authentication via a plain password | Supported |
-| AUTH=EXTERNAL | External authentication|  Supported |
-| AUTH=XOAUTH2 | Authentication via OAuth 2.0 |  No |
-| NAMESPACE | Support for namespaces - RFC 2342 |  Supported | 
-| COMPRESS=DEFLATE| Support for using DEFLATE to compress data | Supported |
-| STARTTLS | Support for upgrading to TLS | Supported |
-| UNSELECT | Closing mailboxes without expunging - https://tools.ietf.org/html/rfc3691 | Unknown |
-| LITERAL+ | Allows alternative form for literals - https://tools.ietf.org/html/rfc7888 | Unknown |
+| Capability | Description | Support | RFC |
+| ------------- | ------------- | ------ | ------ |
+| IMAP4rev1 | Support for modern IMAP | Supported | ? |
+| ACL | Access Control Lists | No | RFC4314 |
+| ANNOTATE-EXPERIMENT-1 | Indicate the support for experimental annotations | No | RFC5257 |
+| APPENDLIMIT | ? | ? | RFC7889 |
+| AUTH=PLAIN | Authentication via a plain password | Supported | RFC 3501 |
+| AUTH=CRAM_MD5 | Authentication via SASL CRAM-MD5 | Supported | RFC 3501 |
+| AUTH=EXTERNAL | External authentication | Supported | RFC 3501 |
+| AUTH=XOAUTH2 | Authentication via OAuth 2.0 |  No | RFC 3501 |
+| BINARY | Binary CTE support | No | RFC3516 |
+| CAPABILITY | List available capabilities | Supported | N/A |
+| CATENATE | Concatenate data with existing message | No | RFC4469 |
+| CHILDREN | Child folder mailbox command - https://www.ietf.org/rfc/rfc3348.txt | No | RFC3348 |
+| COMPRESS=DEFLATE| Support for using DEFLATE to compress data | Supported | RFC4978 |
+| CONDSTORE | Conditional STORE operation | No | RFC7162 |
+| CONTEXT=SEARCH | ? | No | RFC5267 |
+| CONTEXT=SORT | ? | No | RFC5267 |
+| CONVERT | ? | No | RFC5259 |
+| CREATE-SPECIAL-USE | ? | No | RFC6154 |
+| ENABLE | Client notification of extension support | No | RFC 5161 |
+| ESEARCH | ? | ? | RFC4731 |
+| ESORT | ? | ? | RFC5267 |
+| FILTERS | ? | ? | RFC5466 |
+| I18NLEVEL=1 | ? | ? | RFC5255 |
+| I18NLEVEL=2 | ? | ? | RFC5255 |
+| ID | Mail server software identification | No | RFC2971 |
+| IDLE | Indicates the server supports IMAP IDLE | Supported | RFC2177 |
+| IMAPSIEVE= | ? | ? | RFC6785 |
+| LANGUAGE | ? | ? | RFC5255 |
+| LIST-EXTENDED | ? | ? | RFC5258 |
+| LIST-STATUS | ? | ? | RFC5819 |
+| LITERAL+ | Allows alternative form for literals | Unknown | RFC7888 |
+| LITERAL- | Allows alternative form for literals | Unknown | RFC7888 |
+| LOGIN-REFERRALS | ? | ? | RFC2221 |
+| LOGINDISABLED | ? | ? | RFC2595 & RFC3501 |
+| MAILBOX-REFERRALS | ? | ? | RFC2193 |
+| METADATA | ? | ? | RFC5464 |
+| METADATA-SERVER | ? | ? | RFC5464 |
+| MOVE | ? | ? | RFC6851 |
+| MULTIAPPEND | ? | ? | RFC3502 |
+| MULTISEARCH | ? | ? | RFC7377 |
+| NAMESPACE | Support for namespaces |  Partial support | RFC 2343 |
+| NOTIFY | Request unsolicited notifications | No | RFC5465 |
+| QRESYNC | ? | ? | RFC7162 |
 | QUOTA | Resource usage restriction information - https://tools.ietf.org/html/rfc2087 | No |
-| ID | Mail server software identification | No |
-| XLIST | Google Mail specific deprecated list command | No |
-| CHILDREN | Child folder mailbox command - https://www.ietf.org/rfc/rfc3348.txt | No |
-| X-GM-EXT-1 | Google Mail custom behaviour: https://developers.google.com/gmail/imap_extensions | No |
+| RIGHTS= | ? | ? | RFC4314 |
+| SASL-IR | Initial Client Response form of SASL authentication | No | RFC4959 |
+| SEARCH=FUZZY | ? | ? | RRFC6203 |
+| SEARCHRES | ? | ? | RRFC5182 |
+| SORT | ? | ? | RRFC5256 |
+| SORT=DISPLAY | ? | ? | RRFC5957 |
+| SPECIAL-USE | ? | ? | RRFC6154 |
+| STARTTLS | Support for upgrading to TLS | Supported | RFC2595 / RFC3501 |
+| THREAD | ? | ? | RFC5256]
 | UIDPLUS | UID-based responses - https://tools.ietf.org/html/rfc4315 | No |
-| SASL-IR | Initial Client Response form of SASL authentication | No |
+| UNSELECT | Closing mailboxes without expunging - https://tools.ietf.org/html/rfc3691 | Unknown |
+| URLFETCH=BINARY | ? | ? | RFC5524 |
+| URL-PARTIAL | ? | ? | RFC5550 |
+| URLAUTH | ? | ? | RFC4467 |
+| UTF8=ACCEPT | ? | ? | RFC6855 |
+| UTF8=ALL (OBSOLETE) | ? | ? | RFC5738 / RFC6855 |
+| UTF8=APPEND (OBSOLETE) | ? | ? | RFC5738 / RFC6855 |
+| UTF8=ONLY | ? | ? | RFC6855 |
+| UTF8=USER (OBSOLETE | ? | ? | RFC5738 / RFC6855 |
+| WITHIN | ? | ? | RFC5032 |
+| XLIST | Google Mail specific deprecated list command | No |
+| X-GM-EXT-1 | Google Mail custom behaviour: | No | [GMail]https://developers.google.com/gmail/imap_extensions] |
+
 
 
 ## Commands
