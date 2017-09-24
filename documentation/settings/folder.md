@@ -4,6 +4,10 @@ nav_hide: true
 layout: default
 ---
 
+{% include settings-header.html %}
+
+{% include documentation-header.html %}
+
 # Folder Settings
 
 With the following settings you can configure how a specific folder is displayed. Furthermore you can classify the folder to control if and how it should be synchronized.
