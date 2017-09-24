@@ -4,9 +4,9 @@ nav_hide: true
 layout: default
 ---
 
-{% include documentation-header.html %}
-
 {% include development-header.html %}
+
+{% include documentation-header.html %}
 
 # IMAP Capabilities &amp; Commands Extensions
 
