@@ -51,6 +51,19 @@ There are many parts to K-9. This list gives a rough outline of some of them.
 * Activities and Fragments (`.activity` , `.fragments`) - These back the various layout files to react to and display information to the user.
 * Notifications (`.notification`) - This comprises the Android notification handling
 
+### Activity Layouts
+
+This section highlights some of the layout files in use.
+
+* `account_setup_*` - Views relating to account setup
+* `accounts` - The Accounts view
+* `message_list` - Renders the message list and view. Delegates to `message_list_fragment` and `message` depending on settings and requirements.
+* `message_list_fragment` - Renders the message list (a `ListView` of `message_list_item`s)
+* `message` - Renders a message, delegating to `message_view_header` and `message_container`
+* `message_compose` - Renders the screen when composing a message. Delegates to `message_compose_recipients` and provides a list of `message_compose_attachment`s. Uses a combination of enhanced `EditText` and `MessageWebView` for the message to be sent
+* `message_container` - Renders a message content, delegating to `MessageWebView` and displaying `message_view_attachment`s 
+* `message_list_item` - Displays a summary of a message for the list view.
+
 ### Scheduling & System Intents
 
 K-9 currently uses the [`AlarmManager`](https://developer.android.com/reference/android/app/AlarmManager.html) API for scheduling tasks related to fetching email
