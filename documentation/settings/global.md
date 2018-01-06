@@ -205,9 +205,18 @@ This setting specifies when K-9 Mail is allowed to synchronize messages in the b
 
 Available settings are:
 
-* When 'Auto-sync' is checked (in Android's settings)
+* When 'Auto-sync' is checked (see below)
 * Always
-* Never (this disables mail checking for all accounts regardless of the account settings)
+* Never (This disables mail checking for all accounts regardless of the account settings)
+
+'Auto-sync' is an Android-wide setting that controls accounts that link into the phone. Currently K-9 email accounts do not function in this way. However setting this will make the app reflect the global auto-sync setting.
+
+The configuration of Android's Auto-sync setting may vary depending on your phone's Android version and device manufacturer. On stock Android it's found under: "Settings -> Users & accounts -> Automatically sync data"
+
+* [Google provide information about auto-sync and Nexus phones](https://support.google.com/nexus/answer/2840875?hl=en-GB)
+* [Samsung provide instructions for their S6 phones.](http://www.samsung.com/hk_en/support/skp/faq/1075415)
+* [On a technical level this is the result from `ContentResolver.getMasterSyncAutomatically()`](https://developer.android.com/reference/android/content/ContentResolver.html#getMasterSyncAutomatically())
+
 
 ## Miscellaneous
 
