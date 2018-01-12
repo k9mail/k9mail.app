@@ -13,7 +13,8 @@ Help us make K-9 Mail even better!
 
 ### Report a bug
 
-Use the [issue tracker](https://github.com/k9mail/k-9/issues) to report bugs or request new features.
+* Use the [K-9 issue tracker](https://github.com/k9mail/k-9/issues) to report bugs or request new features.
+* Use the [website issue tracker](https://github.com/k9mail/k9mail.github.io/issues) to report bugs or request new features.
 
 
 ### Translate the app
