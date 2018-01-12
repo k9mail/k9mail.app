@@ -11,7 +11,7 @@ nav_hide: true
 
 # Accounts
 
-K-9 supports three main types of email account at present:
+K-9 presently supports three main types of e-mail accounts:
 
 * IMAP
 * POP3
