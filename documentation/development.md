@@ -35,7 +35,7 @@ The general structure of K-9 is as follows:
 ### Modules:
 
 * **k9mail** - Main module - includes code for activities, notification, database interaction, settings and encryption
-* **k9mail-library** - Back-end code for contacting mail providers and decoding emails from MIME
+* **k9mail-library** - Back-end code for contacting e-mail providers and decoding e-mails from MIME
 * **Android-PullToRefresh library** - Library for implementing 'pull to refresh' lists
 * **openpgp-api** - Library for interacting with OpenPGP providers (e.g. OpenKeychain)
 * **HoloColorPicker** - A colour picker for the Holo Android theme
@@ -44,9 +44,9 @@ The general structure of K-9 is as follows:
 
 There are many parts to K-9. This list gives a rough outline of some of them.
 
-* Stores (`.mail.store.*`) - Each receiving protocol (IMAP, POP3 and WebDAV) is implemented as a store (e.g. ImapStore). This store maintains connections (e.g. ImapConnection), and provide access to Folders (e.g. ImapFolder). which correspond to email folders that store messages (ImapMessage).
+* Stores (`.mail.store.*`) - Each receiving protocol (IMAP, POP3 and WebDAV) is implemented as a store (e.g. ImapStore). This store maintains connections (e.g. ImapConnection), and provide access to Folders (e.g. ImapFolder). which correspond to e-mail folders that store messages (ImapMessage).
 * Transports (`.mail.transport.*`) - Each sending protocol (SMTP, WebDAV) is implemented as Transport that must establish a connection to send e-mail.
-* Messages (`.mail.Message`, `.mail.internet.*`) - A message is comprised of Parts. The type of part actually used depends on whether the message is a RemoteMessage, waiting for download, mid-download (MemoryParts) or stored in the database (LocalPart).
+* Messages (`.mail.Message`, `.mail.internet.*`) - A message is comprised of parts. The type of part actually used depends on whether the message is a RemoteMessage, waiting for download, mid-download (MemoryParts) or stored in the database (LocalPart).
 * MessagingController (`.controller.MessagingController`) - This key class is responsible for syncing and handling user actions. For example, it has methods to queue synchronization of messages.
 * Activities and Fragments (`.activity` , `.fragments`) - These back the various layout files to react to and display information to the user.
 * Notifications (`.notification`) - This comprises the Android notification handling
@@ -66,7 +66,7 @@ This section highlights some of the layout files in use.
 
 ### Scheduling & System Intents
 
-K-9 currently uses the [`AlarmManager`](https://developer.android.com/reference/android/app/AlarmManager.html) API for scheduling tasks related to fetching email
+K-9 currently uses the [`AlarmManager`](https://developer.android.com/reference/android/app/AlarmManager.html) API for scheduling tasks related to fetching e-mail
 
 #### Classes
 
@@ -74,10 +74,10 @@ K-9 currently uses the [`AlarmManager`](https://developer.android.com/reference/
 * `BootReceiver` and `CoreReceiver` are responsible for receiving `Intent`s from Android 
 * `BootReceiver` schedules and receives scheduled intents with the `K9AlarmManager`
 * The `MailService` dispatches `Intent`s to the BootReceiver to reschedule polls and refresh push receipt connections
-* To create IMAP PUSH email connections, the `MailService` service starts the `PushService` and then instructs the `MessagingController` to start pushing
+* To create IMAP PUSH e-mail connections, the `MailService` service starts the `PushService` and then instructs the `MessagingController` to start pushing
 * The `PushService` does very little. It's purpose is to ensure that K-9 remains running while push connections are established
 * The `PollService` performs a poll on the given account - again done as a service to ensure K-9 remains running during this period, regardless of whether UI is visible.
-* The `RemoteControlService` also dispatches `Intent`s to refresh pushing and polling as demanded by the remote application.
+* The `RemoteControlService` also dispatches `Intent`s to refresh pushing and polling as demanded by the remote app.
 * The `SleepService` is used to delay push reconnection on error.
 
 #### Intents
@@ -102,7 +102,7 @@ Each `LocalStore` has a separate `LockableDatabase` which controls access to an 
 
 ## Third Party Integration
 
-K-9 is built on Android, as such it uses two main methods of providing an interface for external applications:
+K-9 is built on Android, as such it uses two main methods of providing an interface for external apps:
 
 * [Intents](/documentation/development/intents.html)
 * [Content Providers](/documentation/development/contentProviders.html)

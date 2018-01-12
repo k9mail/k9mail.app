@@ -13,13 +13,13 @@ Perhaps most confusing aspect of K-9 is the use of Classes to control the displa
 * Show only a select few of the available folders
 * Show all **but** a select few of the available folders
 
-We didn't want either use case to require going through nearly all of the folders, setting a parameter on each folder.  To this end, there are settings to be made on both Account and Folders. If you do not make any Class setting changes, K-9 will display all of your folders, but will not perform automatic synchronization on any of them, until you change the "Email check frequency" in the Account settings.
+We didn't want either use case to require going through nearly all of the folders, setting a parameter on each folder.  To this end, there are settings to be made on both Account and Folders. If you do not make any Class setting changes, K-9 will display all of your folders, but will not perform automatic synchronization on any of them, until you change the "E-mail check frequency" in the Account settings.
 
 ## Assigning classes
 
 Classes can be used to adjust both the display of your folders and the automatic synchronization. **Only displayed folders will be synchronized, irrespective of the synchronization class settings.**
 
-You can adjust the Account Class settings through the normal Account Settings Activity.  To adjust the folder Class settings, use the new Folder Settings Activity. In the main folder list, long-press a folder. In Android Email, a long press on a folder does nothing. In K-9, it brings up a context menu, providing **Refresh** and **Folder settings** Click **Folder settings** to adjust the Classes to which the folder is assigned.
+You can adjust the Account Class settings through the normal Account Settings Activity.  To adjust the folder Class settings, use the new Folder Settings Activity. In the main folder list, long-press a folder. In Android E-mail, a long press on a folder does nothing. In K-9, it brings up a context menu, providing **Refresh** and **Folder settings** Click **Folder settings** to adjust the Classes to which the folder is assigned.
 
 ### Folder display class
 
@@ -45,7 +45,7 @@ There are four choices:
 
 ## Sync mode
 
-**Folder sync mode** determines which folders are to be automatically synchronized at the "Email check frequency".
+**Folder sync mode** determines which folders are to be automatically synchronized at the "E-mail check frequency".
 
 There are four choices:
 

@@ -124,4 +124,5 @@ K-9 wouldn't be where it is today without the team behind it who have contribute
 * chamonkey
 * voda
 * vuntz
+* comradekingu
 
