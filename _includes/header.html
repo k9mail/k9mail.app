@@ -1,5 +1,5 @@
 <html lang="en">
-  
+
   <head>
     <meta charset="utf-8">
     <title>{{page.title}} | K-9 Mail</title>
@@ -8,7 +8,6 @@
     <meta name="author" content="">
     <!-- Le styles -->
     <link href="{{site.url}}/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="{{site.url}}/assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="{{site.url}}/assets/css/k9mail.css" rel="stylesheet">
     <style>
       body { padding-top: 60px; /* 60px to make the container go all the way
@@ -41,17 +40,24 @@
       }
 
     </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="{{site.url}}/assets/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="{{site.url}}/assets/js/bootstrap.min.js"></script>
     {% feed_meta %}
   </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
     	<div class="navbar-inner">
-    		<div class="container">
-    			<a class="brand" href="{{site.url}}/">K-9 Mail</a>
-    			<div class="nav-collapse collapse" style="height: 0px;">
-    				<ul class="nav">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		      <a class="navbar-brand" href="{{site.url}}/">K-9 Mail</a>
+          </div>
+    			<div id="navbar" class="navbar-collapse collapse" style="height: 0px;">
+    				<ul class="nav navbar-nav">
 {% assign sorted_pages = site.html_pages | map: 'to_liquid' | sort: 'nav_order' %}
 {% for node in sorted_pages %}
   {% if node.nav_hide == null %}
@@ -66,7 +72,6 @@
     				</ul>
     			</div>
     			<!--/.nav-collapse -->
-    		</div>
     	</div>
     </div>
     <div class="container">
