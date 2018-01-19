@@ -1,3 +1,8 @@
+.icon-small {
+  width: 18px;
+  margin: 0px;
+  padding: 0px;
+}
 .post-meta {
   font-size: small;
   color: grey;

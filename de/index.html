@@ -1,0 +1,84 @@
+---
+title: Home
+nav_order: 0
+nav_hide: true
+---
+{% include header_de.html %}
+    	<div class="hero-unit">
+        <div class="media">
+      <p class="pull-left">
+        	<img src="https://s3.amazonaws.com/media.jetstrap.com/K9EQM129TDe09W1t98i2_K-9_Mail_512x512.png" height="200" width="200" alt="K-9, the robot dog">
+      </p>
+      <div class="media-body">
+        	<h1>
+    			Advanced Email for Android
+    		</h1>
+    		<p>
+    			<span style="color: inherit;">
+                K-9 Mail is an open source email client focused on making it easy to chew through large volumes of email</span>
+    		</p>
+    		<p>
+    			<a href="{{site.url}}/about.html" class="btn btn-primary btn-large">Learn more »</a>
+    		</p>
+      </div>
+    </div>
+    	</div>
+	<div class="row">
+		<div class="span12">
+			<h2>Blog Posts</h2>
+			  {% for post in site.posts limit:3 %}
+			<div class="media">
+			  <div class="media-left">
+			  </div>
+			  <div class="media-body">
+			    <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+			    <div class="post-meta">Posted on {{ post.date | date: "%B %-d, %Y" }}</div>
+			    <div class="post-excerpt">
+			    {{ post.excerpt }}
+			    </div>
+			  </div>
+			</div>
+			  {% endfor %}
+      <a href="{{site.url}}/archive.html">View archived posts</a>
+		</div>
+	</div>
+    	<!-- Example row of columns -->
+    	<div class="row">
+    		<div class="span4">
+    			<h2>
+    				Documentation
+    			</h2>
+    			<p>
+				K-9 Mail has a lot of features and configuration options. Unfortunately, not all of
+				them are self-explanatory, so from time to time you might need to look something up.
+    			</p>
+    			<p>
+    				<a class="btn" href="{{site.url}}/documentation.html">More »</a>
+    			</p>
+    		</div>
+    		<div class="span4">
+    			<h2>
+    				Community
+    			</h2>
+    			<p>
+				Whether you're looking for help or you want to discuss the latest features,
+				the K-9 community has got you covered.
+    			</p>
+    			<p>
+    				<a class="btn" href="{{site.url}}/community.html">More »</a>
+    			</p>
+    		</div>
+    		<div class="span4">
+    			<h2>
+    				Contribute
+    			</h2>
+    			<p>
+				K-9 Mail is a community developed project. If you're interested in helping to
+				make the best email client on Android even better, please join us!
+    			</p>
+    			<p>
+    				<a class="btn" href="{{site.url}}/contribute.html">More »</a>
+    			</p>
+    		</div>
+    	</div>
+{% include footer.html %}
