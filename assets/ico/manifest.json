@@ -1,5 +1,10 @@
 {
- "name": "App",
+ "lang": "en",
+ "dir": "ltr",
+ "name": "K-9 Mail Website",
+ "start_url": ".../../index.html",
+ "description": "Information about K-9, an open source email client",
+ "short_name": "K9Mail",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
