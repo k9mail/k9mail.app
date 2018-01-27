@@ -35,6 +35,7 @@ To fetch the debug log you can either attach the device to your PC and use the t
 * **Using `adb`**
   1. [Install adb and connect to your device](https://github.com/k9mail/k-9/wiki/Installing-adb).
   2. Find the process ID of k-9:
+  
               adb shell ps -A | grep k9
   3. The output will be similar to:
   
