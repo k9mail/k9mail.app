@@ -33,10 +33,17 @@ Do whatever causes the problem/error.
 To fetch the debug log you can either attach the device to your PC and use the tool `adb` from the Android SDK or you can use the application `aLogcat` to display the debug log on the device.
 
 * **Using `adb`**
-  0. [Install adb and connect to your device](https://github.com/k9mail/k-9/wiki/Installing-adb).
-  0. To capture the debug log in a file named `k9-log.txt`, enter the command:
+  1. [Install adb and connect to your device](https://github.com/k9mail/k-9/wiki/Installing-adb).
+  2. Find the process ID of k-9:
+              adb shell ps -A | grep k9
+  3. The output will be similar to:
+  
+             u0_a153       5191   587 4468612 112380 SyS_epoll_wait      0 S com.fsck.k9.debug
+             
+  4. In this example the PID is 5191
+  5. To capture the debug log in a file named `k9-log.txt`, enter the command:
 
-             adb logcat -d -v time k9:V '*:S' AndroidRuntime:E > k9-log.txt
+             adb logcat -d --pid=<PID> > k9-log.txt
 
 * **Using `aLogcat` (from Google Play)**
 
