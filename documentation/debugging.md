@@ -57,4 +57,4 @@ To be able to fix your problem we need to know about it. Please create a [new is
 
 It's ok to remove your password from the debug log. Other than that, please give us as much of the log as you possibly can. 
 
-**Important:** Include the exact version number of your installed K-9 Mail in the bug report. Read [[GetVersionNumber]] if you need help on finding out which version of K-9 you're running.
+**Important:** Include the exact version number of your installed K-9 Mail in the bug report. Read [GetVersionNumber](https://github.com/k9mail/k-9/wiki/GetVersionNumber) if you need help on finding out which version of K-9 you're running.
