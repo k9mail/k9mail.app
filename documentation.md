@@ -12,7 +12,7 @@ Welcome to the documentation section of the K9 Mail website.
 
 This section aims to provide information on current features (and give some pointers on future direction where possible). However as a living project, the section is a constant work-in-progress and is often developed along-side / after the features themselves. 
 
-Changes are documented in the [release notes](https://k9mail.github.io/k-9/changelog_5.2-MAINT_branch.xml) distributed with the app.
+Changes are documented in the [release notes](https://k9mail.github.io/k-9/changelog_5.4-MAINT_branch.xml) distributed with the app.
 
 Upcoming changes are listed in the beta's [release notes](https://k9mail.github.io/k-9/changelog_master_branch.xml) distributed along with the beta.
 
