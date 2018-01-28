@@ -18,6 +18,6 @@ These are mainly written using HTML. There is not yet much templating surroundin
 
 ## Suggesting content
 
-Ideas for new website content currently mainly comes from individual thoughts and comments on the K-9's issue tracker. 
-If you feel there's content missing then feel free to favourite an existing issue or if it's not been covered by an issue, 
-open a new one.
+Ideas for new website content currently mainly comes from individual thoughts and comments on the app's issue tracker, as well as from issues raised on this project.
+
+If you feel there's content missing then feel free to favourite an existing issue here or if it's not been covered by an issue, open a new one.
