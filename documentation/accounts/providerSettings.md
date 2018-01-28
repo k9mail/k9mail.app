@@ -37,16 +37,15 @@ AOL Mail supports both IMAP and POP. K-9 can use either (IMAP is recommended)
 
 ## Gmail (Google Mail)
 
-Gmail supports IMAP. Note that Google also prefers a more secure authentication protocol called XOAuth 2.0. 
-Currently K-9 does not support this. However Google also support more common encrypted password protocols 
-which we do support.
+Gmail supports IMAP. Note that Google also prefers a more secure authentication protocol called XOAuth 2.0 which is currently not supported by K-9.
 
-To configure the 'Email' app on an Android device for access to Gmail, just follow the steps below:
+To configure access to Gmail in K-9, just follow the steps below:
 
     Enable IMAP in your Gmail settings.
-    Open the Email application.
-    Tap and the Settings
-    In the top corner, tap  select Next to get started with setup.
+        If you have 2FA enabled for your Google account, visit https://myaccount.google.com/security#signin
+        Click on "App Passwords" and generate a new password.
+        This is the password you will use for IMAP in lieu of your Gmail password.
+    Open K-9 and set up a new account.
     Enter your full Gmail address and password, then select Next.
     On the next screen, you can give the account a nickname and choose the name to display on your outgoing messages. 
     Tap Done.
@@ -90,7 +89,7 @@ To use POP3 first enable it in your e-mail settings:
 
 ## Web.DE
 
-Web.DE supports both IMAP and POP3
+Web.DE supports both IMAP and POP3.
 
 ### IMAP
 
