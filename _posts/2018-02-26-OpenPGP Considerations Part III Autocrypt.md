@@ -41,7 +41,7 @@ Encrypted messages cannot be viewed in all clients and especially web clients, f
 Most e-mail apps also rely on plugins for encryption, which is always going to be less neatly integrated than first-party support.
 In short, the increase in confidentiality comes at a cost in compatibility, availability, and convenience.
 
-Now, encryption of e-mail has so far been a very deliberate act - to be able to encrypt to anyone, the user would have to somehow manually obtain their key and import them in their key management app.
+Now, encryption of e-mail has so far been a very deliberate act - to be able to encrypt to anyone, the user would have to somehow manually obtain the key and import it in their key management app.
 In addition to that, extremely few people would even have keys, because dealing with encryption plugins is a pain.
 But between contacts who have Autocrypt-capable clients, making encryption available as an option will hopefully *just work*.
 This is super great, but it weirdly brings up a problem:
