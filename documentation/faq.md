@@ -27,8 +27,6 @@ nav_hide: true
 
 [Why does "Mark all messages as read" say that there are messages I can't see?](#anchor7)
 
-[K-9 is taking ages to fetch messages, help!](#anchor8)
-
 [I'm having some trouble with a lot of concurrent connections to my IMAP server ](#anchor9)
 
 [Why K-9 is using so much bandwidth to sync my POP mail?](#anchor10)
@@ -107,10 +105,6 @@ Please use the `Back` key to leave all settings screens in order to trigger sett
 K-9 lets you choose to only sync the most recent messages to your phone.
 This particuar feature operates on all messages, even if you've chosen 
 to sync only the last 10 messages to your phone.
-
-### <a name="anchor8"></a> K-9 is taking ages to fetch messages, help!
-
-Some device have very [inefficient storage](Storage). Try switching storage (3.400+ only).
 
 ### <a name="anchor9"></a> I'm having some trouble with a lot of concurrent connections to my IMAP server 
 
