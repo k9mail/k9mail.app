@@ -5,15 +5,9 @@
     <meta charset="utf-8">
     <title>{{page.title}} | K-9 Mail</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <!-- Le styles -->
     <link href="{{site.url}}/assets/css/bootstrap.css" rel="stylesheet">
     <link href="{{site.url}}/assets/css/k9mail.css" rel="stylesheet">
-    <style>
-      body { padding-top: 60px; /* 60px to make the container go all the way
-      to the bottom of the topbar */ }
-    </style>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
@@ -37,6 +31,10 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="{{site.url}}/assets/ico/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <meta property="og:site_name" content="K-9 Mail">
+    <meta property="og:title" content="{{page.title}} | K-9 Mail">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}">
     <style>
       .hero-unit {
           text-align: center;
@@ -48,7 +46,8 @@
       }
 
       body {
-        padding-top: 60px;
+        padding-top: 60px;/* 60px to make the container go all the way
+      to the bottom of the topbar */
         padding-bottom: 40px;
       }
     </style>
@@ -68,7 +67,7 @@
           </button>
 		      <a class="navbar-brand" href="{{site.url}}/">K-9 Mail</a>
           </div>
-    			<div id="navbar" class="navbar-collapse collapse" style="height: 0px;">
+    			<div id="navbar" class="navbar-collapse collapse" style="height: 0;">
     				<ul class="nav navbar-nav">
 {% assign sorted_pages = site.html_pages | map: 'to_liquid' | sort: 'nav_order' %}
 {% for node in sorted_pages %}
