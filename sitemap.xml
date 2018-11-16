@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://k9mail.github.io/</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/about.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/download.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/community.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/contribute.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/team.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/worksWithK9.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/2018/02/26/OpenPGP-Considerations-Part-III-Autocrypt.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/2016/11/24/OpenPGP-Considerations-Part-I.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/2017/01/30/OpenPGP-Considerations-Part-II.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/2018/01/07/5.4-Release.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/2017/05/05/Google-Summer-of-Code-2017-Projects.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/archive.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/security/pgpmime.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/installation.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/setup.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/accounts.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/folders.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/reading.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/sending.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/notifications.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/security.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/settings.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/storage.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/widgets.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/permissions.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/debugging.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/development.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/faq.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/2017/01/23/User-Survey.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/2016/12/26/K-9-Mail-5.200-released.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/2016/11/05/K9-Developer-Meetup.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/security/ssl.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/security/smime.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/security/pgpmime_current.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/security/pgpmime_historic.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/accounts/add.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/settings/import_export.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/accounts/incoming_imap.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/accounts/incoming_pop3.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/accounts/incoming_webdav.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/accounts/view.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/accounts/remove.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/settings/account.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/settings/global.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/settings/folder.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/privacy-policy.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/development/intents.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/development/contentProviders.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/development/imapExtensions.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/development/rfcs.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/accounts/providerSettings.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://k9mail.github.io/documentation/development/rfcs/rfc3696.html</loc>
+  <lastmod>2018-10-21T21:19:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
