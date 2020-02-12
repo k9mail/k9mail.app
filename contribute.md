@@ -1,6 +1,6 @@
 ---
 title: Contribute
-nav_order: 5 
+nav_order: 5
 layout: default
 ---
 
@@ -48,10 +48,6 @@ A number of the issues are marked with the ['beginner'](https://github.com/k9mai
 * The [BuildingK9](https://github.com/k9mail/k-9/wiki/BuildingK9) page has information on how to build K-9. It's important you run the tests (especially ones related to code you have directly changed) before submitting your code.
 * See the [Code Style](https://github.com/k9mail/k-9/wiki/CodeStyle) for information on formatting your code so it matches our style.
 * See the [Git Guide](https://github.com/k9mail/k-9/wiki/) for information on using Git and submitting pull requests
-
-## Designers
-
-The design of K-9 is constantly evolving. We have recently started to work on formalising our design guidelines for the app in a [design repository](https://github.com/k9mail/k-9-design).
 
 ## Documentation
 
