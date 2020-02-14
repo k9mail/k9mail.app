@@ -1,11 +1,13 @@
 ---
 title: "OpenPGP Considerations, Part II: Encrypted-Only Mails"
+date: "2017-01-30 12:00:00"
+image: "assets/img/posts/5-4-release.png"
 layout: post
 author: valodim
 ---
 
 This blog post is the second in my series on design decisions made in the OpenPGP support in K-9 Mail.
-Following my first post [on signed-only mails](https://k9mail.github.io/2016/11/24/OpenPGP-Considerations-Part-I.html), this one focuses on encrypted-only mails.
+Following my first post [on signed-only mails](/2016/11/24/OpenPGP-Considerations-Part-I), this one focuses on encrypted-only mails.
 
 In contrast to signed-only mails, which are still a supported workflow, we believe that the sending of encrypted-only mails reduces the security of the ecosystem as a whole, which is why we decided to drop support for it altogether.
 This decision led to a number of reports from disgruntled users who had sent encrypted-only mails from earlier versions of K-9.

@@ -1,94 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="utf-8">
-    <title>{{page.title}} | K-9 Mail</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Le styles -->
-    <link href="{{site.url}}/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="{{site.url}}/assets/css/k9mail.css" rel="stylesheet">
-    <style>
-      body { padding-top: 60px; /* 60px to make the container go all the way
-      to the bottom of the topbar */ }
-    </style>
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
-      </script>
-    <![endif]-->
-    <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="{{site.url}}/assets/ico/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{site.url}}/assets/ico/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{site.url}}/assets/ico/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{site.url}}/assets/ico/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{site.url}}/assets/ico/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{site.url}}/assets/ico/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{site.url}}/assets/ico/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{site.url}}/assets/ico/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{site.url}}/assets/ico/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="{{site.url}}/assets/ico/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/assets/ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{site.url}}/assets/ico/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{site.url}}/assets/ico/favicon-16x16.png">
-    <link rel="manifest" href="{{site.url}}/assets/ico/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{site.url}}/assets/ico/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <style>
-      .hero-unit {
-          text-align: center;
-          padding: 20px;
-      }
-
-      h2,h3,h4 {
-          margin-top: 1em;
-      }
-
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="{{site.url}}/assets/js/bootstrap.min.js"></script>
-    {% feed_meta %}
-  </head>
-  <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-    	<div class="navbar-inner">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-		      <a class="navbar-brand" href="{{site.url}}/">K-9 Mail</a>
-          </div>
-    			<div id="navbar" class="navbar-collapse collapse" style="height: 0px;">
-    				<ul class="nav navbar-nav">
-{% assign sorted_pages = site.html_pages | map: 'to_liquid' | sort: 'nav_order' %}
-{% for node in sorted_pages %}
-  {% if node.nav_hide == null %}
-    {% if page.url == node.url %}
-      <li class="active">
-    {% else %}
-      <li>
-    {% endif %}
-    <a href="{{site.url}}{{node.url}}">{{node.title}}</a></li>
-  {% endif %}
-{% endfor %}
-    				</ul>
-    			</div>
-    			<!--/.nav-collapse -->
-    	</div>
-    </div>
+<div class="container-fluid background">
     <div class="container">
-    	<!--
-	<div class="well text-center">
-		<strong>This site is under development. Please don't link to it yet!</strong>
-	</div>
-	-->
+        <div class="row justify-content-between align-items-center py-3">
+            <div class="col-12 col-md-7 order-2 order-md-1">
+                <h2 class="text-slate size-42">Advanced Email for Android</h2>
+                <p class="size-20 mb-4 text-slate">K-9 Mail is an open source email client focused on making it easy to chew through large volumes of email.</p>
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 full-width-md"><a href="/download" class="hero">Download <i class="fas fa-arrow-right pl-1"></i></a></div>
+                    <div class="col-12 col-md-6 full-width-md margin-negative"><a class="action" href="/contribute">Contribute <i class="fas fa-arrow-right pl-1"></i></a></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 order-1 order-md-2 pl-md-0 mb-4 mb-md-0 d-none d-md-none d-lg-block"><img class="w-100" src="assets/img/header.png" alt="Phone with K9 asset" /></div>
+        </div>
+    </div>
+</div>

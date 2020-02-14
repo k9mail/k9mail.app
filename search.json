@@ -1,0 +1,11 @@
+---
+layout: null
+---
+[
+  {% for doc in site.docs %}
+    {
+      "title"    : "{{ doc.title | escape }}",
+      "url"      : "{{ doc.url | replace:'.html','' }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

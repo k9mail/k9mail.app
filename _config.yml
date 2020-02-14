@@ -1,9 +1,28 @@
-url: https://k9mail.app
 title: K-9 Mail
+email: info@k9mail.app
 description: "K-9 Mail is an open source email client focused on making it easy to chew through large volumes of email"
+url: "https://anxh3l0.github.io/k9mail.github.io"
+github_username: k9mail
+github: k9mail
 
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-markdown:    kramdown
+# Build settings
+plugins:
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-compose
 
-gems:
-  - jekyll-feed
+collections:
+  docs:
+    output: "true"
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
