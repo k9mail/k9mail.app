@@ -7,14 +7,13 @@ author: philipwhiuk
 layout: post
 ---
 
-<img src="/assets/img/posts/2007-07-28-berlin-130.jpg" alt="Main hall of c-base" width="100%" height="auto" />
+![Main hall of c-base <](/assets/img/posts/2007-07-28-berlin-130.jpg "Main hall of c-base")
 
-There was a developer meet-up <a href="https://c-base.org/">c-base</a> on 4th November.
+There was a developer meet-up [c-base](https://c-base.org/) on 4th November.
 
-As an internationally diverse team, K-9 members do not often meet-up physically, mostly using remote working tools to organise the project. However schedules meant that <a href="http://www.github.com/cketti">cketti</a> and <a href="http://www.github.com/philipwhiuk">philipwhiuk</a> were able to arrange a meet-up in Berlin this week - following on from previous meet-ups and hackathons between cketti and <a href="http://www.github.com/Valodim">Valodim</a> earlier this year.
+As an internationally diverse team, K-9 members do not often meet-up physically, mostly using remote working tools to organise the project. However schedules meant that [cketti](https://www.github.com/cketti) and [philipwhiuk](https://www.github.com/philipwhiuk) were able to arrange a meet-up in Berlin this week - following on from previous meet-ups and hackathons between cketti and [Valodim](https://www.github.com/Valodim) earlier this year.
 
 The host organisation, <strong>c-base</strong> provides a group space for computer software, hardware and networking and has previously hosted events for organisations like the Chaos Computer Club, Wikipedia and the Freifung wireless community.
 
-<p style="font-size:smaller">Photo by Ralf Roletschek (marcela),
-  <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>,
-  <a href="https://commons.wikimedia.org/w/index.php?curid=2951445">Link</a></p>
+Photo by Ralf Roletschek (marcela),
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0 "Creative Commons Attribution-Share Alike 3.0"), [Link](https://commons.wikimedia.org/w/index.php?curid=2951445)

@@ -341,25 +341,6 @@ button {
   }
 }
 
-.shadow-link {
-  color: $slate-80;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 12px 20px;
-  background: $white;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  border-radius: 2px;
-  transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
-
-  &:hover {
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-      background-color: $teal-10;
-  }
-}
-
 @media (max-width: 992px) {
   .full-width-sm {
       width: 100% !important;
@@ -369,7 +350,7 @@ button {
 
 @media (max-width: 767px) {
   .full-width-md {
-      margin: 2.5rem 0 0 0;
+      margin: 1.5rem 0 0 0;
   }
 
   .hidemobile {
@@ -489,7 +470,7 @@ blockquote {
       color: $gray-100;
   }
 
-  & img[alt$=" > "] {
+  & img[alt$=">"] {
       float: right;
       margin: 0 0 20px 20px;
   }
@@ -499,7 +480,7 @@ blockquote {
       margin: 0 20px 20px 0;
   }
 
-  & img[alt$=" > <"] {
+  & img[alt$="><"] {
       display: block;
       max-width: 100%;
       height: auto;

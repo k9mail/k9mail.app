@@ -15,6 +15,7 @@ To submit new content, provide a pull-request.
 ## Writing a blog
 
 These are written using Markdown. A new template has been writen for them and all past and new posts will be updated to reflect it.
+When adding images, you can choose whether to align them to the left, middle or right just by adding an <, >< or > at the end of the alt text for that image. If you want to know how to align other items, you can have a look at previous posts. 
 
 ## Suggesting content
 

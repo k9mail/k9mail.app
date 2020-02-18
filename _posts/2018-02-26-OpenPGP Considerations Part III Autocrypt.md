@@ -15,7 +15,7 @@ This one focuses on Autocrypt, and in particular "encryption by default".
 In K-9 Mail version 5.400, OpenPGP encryption was changed to adhere to the [Autocrypt](https://autocrypt.org) specification.
 Most importantly, keys are now transparently exchanged between compatible clients, paving the way for truly transparent key management with no need for user interaction.
 
-<img src="/assets/img/posts/crypto-states.png" alt="K-9 Mail Crypto States" style="float: right; padding-left: 30px; padding-bottom: 20px;" />
+![K-9 Mail Crypto States >](/assets/img/posts/crypto-states.png "K-9 Mail Crypto States")
 
 Another big change happened in the user interface:
 In message view display of crypto status has been greatly simplified - either a message was securely encrypted (green lock), encrypted with problems (grey lock with an X), or hasn't been encrypted at all (grey struck-through lock).
@@ -50,7 +50,7 @@ In addition to that, extremely few people would even have keys, because dealing 
 But between contacts who have Autocrypt-capable clients, making encryption available as an option will hopefully *just work*.
 This is super great, but it weirdly brings up a problem:
 
-<img src="/assets/img/posts/autocrypt-mutual.png" alt="Autocrypt Mutual Mode" style="float: right; padding-left: 30px; padding-bottom: 20px;" />
+![Autocrypt Mutual Mode >](/assets/img/posts/autocrypt-mutual.png "Autocrypt Mutual Mode")
 
 Many people have an appreciation for encrypting `secret.doc` or `invoice.pdf` when they send it - but that appreciation doesn't extend to all messages.
 If someone installs an Autocrypt-capable OpenPGP extension so they can securely send or receive `secret.doc`, this *should not* be interpreted as consent that any message sent to them, regardless of importance, may as well be encrypted.
