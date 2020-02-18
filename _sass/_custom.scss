@@ -672,6 +672,12 @@ input[type=text] {
 
 table {
   width: 100%;
+  margin: 1.5rem 0;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
 }
 
 // Tabs
