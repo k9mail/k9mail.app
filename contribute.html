@@ -103,9 +103,9 @@ title: Contribute
   </script>
   
   <script>
-  window.onhashchange = (function() {
+  window.onhashchange = function() {
   var hash = location.hash.substr(1);
-  if(hash) {
+  if(hash != '') {
       var i, tabcontentservice, tablinkservice;
       // Get all elements with class="tabcontentservice" and hide them
       tabcontentservice = document.getElementsByClassName("tabcontentservice");
@@ -120,6 +120,7 @@ title: Contribute
       // Show the current tab, and add an "active" class to the button that opened the tab
       document.getElementById('' + hash).style.display = "block";
       document.getElementById('button-' + hash).classList.toggle("active");
+      hash = '';
     }
-  })();
+  };
   </script>

@@ -1,8 +1,6 @@
 title: K-9 Mail
-email: info@k9mail.app
 description: "K-9 Mail is an open source email client focused on making it easy to chew through large volumes of email"
-url: "https://anxh3l0.github.io/k9mail.github.io"
-github_username: k9mail
+url: "https://k9mail.app"
 github: k9mail
 
 # Build settings
