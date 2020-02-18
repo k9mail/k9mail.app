@@ -116,7 +116,7 @@ This normally happen when you have a POP account that has a huge inbox folder. I
 
 ### <a name="anchor11"></a> K-9 is crashing, please help!
 
-If you can't find a similar problem on our [issue tracker](https://github.com/k9mail/k-9/issues), please file a new issue and provide a [debug log](/docs/debugging) and detailed steps on how to reproduce the problem if possible.
+If you can't find a similar problem on our [issue tracker](https://github.com/k9mail/k-9/issues), please file a new issue and provide a [debug log](/documentation/debugging) and detailed steps on how to reproduce the problem if possible.
 
 ### <a name="anchor12"></a> Where is the source code?
 

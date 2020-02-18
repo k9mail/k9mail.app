@@ -346,7 +346,7 @@ Available options are: 10, 25, 50, 100, 250, 500, 1000, All.
 ## Cryptography
 This section allows you to select a crypto provider that allows you to encrypt/decrypt and sign/verify messages using the OpenPGP standard.
 
-**Note:** Currently only [APG](https://play.google.com/store/apps/details?id=org.thialfihar.android.apg) (Android Privacy Guard) and [OpenKeychain](https://www.openkeychain.org/) are supported as a crypto provider. Check the [PGP/MIME](/docs/security/pgpmime) section for details on how to use it.
+**Note:** Currently only [APG](https://play.google.com/store/apps/details?id=org.thialfihar.android.apg) (Android Privacy Guard) and [OpenKeychain](https://www.openkeychain.org/) are supported as a crypto provider. Check the [PGP/MIME](/documentation/security/pgpmime) section for details on how to use it.
 
 ### OpenPGP Provider
 This allows you to select the crypto provider to use. Right now the only options are *None*, *APG* and *OpenKeychain*

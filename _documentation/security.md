@@ -20,12 +20,12 @@ We currently support the following secure authentication methods
 * Client-side TLS certificates
 * CRAM-MD5 encryption (the most common form)
 
-We support both the STARTTLS and running over TLS. We review our <a href="/docs/security/ssl">TLS protocols and ciphers</a> in response to recent attacks.
+We support both the STARTTLS and running over TLS. We review our <a href="/documentation/security/ssl">TLS protocols and ciphers</a> in response to recent attacks.
 
 ## Encryption & Signing Emails
 
 K-9 currently supports PGP/MIME encrypted e-mail through an open API that any application can implement in order to encrypt and decrypt e-mail. We have worked on this API along with the developers of OpenKeychain, a security-audited application that supports PGP.
 
-For more information on using PGP/MIME in K-9 see our [documentation on PGP/MIME](/docs/security/pgpmime).
+For more information on using PGP/MIME in K-9 see our [documentation on PGP/MIME](/documentation/security/pgpmime).
 
-The other common e-mail encryption and signing implementation is S/MIME. K-9 currently does not directly integrate with any S/MIME providers. Some apps may provide S/MIME functionality but they are neither maintained nor do they directly integrate with K-9. For information on S/MIME see our [documentation](/docs/security/smime)
+The other common e-mail encryption and signing implementation is S/MIME. K-9 currently does not directly integrate with any S/MIME providers. Some apps may provide S/MIME functionality but they are neither maintained nor do they directly integrate with K-9. For information on S/MIME see our [documentation](/documentation/security/smime)

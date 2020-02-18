@@ -6,7 +6,7 @@ layout: doc
 
 # POP3 Server Settings
 
-<img src="../../assets/img/docs/account_setup_step3_pop3_incoming_server.png" width="300" alt="WebDAV server settings" />
+<img src="../../assets/img/documentation/account_setup_step3_pop3_incoming_server.png" width="300" alt="WebDAV server settings" />
 
 **POP3 server**: This is the hostname or IP address of your POP3 server. Note that this address must resolve to your mail server no matter what network you're connected to -- if you provide a name or IP that's only resolvable *inside your private network*, that's the only place you'll be able to pick up email. (If you don't understand the preceding, then you probably don't need to worry about it.) Some firewalls can also cause trouble here.
 
@@ -18,7 +18,7 @@ layout: doc
 * STARTTLS (if available): The STARTTLS method is used if available; the certificate isn't checked. If STARTTLS is not available, no encryption is used at all and email will be moved in the clear.
 * **STARTTLS (always)**: The STARTTLS method is used and the certificate is checked for validity.
 
-*Note*: Avoid using the options *"None"*, *"SSL/TLS (if available)"*, and *"STARTTLS (if available)"* if you can. Check the [Security](/docs/security) entry for more information on this.
+*Note*: Avoid using the options *"None"*, *"SSL/TLS (if available)"*, and *"STARTTLS (if available)"* if you can. Check the [Security](/documentation/security) entry for more information on this.
 
 **Port**: This is the port number the POP3 server is listening on. Most of the time you don't want to change this. It will generally be port 110 for non-encrypted connections or 95 for encrypted ones. If your port number is something else, the mail server administrator should have told you.
 

@@ -17,12 +17,12 @@ To start using PGP/MIME you first need to link OpenKeychain with K-9. To do this
 <div class="span4">
 You'll see the following options:
 
-<img src="../../assets/img/docs/crypto_selection.png" alt="Cryptography Settings" width="300" />
+<img src="../../assets/img/documentation/crypto_selection.png" alt="Cryptography Settings" width="300" />
 </div>
 <div class="span4">
 Click on the OpenPGP app option
 
-<img src="../../assets/img/docs/pgpmime_app_selection.png" alt="OpenPGP App Selection" width="300" />
+<img src="../../assets/img/documentation/pgpmime_app_selection.png" alt="OpenPGP App Selection" width="300" />
 </div>
 <div class="span4">
 Select OpenKeychain
@@ -37,7 +37,7 @@ You'll be sent a screen in the OpenKeychain app:
 
 Select either a key you've already imported/created or create a new key:
 
-<img src="../../assets/img/docs/openkeychain_key_selection.png" alt="Key Selection" width="300" />
+<img src="../../assets/img/documentation/openkeychain_key_selection.png" alt="Key Selection" width="300" />
 
 See the [OpenKeychain](https://www.openkeychain.org/) website for more information on creating and managing keys.
 
@@ -49,7 +49,7 @@ and encryption that will be applied to the message.
 
 Signing is the process of authenticating who wrote an email. Encrypting is the process of ensuring nobody but the intended recipient can read it. Signing and encryption both guarantee the email hasn't been tampered with.
 
-<img src="../../assets/img/docs/encryption_openkeychain_compose_dialog.png" alt="Compose Screen" width="300" />
+<img src="../../assets/img/documentation/encryption_openkeychain_compose_dialog.png" alt="Compose Screen" width="300" />
 
 Tapping the icon leads to dialog that allows you to change between one of four states:
 
@@ -58,7 +58,7 @@ Tapping the icon leads to dialog that allows you to change between one of four s
 * Always Sign, Encrypt if Possible - The means the email will be signed, but if it can't be encrypted it will be sent anyway.
 * Always Sign, Always Encrypt - This means the email will only be sent if it can be both signed and encrypted.
 
-<img src="../../assets/img/docs/encryption_openkeychain_crypto_dialog.png" alt="Compose Crypto Dialog" width="300" />
+<img src="../../assets/img/documentation/encryption_openkeychain_crypto_dialog.png" alt="Compose Crypto Dialog" width="300" />
 
 ### Decrypting & Verifying Signed Mail
 
@@ -66,18 +66,18 @@ When viewing encrypted mail, once configured, K-9 will automatically use OpenKey
 
 For encrypted and trusted signed messages it will look like this.
 
-<img src="../../assets/img/docs/pgpmime_encrypted_msg.png" alt="Signed and Encrypted Email Screen" width="300" />
+<img src="../../assets/img/documentation/pgpmime_encrypted_msg.png" alt="Signed and Encrypted Email Screen" width="300" />
 
 Tapping on the green lock icon brings up this modal:
 
-<img src="../../assets/img/docs/pgpmime_trusted.png" alt="Signed and Encrypted Email Details" width="300" />
+<img src="../../assets/img/documentation/pgpmime_trusted.png" alt="Signed and Encrypted Email Details" width="300" />
 
 For trusted signed messages it will look like this. 
 
-<img src="../../assets/img/docs/pgpmime_signed_msg.png" alt="Signed Email Screen" width="300" />
+<img src="../../assets/img/documentation/pgpmime_signed_msg.png" alt="Signed Email Screen" width="300" />
 
 And tapping on the icon brings up this:
 
-<img src="../../assets/img/docs/pgpmime_signed.png" alt="Signed Email Screen" width="300" />
+<img src="../../assets/img/documentation/pgpmime_signed.png" alt="Signed Email Screen" width="300" />
 
 Tapping on the 'View Signer' option will open the contact in OpenKeychain.

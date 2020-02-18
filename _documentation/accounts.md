@@ -15,6 +15,6 @@ K-9 supports three main types of email account at present:
 
 ## Sub-sections
 
-* [Adding an Account](/docs/accounts/add)
-* [Managing / Viewing Accounts](/docs/accounts/view)
-* [Removing Accounts](/docs/accounts/remove)
+* [Adding an Account](/documentation/accounts/add)
+* [Managing / Viewing Accounts](/documentation/accounts/view)
+* [Removing Accounts](/documentation/accounts/remove)

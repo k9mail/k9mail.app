@@ -12,7 +12,7 @@ plugins:
   - jekyll-compose
 
 collections:
-  docs:
+  documentation:
     output: "true"
 
 exclude:

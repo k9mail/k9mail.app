@@ -5,13 +5,13 @@ layout: doc
 
 # IMAP Server Settings
 
-The following images show all the [IMAP](/docs/accounts/imap) related settings. 
+The following images show all the [IMAP](/documentation/accounts/imap) related settings. 
 Later we describe them in detail.  Note that on a smartphone, your popped-up soft keyboard may be 
 covering some of these entry fields; don't forget to scroll.
 
-![Incoming server settings (part 1)](../../assets/img/docs/account_setup_step3_imap_incoming_server_1.png)
+![Incoming server settings (part 1)](../../assets/img/documentation/account_setup_step3_imap_incoming_server_1.png)
 &nbsp;
-![Incoming server settings (part 2)](../../assets/img/docs/account_setup_step3_imap_incoming_server_2.png)
+![Incoming server settings (part 2)](../../assets/img/documentation/account_setup_step3_imap_incoming_server_2.png)
 
 **Username**: This is the username that's needed to authenticate to the IMAP server. The field is initialized with the user part of your email address. Some servers are okay with this; some, generally those which support multiple domains, require that you fill in your entire email address here. In this case, if you entered the entire email address on the previous screen, you will need to re-enter the hostname part here, as K-9 Mail doesn't know whether you need it and assumes you don't.
 
@@ -44,6 +44,6 @@ covering some of these entry fields; don't forget to scroll.
 
 After clicking "Next" K-9 Mail tries to connect to the server to verify the settings. This means you need to have a working network connection to continue the setup.
 
-![Checking incoming server settings](../../assets/img/docs/account_setup_step3.5_imap_checking_incoming_server_settings.png)
+![Checking incoming server settings](../../assets/img/documentation/account_setup_step3.5_imap_checking_incoming_server_settings.png)
 
-After the server settings are checked you can now continue to [configure the outgoing server](/docs/accounts/add#outgoing-server).
+After the server settings are checked you can now continue to [configure the outgoing server](/documentation/accounts/add#outgoing-server).

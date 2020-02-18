@@ -28,13 +28,13 @@ title: Documentation
 <div class="container-fluid">
     <div class="container py-3">
         <div class="row justify-content-start pb-4">
-            {% for doc in site.docs %}
-                {% if doc.level == "1" %}
+            {% for documentation in site.documentation %}
+                {% if documentation.level == "1" %}
         <div class="col-12 col-md-3 mb-3 mb-md-3">
-            <a href="{{ doc.url | replace:'.html','' }}">
+            <a href="{{ documentation.url | replace:'.html','' }}">
           <div class="card shadow-sm project-card">
-                <i class="{{ doc.icon }} size-36 text-teal mb-3"></i>
-                <h4 class="text-slate weight-700">{{ doc.title }}</h4>
+                <i class="{{ documentation.icon }} size-36 text-teal mb-3"></i>
+                <h4 class="text-slate weight-700">{{ documentation.title }}</h4>
           </div>
         </a>
         </div>
@@ -50,8 +50,9 @@ var sjs = SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   noResultsText: "Sorry, nothing found :(",
+  searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
   limit: 5,
-  fuzzy: true,
+  fuzzy: false,
   json: '/search.json'
 })
 </script>

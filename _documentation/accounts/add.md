@@ -4,7 +4,7 @@ layout: doc
 ---
 
 # Add an Account
-The account set-up wizard will launch automatically after the [Welcome Screen](/docs/setup). 
+The account set-up wizard will launch automatically after the [Welcome Screen](/documentation/setup). 
 
 For any additional accounts they can be added by going to the accounts menu, 
 and then tapping the 'Add account' option in the overflow menu.
@@ -13,11 +13,11 @@ First you are asked for your email address and password.
 
 The buttons "Manual setup" and "Next" become only activated after a correctly formatted email address and a password have been typed in.
 
-![Screen to enter email address and password](../../assets/img/docs/account_setup_step1_empty.png) ![Email address and password filled in](../../assets/img/docs/account_setup_step1_filled_in.png)
+![Screen to enter email address and password](../../assets/img/documentation/account_setup_step1_empty.png) ![Email address and password filled in](../../assets/img/documentation/account_setup_step1_filled_in.png)
 
 If you choose "Next" and the domain part of your email address is known to K-9 Mail, the connection settings for the incoming and outgoing server are automatically set up for you. This is the case for some large email providers, e.g. Gmail, Yahoo!, and AOL.
 
-We also [list information on the settings for major e-mail providers](/docs/accounts/providerSettings)
+We also [list information on the settings for major e-mail providers](/documentation/accounts/providerSettings)
 
 ## Account Type
 
@@ -31,15 +31,15 @@ For more information see the linked Wikipedia entries:
 * [POP3](https://en.wikipedia.org/wiki/POP3)
 * [WebDAV](https://en.wikipedia.org/wiki/WebDAV)
 
-![Account type selection](../../assets/img/docs/account_setup_step2_account_type_selection.png)
+![Account type selection](../../assets/img/documentation/account_setup_step2_account_type_selection.png)
 
 ## Incoming Server Settings
 
 To configure your incoming server settings see the corresponding page
 
-* [IMAP](/docs/accounts/incoming_imap)
-* [POP3](/docs/accounts/incoming_pop3)
-* [WebDAV](/docs/accounts/incoming_webdav)
+* [IMAP](/documentation/accounts/incoming_imap)
+* [POP3](/documentation/accounts/incoming_pop3)
+* [WebDAV](/documentation/accounts/incoming_webdav)
 
 ## Configuring the outgoing server
 
@@ -47,7 +47,7 @@ To be able to send mail K-9 Mail needs to know the settings to your provider's [
 
 Because of the nature of email service, you often (if not always, these days) send outgoing mail to one server, but pick up incoming mail from a separate one; this is why many of the items below say "this is often, but not always, the same as the setting for incoming mail".
 
-![Outgoing server settings](../../assets/img/docs/account_setup_step4_smtp_outgoing_server.png)
+![Outgoing server settings](../../assets/img/documentation/account_setup_step4_smtp_outgoing_server.png)
 
 **SMTP server**: This is the hostname or IP address of your SMTP server. As discussed above under **IMAP Server**, this name or IP must be accessible from any network from which you may want to send mail, whether your cellular carrier's WAN or a private LAN via Wi-Fi. See below for more details if you have trouble.
 
@@ -76,14 +76,14 @@ Because of the nature of email service, you often (if not always, these days) se
 
 To complete the outgoing server configuration click "Next". And again, K-9 Mail tries to connect to the server to verify the settings you just entered.
 
-![Checking outgoing server settings](../../assets/img/docs/account_setup_step4.5_smtp_checking_outgoing_server_settings.png)
+![Checking outgoing server settings](../../assets/img/documentation/account_setup_step4.5_smtp_checking_outgoing_server_settings.png)
 
 
 ## Account options
 
 After successfully setting up the incoming and outgoing servers, you can now configure some basic settings on how often K-9 Mail checks for new messages, if you want to be notified of new mail, etc. These settings are specific to each account/mailbox you configure; you can set them differently for different mailboxes.
 
-![Account options](../../assets/img/docs/account_setup_step5_account_options.png)
+![Account options](../../assets/img/documentation/account_setup_step5_account_options.png)
 
 **Folder poll frequency**: Here you specify in what interval K-9 Mail should check the incoming server to see if there are new messages. Available options are:
 
@@ -116,9 +116,9 @@ For a run-down on battery usage and the difference between the two see the [FAQ]
 * 1000 messages
 * all messages
 
-Higher values have some performance implications. Read the description of the setting *Local folder size* in chapter [Account settings](/docs/settings/account) for more information.
+Higher values have some performance implications. Read the description of the setting *Local folder size* in chapter [Account settings](/documentation/settings/account) for more information.
 
-**Notify me when mail arrives**: If this is checked you are notified when a new message was downloaded in this mailbox. Notification type (LED, vibration) and ringtone can be configured later. See *Notifications* in the [Account settings](/docs/settings/account).
+**Notify me when mail arrives**: If this is checked you are notified when a new message was downloaded in this mailbox. Notification type (LED, vibration) and ringtone can be configured later. See *Notifications* in the [Account settings](/documentation/settings/account).
 
 **Notify me while mail is being checked**: If this option is enabled K-9 Mail will inform the user when an account is being synchronized by displaying a message in the Android title bar.
 
@@ -126,7 +126,7 @@ Higher values have some performance implications. Read the description of the se
 
 To complete the account creation you have to fill out the following two fields:
 
-![Screen to enter account name and your display name](../../assets/img/docs/account_setup_step6_account_name.png)
+![Screen to enter account name and your display name](../../assets/img/documentation/account_setup_step6_account_name.png)
 
 **Give this account a name** (optional): This is the name of the account that will be displayed in the account list. If you leave this field empty the email address associated with this account will be used.
 

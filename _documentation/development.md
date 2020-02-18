@@ -101,5 +101,5 @@ Each `LocalStore` has a separate `LockableDatabase` which controls access to an 
 
 K-9 is built on Android, as such it uses two main methods of providing an interface for external applications:
 
-* [Intents](/docs/development/intents)
-* [Content Providers](/docs/development/contentProviders)
+* [Intents](/documentation/development/intents)
+* [Content Providers](/documentation/development/contentProviders)
