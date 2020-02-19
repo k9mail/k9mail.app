@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "jekyll-github-metadata"
 gem "jekyll-paginate"
 gem "jekyll-compose"
+gem "jekyll-feed"
 gem "github-pages", group: :jekyll_plugins
 
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
