@@ -8,6 +8,7 @@ plugins:
   - jekyll-github-metadata
   - jekyll-paginate
   - jekyll-compose
+  - jekyll-feed
 
 collections:
   documentation:

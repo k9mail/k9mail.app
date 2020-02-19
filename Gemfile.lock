@@ -249,6 +249,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-compose
+  jekyll-feed
   jekyll-github-metadata
   jekyll-paginate
   tzinfo (~> 1.2)
