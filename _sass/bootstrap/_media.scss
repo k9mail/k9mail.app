@@ -1,0 +1,15 @@
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-body {
+  flex: 1;
+}
+
+.gallery-item {
+  margin-bottom: $grid-gutter-width * (1 / 1.5);
+  @include media-breakpoint-up('md') {
+    margin-bottom: $grid-gutter-width;
+  }
+}

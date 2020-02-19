@@ -1,13 +1,74 @@
-{% include header.html %}
+---
+layout: page
+---
+
 {% assign author = site.data.authors[page.author] %}
 
-<h1>{{ page.title }}</h1>
-
-{% if author %}
-<div class="postedInfo">
-    Posted by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a> on {{ page.date | date: "%B %-d, %Y" }}
+<div class="container-fluid">
+  <div class="container pt-4">
+    <div class="row justify-content-center">
+<div class="col-md-8 col-sm-12">
+  <div class="pt-0">
+            <h2 class="text-slate pt-0 mt-0 mb-1">{{ page.title }}</h2>
+            {% assign words = page.content | number_of_words %}
+            {% if words < 360 %}
+            <p class="body-10-bold gray-700">1 min read</p>
+            {% else %}
+            <p class="body-10-bold gray-700">{{ words | divided_by:150 }} min read</p>
+            {% endif %}
+            <p class="text-muted">By {% if author %}<a class="underline" href="{{ author.web }}" target="_blank" rel="noopener">{{ author.name }}</a>{% endif %} • {{ page.date | date: "%b %-d, %Y" }}</p>
+  </div>
+    </div>
+  </div>
+  </div>
 </div>
-{% endif %}
 
-{{content}}
-{% include footer.html %}
+<div class="container-fluid">
+<div class="container">
+ <div class="row justify-content-center">
+    <div class="col-md-8 col-sm-12 pt-5">
+        <article class="post-content">
+            {{ content }}
+        </article>
+    </div>
+ </div>
+</div>
+</div>
+  
+<div class="container-fluid">
+  <div class="container pt-5 pb-5">
+    <div class="row pb-5 justify-content-center">
+          <div class="col-md-8 col-sm-12">
+              <hr class="mb-5">
+                {% if page.previous.url %}
+                <div class="row">
+                  <div class="col-md-6 offset-md-2">
+                    <p class="caption-20 gray-700">Previous post</p>
+                  </div>
+                </div>
+                <div class="row">
+                <div class="col-md-2 col-sm-12">
+                </div>
+                 <div class="col-md-9">
+                  <a class="text-slate underline size-18" href='{{ page.previous.url | replace:'.html','' }}'>{{ page.previous.title }}</a>
+                </div>
+              </div>
+                {% endif %}
+                {% if page.next.url %}
+                <div class="row pt-5">
+                  <div class="col-md-6 offset-md-2">
+                    <p class="caption-20 gray-700">Next post</p>
+                  </div>
+                </div>
+                <div class="row">
+                <div class="col-md-2 col-sm-12">
+                </div>
+                <div class="col-md-9">
+                  <a class="text-slate underline size-18" href='{{ page.next.url | replace:'.html','' }}'>{{ page.next.title }}</a>
+                </div>
+              </div>
+                {% endif %}
+          </div>
+    </div>
+  </div>
+</div>

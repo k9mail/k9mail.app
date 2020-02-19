@@ -1,20 +1,21 @@
 # k9mail.github.io
 
-This GitHub repository provides the source for [K-9's website](https://k9mail.github.io/) which provides public-facing documentation for K-9.
+This GitHub repository provides the source for [K-9's website](https://k9mail.app) which provides public-facing documentation for K-9.
 
 It is a combination of Markdown, HTML, CSS which is rendered by [Jekyll](https://jekyllrb.com/).
 
 ## Writing content
 
 Pages are written mainly using Markdown along with included headers that set-up much of the formatting and pages. 
-There are headers that provide the necessary navigation sections (for example the documentation page listing). 
-These are not automatically generated so must be updated if a new page is added.
+There are headers that provide the necessary navigation sections (for example the documentation page listing).
+The main documentation page is generated automatically based on the top level pages set by front matter tags.
 
 To submit new content, provide a pull-request.
 
 ## Writing a blog
 
-These are mainly written using HTML. There is not yet much templating surrounding this area - to get the basic structure copy an existing blog post.
+These are written using Markdown. A new template has been writen for them and all past and new posts will be updated to reflect it.
+When adding images, you can choose whether to align them to the left, middle or right just by adding an <, >< or > at the end of the alt text for that image. If you want to know how to align other items, you can have a look at previous posts. 
 
 ## Suggesting content
 

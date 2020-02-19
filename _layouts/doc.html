@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US">
+{% include head.html %}
+
+<body>
+    {% include nav.html %}
+    <div class="container-fluid">
+        <div class="container py-4">
+            <article class="post-content">
+                {% include breadcrumbs.html %}
+                {{ content }}
+            </article>
+        </div>
+    </div>
+    {% include footer.html %}
+</body>
+
+</html>

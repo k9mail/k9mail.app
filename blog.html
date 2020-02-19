@@ -1,0 +1,36 @@
+---
+layout: page
+title: Blog
+---
+
+<!-- Top Header Section -->
+
+<div class="container-fluid background-teal">
+    <div class="container py-3">
+      <h1 class="text-slate">Blog</h1>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div id="posts" class="container py-3">
+        <div class="row py-5">
+                {% for post in site.posts %}
+                    <div class="col-12 col-md-4 mb-3 mb-md-2">
+                        <a href="{{ post.url | replace:'.html','' }}">
+                      <div class="card shadow-sm"><img class="w-100" src="{{ post.image }}" alt="Blogpost image" />
+                        <div class="card-body">
+                        
+                          <h3 class="text-slate"><strong>{{ post.title }}</strong></h3>
+                          <p class="text-muted">Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
+                          <p class="mb-3">{{ post.excerpt | truncatewords: 15 }}</p>
+                        
+                        </div>
+                      </div>
+                    </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

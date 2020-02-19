@@ -1,0 +1,62 @@
+.images-ratio {
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+  }
+
+  &.ratio-2-1::before {
+    padding-top: 48.64%;
+
+    @include media-breakpoint-down('md') {
+      padding-top: 100%;
+    }
+  }
+
+  &.ratio-4-2::before {
+    padding-top: 54.62%;
+
+    @include media-breakpoint-down('md') {
+      padding-top: 100%;
+    }
+  }
+
+  &.ratio-4-3::before {
+    padding-top: 70.37%;
+
+    @include media-breakpoint-down('md') {
+      padding-top: 100%;
+    }
+  }
+
+  &.ratio-4-5::before {
+    padding-top: calc(109.24% + 30px);
+
+    @include media-breakpoint-down('md') {
+      padding-top: 100%;
+    }
+  }
+
+  &.ratio-16-9 {
+    max-height: 600px;
+
+    &::before {
+      padding-top: calc(109.24% + 30px);
+
+      @include media-breakpoint-down('md') {
+        padding-top: 100%;
+      }
+    }
+  }
+
+  &.ratio-3-1::before {
+    padding-top: 36.93%;
+  }
+}

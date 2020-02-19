@@ -1,0 +1,58 @@
+---
+layout: page
+title: Documentation
+---
+
+<!-- Top Header Section -->
+<div class="container-fluid background-teal">
+    <div class="container py-3">
+      <h1 class="text-slate">Documentation</h1>
+    </div>
+</div>
+
+<!-- Text Section -->
+  
+<div class="container-fluid">
+    <div class="container pt-4">
+      <p class="text-slate mb-3">Welcome to the documentation section of the K-9 Mail website.</p>
+      <p class="text-slate">This section aims to provide information on current features (and give some pointers on future direction where possible). However as a living project, the section is a constant work-in-progress and is often developed along-side / after the features themselves.</p>
+      <p class="text-slate">Changes are documented in the <a class="text-slate underline" href="../k-9/changelog_5.4-MAINT_branch.xml">release notes</a> distributed with the app.</p>
+      <p class="text-slate mb-2">Upcoming changes are listed in the beta's <a class="text-slate underline" href="../k-9/changelog_master_branch.xml">release notes</a> distributed along with the beta.</p>
+      <p class="text-slate mb-4">If you have any comments please feel free to <a class="text-slate underline" href="../contribute">provide feedback</a>.</p>
+
+      <input type="text" id="search-input" placeholder="Search documentation...">
+      <ul class="pt-3" id="results-container"></ul>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container py-3">
+        <div class="row justify-content-start pb-4">
+            {% for documentation in site.documentation %}
+                {% if documentation.level == "1" %}
+        <div class="col-12 col-md-3 mb-3 mb-md-3">
+            <a href="{{ documentation.url | replace:'.html','' }}">
+          <div class="card shadow-sm project-card">
+                <i class="{{ documentation.icon }} size-36 text-teal mb-3"></i>
+                <h4 class="text-slate weight-700">{{ documentation.title }}</h4>
+          </div>
+        </a>
+        </div>
+        {% else %}
+        {% endif %}
+    {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script>
+var sjs = SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  noResultsText: "Sorry, nothing found :(",
+  searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+  limit: 5,
+  fuzzy: false,
+  json: '/search.json'
+})
+</script>

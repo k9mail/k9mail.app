@@ -1,0 +1,12 @@
+---
+layout: null
+---
+[
+  {% for documentation in site.documentation %}
+    {
+      "title"    : "{{ documentation.title | escape }}",
+      "url"      : "{{ documentation.url | replace:'.html','' }}",
+      "content"  : {{ documentation.content | strip_html | strip_newlines | jsonify }}
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

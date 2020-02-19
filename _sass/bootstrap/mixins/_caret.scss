@@ -1,0 +1,103 @@
+@mixin caret-down {
+  border-top: $caret-width * 1.4 solid;
+  border-right: $caret-width solid transparent;
+  border-bottom: 0;
+  border-left: $caret-width solid transparent;
+}
+
+@mixin caret-up {
+  border-top: 0;
+  border-right: $caret-width solid transparent;
+  border-bottom: $caret-width * 1.4 solid;
+  border-left: $caret-width solid transparent;
+}
+
+@mixin caret-right {
+  border-top: $caret-width solid transparent;
+  border-right: 0;
+  border-bottom: $caret-width solid transparent;
+  border-left: $caret-width solid;
+}
+
+@mixin caret-left {
+  border-top: $caret-width solid transparent;
+  border-right: $caret-width solid;
+  border-bottom: $caret-width solid transparent;
+}
+
+@mixin caret($direction: down) {
+  @if $enable-caret {
+    &::after {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin-left: $caret-width * 2;
+      vertical-align: middle;
+      content: "";
+      @if $direction == down {
+        @include caret-down;
+      } @else if $direction == up {
+        @include caret-up;
+      } @else if $direction == right {
+        @include caret-right;
+      }
+    }
+
+    @if $direction == left {
+      &::after {
+        display: none;
+      }
+
+      &::before {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-right: $caret-width * .85;
+        vertical-align: $caret-width * .85;
+        content: "";
+        @include caret-left;
+      }
+    }
+
+    &:empty::after {
+      margin-left: 0;
+    }
+  }
+}
+
+@mixin light-caret($direction: down) {
+  position: relative;
+  display: block;
+  cursor: pointer;
+
+  @if $enable-caret {
+    &::after {
+      content: '';
+      display: inline-block;
+      right: 0;
+      top: 50%;
+      margin-top: ($caret-width + $caret-border-width) / -2;
+      margin-right: $caret-border-width;
+      position: absolute;
+      border-right: $caret-border-width solid;
+      border-bottom: $caret-border-width solid;
+      width: $caret-width + $caret-border-width;
+      height: $caret-width + $caret-border-width;
+
+      @if $direction == down {
+        transform: rotate(225deg);
+      } @else if $direction == up {
+        transform: rotate(45deg);
+      } @else if $direction == right {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+  &.collapsed::after {
+    @if $direction == down {
+      transform: rotate(45deg);
+    } @else if $direction == up {
+      transform: rotate(225deg);
+    }
+  }
+}

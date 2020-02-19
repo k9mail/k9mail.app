@@ -1,0 +1,93 @@
+<div class="container-fluid background">
+    <div class="container py-3">
+        <div class="navbar navbar-expand-lg justify-content-between">
+            <div class="d-lg-none">
+                <a class="navbar-toggler mr-1" href="" data-id="headers-4-sidebar-toggle"><img src="{{ "/assets/img/glyphs/burger.svg" | prepend: site.url }}" /></a>
+            </div>
+            <div>
+                <a href="/"><img class="smallermobile" src="{{ "/assets/img/k9-logo.svg" | prepend: site.url }}" width="80px" height="auto" /></a>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0 weight-500">
+                <div class="navbar-nav">
+                    {% for link in site.data.navbar %} 
+                    {% unless link contains 'dropdown' %}
+                    <div class="nav-item ml-3"><a class="nav-link text-slate" href="{{ link.url }}">{{ link.title }}</a></div>
+                    {% endunless %} 
+                    {% if link.dropdown %}
+                    <div class="nav-item ml-3 dropdown"><a href="{{ link.url }}" class="nav-link dropdown-toggle text-slate" id="navbarDropdown" role="button" data-toggle="dropdown" data-hover="dropdown">{{ link.title }}</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            {% for name in link.dropdown %}
+                            <a class="dropdown-item" href="{{ name.url }}">{{ name.name }}</a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-1 d-lg-none text-right px-0"></div>
+        </div>
+        <div class="navbar-side background-teal-20" id="headers-4-sidebar">
+            <div class="navbar-side-content background-teal-20 d-flex flex-column justify-content-between">
+                <div class="weight-700">
+                    <a class="navbar-side-close mb-4" href="" data-id="headers-4-sidebar-close"><img src="{{ "/assets/img/glyphs/close.svg" | prepend: site.url }}" width="32" /></a>
+                    <div class="navbar-nav">
+                        {% for link in site.data.navbar %}
+                        {% unless link contains 'dropdown' %}
+                        <div class="nav-item"><a class="nav-link text-slate" href="{{ link.url }}">{{ link.title }}</a></div>
+                        {% endunless %}
+                        {% if link.dropdown %}
+                        <div class="nav-item dropdown"><a href="{{ link.url }}" class="nav-link dropdown-toggle text-slate" id="navbarDropdown3" role="button" data-toggle="dropdown">{{ link.title }}</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                {% for name in link.dropdown %}
+                                <a class="dropdown-item" href="{{ name.url }}">{{ name.name }}</a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        <a class="mr-2 text-slate" href="https://github.com/k9mail" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                        <a class="text-slate" href="https://twitter.com/k9mail_app" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                    </p>
+                    <p class="small mb-0"><span class="d-block d-xl-inline text-slate mb-1 mb-xl-0 mr-2">&copy; {{ 'now' | date: "%Y" }} K9-Mail</span></p>
+                </div>
+            </div>
+            <div class="navbar-side-content weight-700">
+                <a class="navbar-side-close mb-4" href="" data-id="headers-4-sidebar-close"><img src="{{ "/assets/img/glyphs/close.svg" | prepend: site.url }}" width="32" /></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function() {
+        $('[data-id=headers-4-sidebar-toggle]').click(function(e) {
+            e.preventDefault();
+            $('#headers-4-sidebar').toggleClass('show');
+        });
+        $('[data-id=headers-4-sidebar-close]').click(function(e) {
+            e.preventDefault();
+            $('#headers-4-sidebar').removeClass('show');
+        });
+    });
+</script>
+<script>
+    $('.navbar-nav .dropdown > a').click(function() {
+        if (!$(this).hasClass("parent-clicked")) {
+            $(this).addClass("parent-clicked");
+        } else {
+            location.href = this.href;
+        }
+    });
+
+    $('.navbar-nav.nav-item > a').click(function() {
+        if (!$(this).hasClass("parent-clicked")) {
+            $(this).addClass("parent-clicked");
+        } else {
+            location.href = this.href;
+        }
+    });
+</script>
