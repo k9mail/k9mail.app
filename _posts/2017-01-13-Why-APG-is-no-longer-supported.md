@@ -1,7 +1,7 @@
 ---
 title: "Why APG is no longer supported"
 date: "2017-01-13 12:00:00"
-image: "assets/img/posts/apg-removed.png"
+image: "/assets/img/posts/apg-removed.png"
 layout: post
 author: valodim
 draft: true

@@ -1,7 +1,7 @@
 ---
 title: "OpenPGP Considerations, Part I: Signed-Only Mails"
 date: "2016-11-24 12:00:00"
-image: "assets/img/posts/openpgp-1.png"
+image: "/assets/img/posts/openpgp-1.png"
 layout: post
 author: valodim
 ---

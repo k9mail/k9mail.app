@@ -1,7 +1,7 @@
 ---
 title: "User Survey"
 date: "2017-01-23 12:00:00"
-image: "assets/img/posts/survey.png"
+image: "/assets/img/posts/survey.png"
 layout: post
 author: cketti
 ---

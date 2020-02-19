@@ -1,7 +1,7 @@
 ---
 title: "OpenPGP Considerations, Part II: Encrypted-Only Mails"
 date: "2017-01-30 12:00:00"
-image: "assets/img/posts/openpgp-2.png"
+image: "/assets/img/posts/openpgp-2.png"
 layout: post
 author: valodim
 ---
