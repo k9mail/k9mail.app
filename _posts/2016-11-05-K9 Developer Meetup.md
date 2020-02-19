@@ -2,7 +2,7 @@
 title: K-9 Developer Meet-up
 excerpt: Developer meet-up at c-base...
 date: "2016-11-05 12:00:00"
-image: "assets/img/posts/dev-meetup-2016.png"
+image: "/assets/img/posts/dev-meetup-2016.png"
 author: philipwhiuk
 layout: post
 ---

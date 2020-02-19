@@ -1,7 +1,7 @@
 ---
 title: "Google Summer of Code 2017 Projects"
 date: "2017-05-05 12:00:00"
-image: "assets/img/posts/gsoc-2017.png"
+image: "/assets/img/posts/gsoc-2017.png"
 layout: post
 author: valodim
 ---

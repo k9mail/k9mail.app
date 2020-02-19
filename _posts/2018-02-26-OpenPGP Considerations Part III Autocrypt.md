@@ -1,7 +1,7 @@
 ---
 title: "OpenPGP Considerations, Part III: Autocrypt and Encryption by Default"
 date: "2018-02-26 12:00:00"
-image: "assets/img/posts/openpgp-3.png"
+image: "/assets/img/posts/openpgp-3.png"
 layout: post
 author: valodim
 ---
