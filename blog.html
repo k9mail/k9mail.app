@@ -20,17 +20,16 @@ title: Blog
                         <a href="{{ post.url | replace:'.html','' }}">
                       <div class="card shadow-sm"><img class="w-100" src="{{ post.image }}" alt="Blogpost image" />
                         <div class="card-body">
-                        
+
                           <h3 class="text-slate"><strong>{{ post.title }}</strong></h3>
                           <p class="text-muted">Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
-                          <p class="mb-3">{{ post.excerpt | truncatewords: 15 }}</p>
-                        
+                          <p class="mb-3">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+
                         </div>
                       </div>
                     </a>
                     </div>
                 {% endfor %}
-            </div>
         </div>
     </div>
 </div>
