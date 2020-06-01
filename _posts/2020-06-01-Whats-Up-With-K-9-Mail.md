@@ -40,7 +40,7 @@ We now have a presence on the [fediverse](https://en.wikipedia.org/wiki/Fedivers
 
 ### Do you want to help? Here's what you can do
 
-* Become a beta tester and help us find and fix bugs before they make it into a stable version.
+* [Become a beta tester](https://forum.k9mail.app/t/how-do-i-become-a-beta-tester/68) and help us find and fix bugs before they make it into a stable version.
 * Help to create and improve existing documentation. Both for users and new developers who want to contribute to the project.
 * More developers are always welcome. At this particular point in time we're not looking to add new features. But help with fixing bugs would certainly shorten the time to a new stable release.
 * If you have the means, consider making a [donation via Liberapay](https://liberapay.com/k9mail). In March 2020 I ([cketti](https://github.com/cketti), K-9 Mail lead developer) decided to give working on K-9 Mail full time a try. This is mostly financed by personal savings, but donations help to prolong the time I'm able to keep this up. If you want to, you can also sponsor me via [GitHub sponsors](https://github.com/sponsors/cketti) (they are currently matching donations).
