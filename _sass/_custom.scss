@@ -27,7 +27,7 @@ body {
       transition: all 0.2s ease-in-out;
       transition-duration: 0.4s;
       opacity: 0;
-      background-color: $slate-80;
+      background-color: $main;
   }
 }
 
@@ -128,10 +128,10 @@ hr {
 // Links
 
 a {
-  color: $slate-80;
+  color: $secondary;
 
   &:hover {
-      color: $slate-90;
+      color: $main;
   }
 }
 
@@ -158,7 +158,7 @@ a {
 }
 
 .hero {
-  background-color: $teal-60;
+  background-color: $main;
   color: $white;
   font-size: 18px;
   display: inline-block;
@@ -171,13 +171,13 @@ a {
   -o-transition: 0.25s ease-in-out;
 
   &:hover {
-      background-color: $teal-80;
+      background-color: $secondary;
       color: $white;
   }
 }
 
 .action {
-  color: $teal-90;
+  color: $main;
   font-weight: 500;
   font-size: 18px;
   padding: 14px 40px;
@@ -190,8 +190,8 @@ a {
   border-radius: 2px;
 
   &:hover {
-      color: inherit;
-      background: $teal-30;
+      color: white;
+      background: $secondary;
   }
 }
 
@@ -213,44 +213,6 @@ button {
 
   &:hover {
       background-color: $slate-70;
-  }
-}
-
-.button-slate {
-  background-color: $slate-60;
-  color: $white;
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
-  padding: 12px 80px;
-  border-radius: 2px;
-  transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
-
-  &:hover {
-      background-color: $slate-80;
-      color: $white;
-  }
-}
-
-.button-slate-sm {
-  background-color: $slate-60;
-  color: $white;
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
-  padding: 12px 20px;
-  border-radius: 2px;
-  transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
-
-  &:hover {
-      background-color: $slate-80;
-      color: $white;
   }
 }
 
@@ -298,8 +260,8 @@ button {
 }
 
 .button-main-sm {
-  background-color: $teal-20;
-  color: $slate-80;
+  background-color: $secondary;
+  color: $white;
   font-size: 18px;
   font-weight: 500;
   text-align: center;
@@ -311,8 +273,8 @@ button {
   -o-transition: 0.25s ease-in-out;
 
   &:hover {
-      background-color: $teal-30;
-      color: $slate-80;
+      background-color: $main;
+      color: $white;
   }
 }
 
@@ -389,8 +351,12 @@ blockquote {
   }
 }
 
-.text-slate {
-  color: $slate-80;
+.text-gray {
+  color: $gray-10;
+}
+
+.text-main {
+  color: $main;
 }
 
 .text-slate-60 {
@@ -405,18 +371,9 @@ blockquote {
   }
 }
 
-.text-slate-70 {
-  color: $slate-70;
-}
-
-.text-teal {
-  color: $teal-50;
-}
-
 // Posts
 
 .post-content {
-  text-align: justify;
 
   & p {
       margin-bottom: 25px;
@@ -565,7 +522,7 @@ blockquote {
   cursor: pointer;
 
   &:hover {
-      background: $teal-10;
+      background: $gray-20;
       transform: translateY(-8px);
       border-radius: 4px;
   }
@@ -583,7 +540,7 @@ blockquote {
   cursor: pointer;
 
   &:hover {
-      background: $teal-10;
+      background: $gray-20;
       transform: translateY(-8px);
       border-radius: 4px;
   }
@@ -599,10 +556,14 @@ input[type=text] {
 // Backgrounds
 
 .background {
-  background: $teal-10;
+  background: $slate-10;
 
   &-black {
       background: #000;
+  }
+
+  &-footer {
+    background-color: #313b46;
   }
 
   &-teal {
@@ -670,7 +631,7 @@ td, th {
 .tablinks {
   background-color: $white;
   opacity: 0.5;
-  color: $slate-80;
+  color: $main;
   display: inline-block;
   text-decoration: none !important;
   font-size: 18px !important;
@@ -698,7 +659,7 @@ td, th {
 .tablinkservice {
   background-color: transparent;
   opacity: 0.4;
-  color: $teal-60;
+  color: $secondary;
   display: block;
   text-decoration: none !important;
   text-align: left;
@@ -715,12 +676,12 @@ td, th {
 
   &:hover {
       opacity: 1;
-      background-color: rgba(168, 237, 233, 0.25);
+      background-color: rgba(75, 90, 107, 0.05);
   }
 
   &.active {
       opacity: 1;
-      background-color: rgba(168, 237, 233, 0.25);
+      background-color: rgba(75, 90, 107, 0.05);
   }
 }
 
@@ -741,11 +702,15 @@ td, th {
 .copyright {
   font-size: 14px;
   font-weight: 400;
-  color: $slate-50;
+  color: $gray-10;
 }
 
 .copyright a:hover {
-  color: $slate-40;
+  color: $gray-20;
+}
+
+.background-footer a:hover {
+  color: $gray-40;
 }
 
 // Form
@@ -790,6 +755,6 @@ td, th {
   -o-transition: 0.25s ease-in-out;
 
   &:hover {
-    color: $teal-60;
+    color: $secondary;
   }
 }

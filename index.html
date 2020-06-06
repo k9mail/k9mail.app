@@ -5,12 +5,12 @@ layout: default
 <!-- Latest Posts Section -->
 <div class="container-fluid background-gray">
     <div class="container py-4">
-      <h2 class="text-slate mb-3">Latest Posts</h2>
+      <h2 class="text-main mb-3">Latest Posts</h2>
       <div class="row justify-content-between">
         {% for post in site.posts limit:3 %}
         <div class="col-12 col-lg-3 mb-3 mb-sm-3">
-          <p class="mb-0 text-slate weight-700">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <a href="{{ post.url | replace:'.html','' }}" class="weight-500 underline text-slate-70">{{ post.title }}</a>
+          <p class="mb-0 text-main weight-700">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <a href="{{ post.url | replace:'.html','' }}" class="weight-500 underline text-main-70">{{ post.title }}</a>
         </div>
         {% endfor %}
       </div>
@@ -23,73 +23,73 @@ layout: default
 <!-- Features Section -->
 <div class="container-fluid">
     <div id="features" class="container py-4">
-      <h2 class="text-slate">Features</h2>
+      <h2 class="text-main">Features</h2>
       <p class="mb-0 size-18">K-9 Mail is designed for both novice and power users and offers lots of features for everyone. Below are listed a few of them:</p>
       <div class="row justify-content-between pt-4">
         <div class="col mx-3 gallery-item project-card full-width-sm">
-            <i class="fas fa-envelope size-36 text-teal mb-3"></i>
-            <h3 class="text-slate weight-700">Push IMAP Support</h3>
+            <i class="fas fa-envelope size-36 text-main mb-3"></i>
+            <h3 class="text-main weight-700">Push IMAP Support</h3>
         </div>
         <div class="col mx-3 gallery-item project-card full-width-sm">
-          <i class="fas fa-key size-36 text-teal mb-3"></i>
-          <h3 class="text-slate weight-700">GPG & PGP/MIME support</h3>
+          <i class="fas fa-key size-36 text-main mb-3"></i>
+          <h3 class="text-main weight-700">GPG & PGP/MIME support</h3>
       </div>
         <div class="col mx-3 gallery-item project-card full-width-sm">
-            <i class="fas fa-bell size-36 text-teal mb-3"></i>
-            <h3 class="text-slate weight-700">Per Account Notifications</h3>
+            <i class="fas fa-bell size-36 text-main mb-3"></i>
+            <h3 class="text-main weight-700">Per Account Notifications</h3>
         </div>
       </div>
       <div class="row justify-content-between">
         <div class="col mx-3 gallery-item project-card full-width-sm">
-            <i class="fas fa-inbox size-36 text-teal mb-3"></i>
-            <h3 class="text-slate weight-700">Unified Inbox</h3>
+            <i class="fas fa-inbox size-36 text-main mb-3"></i>
+            <h3 class="text-main weight-700">Unified Inbox</h3>
         </div>
         <div class="col mx-3 gallery-item project-card full-width-sm">
-            <i class="fas fa-adjust size-36 text-teal mb-3"></i>
-            <h3 class="text-slate weight-700">White and Dark Theme</h3>
+            <i class="fas fa-adjust size-36 text-main mb-3"></i>
+            <h3 class="text-main weight-700">White and Dark Theme</h3>
         </div>
         <div class="col mx-3 gallery-item project-card full-width-sm">
-            <i class="fas fa-signature size-36 text-teal mb-3"></i>
-            <h3 class="text-slate weight-700">Signatures</h3>
+            <i class="fas fa-signature size-36 text-main mb-3"></i>
+            <h3 class="text-main weight-700">Signatures</h3>
         </div>
       </div>
       <div id="morefeatures">
         <div class="row justify-content-between">
             <div class="col mx-3 gallery-item project-card full-width-sm">
-                <i class="fas fa-at size-36 text-teal mb-3"></i>
-                <h3 class="text-slate weight-700">BCC to self</h3>
+                <i class="fas fa-at size-36 text-main mb-3"></i>
+                <h3 class="text-main weight-700">BCC to self</h3>
             </div>
             <div class="col mx-3 gallery-item project-card full-width-sm">
-                <i class="fas fa-flag size-36 text-teal mb-3"></i>
-                <h3 class="text-slate weight-700">Message flagging</h3>
+                <i class="fas fa-flag size-36 text-main mb-3"></i>
+                <h3 class="text-main weight-700">Message flagging</h3>
             </div>
             <div class="col mx-3 gallery-item project-card full-width-sm">
-                <i class="fas fa-user-friends size-36 text-teal mb-3"></i>
-                <h3 class="text-slate weight-700">Multiple identities</h3>
+                <i class="fas fa-user-friends size-36 text-main mb-3"></i>
+                <h3 class="text-main weight-700">Multiple identities</h3>
             </div>
           </div>
           <div class="row justify-content-between pb-4">
             <div class="col mx-3 gallery-item project-card full-width-sm">
-                <i class="fas fa-keyboard size-36 text-teal mb-3"></i>
-                <h3 class="text-slate weight-700">Keyboard shortcuts</h3>
+                <i class="fas fa-keyboard size-36 text-main mb-3"></i>
+                <h3 class="text-main weight-700">Keyboard shortcuts</h3>
             </div>
             <div class="col mx-3 gallery-item project-card full-width-sm">
-              <i class="fas fa-paperclip size-36 text-teal mb-3"></i>
-              <h3 class="text-slate weight-700">Attachment Saving</h3>
+              <i class="fas fa-paperclip size-36 text-main mb-3"></i>
+              <h3 class="text-main weight-700">Attachment Saving</h3>
           </div>
             <div class="col mx-3 gallery-item project-card full-width-sm">
-                <i class="fas fa-grin-hearts size-36 text-teal mb-3"></i>
-                <h3 class="text-slate weight-700">Emoji support</h3>
+                <i class="fas fa-grin-hearts size-36 text-main mb-3"></i>
+                <h3 class="text-main weight-700">Emoji support</h3>
             </div>
           </div>
 
           <div class="row justify-content-center text-center">
-              <h2 class="text-slate">..and many more features inside!</h2>
+              <h2 class="text-main">..and many more features inside!</h2>
           </div>
       </div>
 
       <div class="row justify-content-center text-center">
-        <i onclick="display()" id="showmore" class="fas fa-arrow-alt-circle-down text-teal size-36"></i>
+        <i onclick="display()" id="showmore" class="fas fa-arrow-alt-circle-down text-main size-36"></i>
       </div>
 
     </div>
@@ -102,11 +102,11 @@ function display() {
 
   if (!moreText.style.display || moreText.style.display == "none") {
     moreText.style.display = "block";
-    btn.className = 'fas fa-arrow-alt-circle-up text-teal size-36'
+    btn.className = 'fas fa-arrow-alt-circle-up text-main size-36'
   } 
   else {
     moreText.style.display = "none";
-    btn.className = 'fas fa-arrow-alt-circle-down text-teal size-36'
+    btn.className = 'fas fa-arrow-alt-circle-down text-main size-36'
   }
 } 
 </script>

@@ -11,10 +11,10 @@
                 <div class="navbar-nav">
                     {% for link in site.data.navbar %} 
                     {% unless link contains 'dropdown' %}
-                    <div class="nav-item ml-3"><a class="nav-link text-slate" href="{{ link.url }}">{{ link.title }}</a></div>
+                    <div class="nav-item ml-3"><a class="nav-link text-main" href="{{ link.url }}">{{ link.title }}</a></div>
                     {% endunless %} 
                     {% if link.dropdown %}
-                    <div class="nav-item ml-3 dropdown"><a href="{{ link.url }}" class="nav-link dropdown-toggle text-slate" id="navbarDropdown" role="button" data-toggle="dropdown" data-hover="dropdown">{{ link.title }}</a>
+                    <div class="nav-item ml-3 dropdown"><a href="{{ link.url }}" class="nav-link dropdown-toggle text-main" id="navbarDropdown" role="button" data-toggle="dropdown" data-hover="dropdown">{{ link.title }}</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             {% for name in link.dropdown %}
                             <a class="dropdown-item" href="{{ name.url }}">{{ name.name }}</a>
@@ -34,10 +34,10 @@
                     <div class="navbar-nav">
                         {% for link in site.data.navbar %}
                         {% unless link contains 'dropdown' %}
-                        <div class="nav-item"><a class="nav-link text-slate" href="{{ link.url }}">{{ link.title }}</a></div>
+                        <div class="nav-item"><a class="nav-link text-main" href="{{ link.url }}">{{ link.title }}</a></div>
                         {% endunless %}
                         {% if link.dropdown %}
-                        <div class="nav-item dropdown"><a href="{{ link.url }}" class="nav-link dropdown-toggle text-slate" id="navbarDropdown3" role="button" data-toggle="dropdown">{{ link.title }}</a>
+                        <div class="nav-item dropdown"><a href="{{ link.url }}" class="nav-link dropdown-toggle text-main" id="navbarDropdown3" role="button" data-toggle="dropdown">{{ link.title }}</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
                                 {% for name in link.dropdown %}
                                 <a class="dropdown-item" href="{{ name.url }}">{{ name.name }}</a>
@@ -50,10 +50,10 @@
                 </div>
                 <div>
                     <p>
-                        <a class="mr-2 text-slate" href="https://github.com/k9mail" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
-                        <a class="text-slate" href="https://twitter.com/k9mail_app" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                        <a class="mr-2 text-main" href="https://github.com/k9mail" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                        <a class="text-main" href="https://twitter.com/k9mail_app" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
                     </p>
-                    <p class="small mb-0"><span class="d-block d-xl-inline text-slate mb-1 mb-xl-0 mr-2">&copy; {{ 'now' | date: "%Y" }} K9-Mail</span></p>
+                    <p class="small mb-0"><span class="d-block d-xl-inline text-main mb-1 mb-xl-0 mr-2">&copy; {{ 'now' | date: "%Y" }} K9-Mail</span></p>
                 </div>
             </div>
             <div class="navbar-side-content weight-700">

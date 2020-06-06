@@ -5,9 +5,9 @@ title: Blog
 
 <!-- Top Header Section -->
 
-<div class="container-fluid background-teal">
+<div class="container-fluid background">
     <div class="container py-3">
-      <h1 class="text-slate">Blog</h1>
+      <h1 class="text-main">Blog</h1>
     </div>
 </div>
 
@@ -21,7 +21,7 @@ title: Blog
                       <div class="card shadow-sm"><img class="w-100" src="{{ post.image }}" alt="Blogpost image" />
                         <div class="card-body">
 
-                          <h3 class="text-slate"><strong>{{ post.title }}</strong></h3>
+                          <h3 class="text-main"><strong>{{ post.title }}</strong></h3>
                           <p class="text-muted">Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
                           <p class="mb-3">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
 
