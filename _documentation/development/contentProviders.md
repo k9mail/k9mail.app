@@ -11,7 +11,7 @@ Due to the shared nature of content providers, applications querying a [ContentP
 
 Since K-9 has no way to enforce fair-use of its ContentProviders, it is up to each querying application to obey a short set of rules in order not to step on each other toes:
 
- * You must **not keep** a hold on the newly obtained Cursor instance (eg. don't assign it to an instance/class variable)
+ * You must **not keep** a hold on the newly obtained Cursor instance (e.g. don't assign it to an instance/class variable)
  * You must **close** the Cursor in an early fashion: `query()`, extract data (and possibly store them for later usage) from the Cursor and `close()` the cursor in a row 
 
 Failure to comply to these rules is likely to result in other applications using K-9 content providers to **freeze** (it might even freeze your own application, depending on the way you query the content provider).

@@ -11,12 +11,12 @@ Unfortunately, despite best efforts to prevent them, K-9 may, like all software 
 
 K-9 Mail has controllable debug logging. Users can activate logging to help diagnosing problems and errors.
 
-As an open source privacy-concious project we don't implement an always-on logging system that 
+As an open source privacy-conscious project we don't implement an always-on logging system that 
 reports all the device's activity to a central server. While this would make issues easier to fix 
 it would also be costly to host the server and compromise the privacy of our users.
 
 Instead we ask, if you find an issue, and are willing to help, you provide the logs yourself. 
-We realise the procedure is currently complex and difficult on newer devices.
+We realize the procedure is currently complex and difficult on newer devices.
 
 ## Details
 

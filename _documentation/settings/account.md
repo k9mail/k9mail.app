@@ -338,7 +338,7 @@ Right now K-9 Mail only allows you to perform a remote search after doing a loca
 ### Server search limit
 Here you can specify how many search results are downloaded.
 
-K-9 Mail will only download the headers of found messages. The message contents are only downloaded after the messasge is opened for viewing.
+K-9 Mail will only download the headers of found messages. The message contents are only downloaded after the message is opened for viewing.
 
 Available options are: 10, 25, 50, 100, 250, 500, 1000, All.
 

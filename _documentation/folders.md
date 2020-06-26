@@ -38,7 +38,7 @@ Now, in order to make use of the folder Class assignment, it is necessary to adj
 There are four choices:
 
 * **All**: All folders are displayed.
-* **Only 1st Class folders**: Only folders that were explictly set to be *1st Class* for their "display class" are shown.
+* **Only 1st Class folders**: Only folders that were explicitly set to be *1st Class* for their "display class" are shown.
 * **1st and 2nd Class folders**: Only folders that were explicitly set to be either *1st Class* or *2nd Class* for their "display class" are shown.
 * **All except 2nd Class folders**: All folders are shown, except those that are selected to be in *2nd Class* for their display class.
 
@@ -49,7 +49,7 @@ There are four choices:
 There are four choices:
 
 * **All**: All displayed folders are automatically synchronized.
-* **Only 1st Class folders**: Only displayed folders that were explictly set to be *1st Class* for their "sync class" are automatically synchronized
+* **Only 1st Class folders**: Only displayed folders that were explicitly set to be *1st Class* for their "sync class" are automatically synchronized
 * **1st and 2nd Class folders**: Only displayed folders that were explicitly set to be either *1st Class* or *2nd Class* for their "sync class" are automatically synchronized.
 * **All except 2nd Class folders**: All displayed folders, except those that are selected to be in *2nd Class* for their sync class, are automatically synchronized.
 

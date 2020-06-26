@@ -9,7 +9,7 @@ RFCs or 'Request for Comment' documents are the way in which internet standards 
 
 K-9 aims to follow internet standards wherever practical. Our support for existing and proposed internet standards is continually evolving.
 
-In this section we cover the areas of internet standardisation that are relevant and how it affects K-9's behaviour.
+In this section we cover the areas of internet standardization that are relevant and how it affects K-9's behaviour.
 
 ### Email addresses
 
@@ -18,7 +18,7 @@ In this section we cover the areas of internet standardisation that are relevant
 
 We obviously must support valid e-mail address formats.
 
-### Internationalisation
+### Internationalization
 
 RFC 1468 - Japanese Character Encoding for Internet Messages
 
