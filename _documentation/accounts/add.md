@@ -104,7 +104,7 @@ After successfully setting up the incoming and outgoing servers, you can now con
 
 This decreases delivery notification delay and thus for some it is worth choosing a mailbox based on the provider support for IMAP IDLE. Note that it may require multiple connections which might not be supported or undesired by the server administration.
 
-For a run-down on battery usage and the difference between the two see the [FAQ](FrequentlyAskedQuestions#anchor14)
+For a run-down on battery usage and the difference between the two see the [FAQ](/documentation/faq#anchor14)
 
 **Number of messages to display**: This value determines how many messages are kept locally cached and displayed. Available options are:
 
