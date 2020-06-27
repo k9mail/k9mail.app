@@ -11,8 +11,6 @@ As well as application icons, Android allows users to add widgets to their launc
 
 K-9 has a small number of built-in widgets to show information in the launcher.
 
-There are also a number of [third-party widgets available](../related).
-
 ## K-9 Accounts Widget
 
 The accounts widget allows you to have an icon that links directly to an inbox - either a single inbox, all messages or the unified inbox.
