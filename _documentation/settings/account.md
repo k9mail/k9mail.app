@@ -271,8 +271,6 @@ Messages you delete in K-9 Mail are moved to the folder you specify here. If you
 ### Storage location
 This setting lets you choose whether to store email for the selected account using internal storage or external storage (SD card).
 
-Note that this is different to storing the app in external storage. See [What about Froyo "App2SD"](Storage#what-about-froyo-app2sd) for details on why app2sd is not enabled for K-9 Mail.
-
 
 ## Notifications
 Here you can specify whether and how you want to be notified of certain events.
