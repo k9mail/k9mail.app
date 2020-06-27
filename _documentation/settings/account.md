@@ -63,12 +63,12 @@ Control the poll frequency from never up to 24 hours.
 ### Poll folders
 Control whether to poll all, 1st Class, 2nd Class or no folders at all.
 
-To learn more about this, read the page [How to use K-9's folder class system](WorkingWithClasses).
+To learn more about this, read the page [Folders](/documentation/folders).
 
 ### Push folders
 Control whether to push all, 1st class, 2nd class or no folders.
 
-To learn more about this, read the page [How to use K-9's folder class system](WorkingWithClasses).
+To learn more about this, read the page [Folders](/documentation/folders).
 
 **Note:** This setting is only available for IMAP accounts, because it's the only account type that supports Push.
 
@@ -99,7 +99,7 @@ Available options:
 
 ### Incoming server
 
-Please see the section [Configuring the incoming server](Manual-AccountSetup#configuring-the-incoming-server) on the page [Setting up an email account](Manual-AccountSetup) for the available settings.
+Please see the section [Incoming Server Settings](/documentation/accounts/add#incoming-server-settings) on the page [Add Account](/documentation/accounts/add) for the available settings.
 
 ### Advanced
 
@@ -198,7 +198,7 @@ When this is checked K-9 Mail will try to detect the correspondents signature an
 
 ### Outgoing server
 
-Please see the section [Configuring the outgoing server](Manual-AccountSetup#configuring-the-outgoing-server) on the page [Setting up an email account](Manual-AccountSetup) for the available settings.
+Please see the section [Configuring the outgoing server](/documentation/accounts/add#configuring-the-outgoing-server) on the page [Add account](/documentation/accounts/add) for the available settings.
 
 
 ## Folders
@@ -216,7 +216,7 @@ Available options are:
 * 1st and 2nd Class folders
 * All except 2nd Class folders
 
-To learn more about folder classes, read the page [How to use K-9's folder class system](WorkingWithClasses).
+To learn more about folder classes, read the page [Folders](/documentation/folders).
 
 ### Move/copy destination folders
 This setting specifies which folders are displayed when you're asked to pick a destination folder for copy and move operations.
@@ -228,7 +228,7 @@ Available options are:
 * 1st and 2nd Class folders
 * All except 2nd Class folders
 
-To learn more about folder classes, read the page [How to use K-9's folder class system](WorkingWithClasses).
+To learn more about folder classes, read the page [Folders](/documentation/folders).
 
 ### Folders to search
 Here you specify what folders are searched when you start a search from the folder list or the account list. Searches from a message list only search messages in that list.
