@@ -172,7 +172,7 @@ You can enable confirmations for the following actions:
 ## Notifications
 
 Only some options relating to notifications are shown here.
-Most of the settings for notifications are under [Account Settings](Manual-AccountSettings), which means you can choose different notification styles for each account.
+Most of the settings for notifications are under [Account Settings](/documentation/settings/account#notifications), which means you can choose different notification styles for each account.
  
 ### Quiet Time
 You can set a *Quiet Time* to prevent notification from disturbing your sleep.
@@ -244,7 +244,7 @@ Available options:
 ## Debugging
 
 ### Enable debug logging
-Here you enable the logging of extra diagnostic information – e.g. if you're working with a developer to troubleshoot a problem. See the page on [logging errors](LoggingErrors) for more information.
+Here you enable the logging of extra diagnostic information – e.g. if you're working with a developer to troubleshoot a problem. See the page on [logging errors](/documentation/debugging) for more information.
 
 Remember to disable debug logging once it's no longer required.
 

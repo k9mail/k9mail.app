@@ -35,4 +35,4 @@ The following options are "advanced" options, and you should not need to change 
 **Authentication path**: Leave this field blank; defaults to
 `/exchweb/bin/auth/owaauth.dll`
 
-After the server settings are checked you can now continue to [configure the outgoing server](/documentation/accounts/add.html#outgoing-server).
+After the server settings are checked you can now continue to [configure the outgoing server](/documentation/accounts/add#configuring-the-outgoing-server).

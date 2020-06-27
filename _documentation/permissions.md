@@ -7,7 +7,7 @@ icon: "fas fa-user-cog"
 
 # Permissions
 
-In order to perform various tasks and provide a cohesive email client, K-9 uses various permissions. See our [Privacy Policy](../privacy-policy) for information on how we handle personal information obtained via these permissions.
+In order to perform various tasks and provide a cohesive email client, K-9 uses various permissions. See our [Privacy Policy](../privacy) for information on how we handle personal information obtained via these permissions.
 
 ### Network Communication
 
