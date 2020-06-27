@@ -14,7 +14,7 @@ To export your settings tap the bottom action bar's overflow menu on the account
 <img src="../../assets/img/documentation/accounts_menu.png" width="300" alt="Accounts Menu" /> 
 <img src="../../assets/img/documentation/settings_import_export_menu.png" width="300" alt="Import/Export Menu" />
 
-Assuming the export is succesful they will be stored in the K9 folder. This can then be e-mailed or otherwise transferred.
+Assuming the export is successful they will be stored in the K9 folder. This can then be e-mailed or otherwise transferred.
 
 Similarly, tapping "Import settings" allows you to import your settings. The settings are split into sections, allow you to import the section you want.
 

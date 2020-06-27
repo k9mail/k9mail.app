@@ -18,7 +18,7 @@ The versions still in some use are:
 * TLSv1.0
 * SSLv3
 
-SSLv3 is the oldest of them and is considered insecure. Organisations like the <a href="https://tools.ietf.org/html/rfc7568">IETF</a>, <a href="http://csrc.nist.gov/groups/STM/cmvp/documents/fips140-2/FIPS1402IG.pdf">NIST</a> have deprecated / blocked SSLv3 since July 2015. Chrome for Android has disabled SSLv3 by default since v40 and removed it in v44.
+SSLv3 is the oldest of them and is considered insecure. Organizations like the <a href="https://tools.ietf.org/html/rfc7568">IETF</a>, <a href="http://csrc.nist.gov/groups/STM/cmvp/documents/fips140-2/FIPS1402IG.pdf">NIST</a> have deprecated / blocked SSLv3 since July 2015. Chrome for Android has disabled SSLv3 by default since v40 and removed it in v44.
 
 As of v5.200 K-9 no longer supports SSLv3.
 

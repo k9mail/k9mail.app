@@ -36,7 +36,7 @@ Long-pressing on an account provides a list of options:
 * Remove account - This deletes the account
 * Clear messages - This deletes all the local messages
 * Recreate data - This removes all the local emails, attachments and other data, but not the settings, meaning it is recreated from the information on the server.
-* Clear pending actions - This removes any pending actions - e.g. sending email, synchronising read states, moving emails between folders, etc.
+* Clear pending actions - This removes any pending actions - e.g. sending email, synchronizing read states, moving emails between folders, etc.
 * Export account settings - This exports the settings for debugging & import into another copy of K-9.
 
 Note that the 'Remove account', 'Clear messages', 'Recreate data' and 'Clear pending actions' 

@@ -33,7 +33,7 @@ This is perhaps the most confusing one. In the early days of Android external st
 use to mean 'removable storage'. However, these days, external storage often just 
 refers to normal non-removable storage that has been mounted on the device.
 
-External storage however has to be considered potientially removable. But large APKs 
+External storage however has to be considered potentially removable. But large APKs 
 can be stored on external storage by request. K-9 doesn't do this - our APK is not large
 and most users don't want their e-mail account being removed when they take out an SD card
 which has been designated as external storage.

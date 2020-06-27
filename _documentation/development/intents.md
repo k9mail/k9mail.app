@@ -12,7 +12,7 @@ The following [Intents](https://developer.android.com/guide/components/intents-f
 
 As of [v2.3](/documentation/versionHistory), K-9 package name as changed from `com.android.email` to `com.fsck.k9`. Hence, the intent action and extra were also changed.
 
-* scheme: email _(Neccessary for \<intent-filter\>)_
+* scheme: email _(Necessary for \<intent-filter\>)_
 * host: messages
 
 ### EXTRAs

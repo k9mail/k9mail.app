@@ -110,7 +110,7 @@ You've turned on "push" mail and marked a lot of folders for push. IMAP push req
 
 ### <a name="anchor10"></a> Why K-9 is using so much bandwidth to sync my POP mail?
 
-K-9 normally doesn't take much bandwidth. It is comparable to other Android mail applications such as GMail. However, there may be some situations where K-9 can consume up to 150k of bandwidth everytime an account is refreshed.
+K-9 normally doesn't take much bandwidth. It is comparable to other Android mail applications such as GMail. However, there may be some situations where K-9 can consume up to 150k of bandwidth every time an account is refreshed.
 
 This normally happen when you have a POP account that has a huge inbox folder. If you have a inbox of about 2500 messages in it, it would generate data exchange between K-9 and the POP server in the order of 120k per refresh query.
 
@@ -165,7 +165,7 @@ Most of these settings are under Settings > Account settings > Fetching mail. Se
 
 The global K-9 setting is under Settings > Global settings > Network > Background sync.
 
-If you are using Andriod version 6 or later, you are also likely to suffer from problems related to the "Doze" battery saving feature. For more information and potential workarounds see ticket [857](https://github.com/k9mail/k-9/issues/857) in the K-9 GitHub repository.
+If you are using Android version 6 or later, you are also likely to suffer from problems related to the "Doze" battery saving feature. For more information and potential workarounds see ticket [857](https://github.com/k9mail/k-9/issues/857) in the K-9 GitHub repository.
 
 ### <a name="anchor16"></a> I added a new folder to the account on the server - why don't I see it in K-9?
 
