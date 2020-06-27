@@ -99,7 +99,7 @@ Available options:
 
 ### Incoming server
 
-Please see the section [Configuring the incoming server](/documentation/accounts/add#incoming-server-settings) on the page [Setting up an email account](/documentation/accounts/add) for the available settings.
+Please see the section [Incoming Server Settings](/documentation/accounts/add#incoming-server-settings) on the page [Add Account](/documentation/accounts/add) for the available settings.
 
 ### Advanced
 
@@ -198,7 +198,7 @@ When this is checked K-9 Mail will try to detect the correspondents signature an
 
 ### Outgoing server
 
-Please see the section [Configuring the outgoing server](/documentation/accounts/add#configuring-the-outgoing-server) on the page [Setting up an email account](/documentation/accounts/add) for the available settings.
+Please see the section [Configuring the outgoing server](/documentation/accounts/add#configuring-the-outgoing-server) on the page [Add account](/documentation/accounts/add) for the available settings.
 
 
 ## Folders
