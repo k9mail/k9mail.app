@@ -97,10 +97,7 @@ software and run by a team of volunteers ❤️
 Recurring donations are the best way to ensure a relatively stable income. So we'd prefer that. But you can also
 use Liberapay to make one-time donations by selecting "manual renewal".
 
-<div style="margin-bottom: 2em">
-<script src="https://liberapay.com/k9mail/widgets/button.js"></script>
-<noscript><a href="https://liberapay.com/k9mail/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
-</div>
+[![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/k9mail/donate)
 
 
 ### Can I help out in any other way?
