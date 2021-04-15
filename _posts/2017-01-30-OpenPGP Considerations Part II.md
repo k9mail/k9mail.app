@@ -40,7 +40,7 @@ Just like other insecure messages (sent from expired keys, revoked keys, insecur
 Users are warned of the security issue at hand, and have to do an extra click to read message content.
 In this way, the message now looks more dangerous than a plaintext one.
 
-But this warning dialog leads us straight to the issue of [warning fatigue](http://people.ischool.berkeley.edu/~jensg/research/paper/Grossklags-NSPW11.pdf).
+But this warning dialog leads us straight to the issue of [warning fatigue](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.386.1310&rep=rep1&type=pdf).
 The short version is, users pay very limited attention to any kind of warning message, and every time such a message is displayed to the user, it loses some of its impact.
 After only a few times of clicking through a warning message to see the message content, the extra click becomes part of the routine.
 
