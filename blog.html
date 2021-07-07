@@ -6,30 +6,28 @@ title: Blog
 <!-- Top Header Section -->
 
 <div class="container-fluid background">
-    <div class="container py-3">
-      <h1 class="text-main">Blog</h1>
-    </div>
+  <div class="container py-3">
+    <h1 class="text-main">Blog</h1>
+  </div>
 </div>
 
 
 <div class="container-fluid">
-    <div id="posts" class="container py-3">
-        <div class="row py-5">
-                {% for post in site.posts %}
-                    <div class="col-12 col-md-4 mb-3 mb-md-2">
-                        <a href="{{ post.url | replace:'.html','' }}">
-                      <div class="card shadow-sm"><img class="w-100" src="{{ post.image }}" alt="Blogpost image" />
-                        <div class="card-body">
-
-                          <h3 class="text-main"><strong>{{ post.title }}</strong></h3>
-                          <p class="text-muted">Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
-                          <p class="mb-3">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
-
-                        </div>
-                      </div>
-                    </a>
-                    </div>
-                {% endfor %}
+  <div id="posts" class="container py-3">
+    <div class="row py-5">
+      {% for post in site.posts %}
+      <div class="col-12 col-md-4 mb-3 mb-md-2">
+        <div class="card shadow-sm">
+          <a class="stretched-link" href="{{ post.url | replace:'.html','' }}"></a>
+          <img class="w-100" src="{{ post.image }}" alt="Blogpost image" />
+          <div class="card-body d-flex flex-column">
+            <h3 class="text-main"><strong>{{ post.title }}</strong></h3>
+            <p class="text-muted">Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
+            <p class="mb-3">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+          </div>
         </div>
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </div>

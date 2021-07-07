@@ -10,33 +10,33 @@ body {
 
 // Navbar
 
-.navbar-collapse>.navbar-nav>.nav-item>.nav-link {
+.navbar-collapse > .navbar-nav > .nav-item > .nav-link {
   font-weight: 700;
   font-size: 18px;
   position: relative;
   letter-spacing: -0.35px;
 
   &:before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      width: 0;
-      left: 0;
-      height: 5px;
-      margin: 1px 0 0;
-      transition: all 0.2s ease-in-out;
-      transition-duration: 0.4s;
-      opacity: 0;
-      background-color: $main;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    left: 0;
+    height: 5px;
+    margin: 1px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.4s;
+    opacity: 0;
+    background-color: $main;
   }
 }
 
-.navbar-collapse>.navbar-nav>.nav-item>.nav-link:hover {
+.navbar-collapse > .navbar-nav > .nav-item > .nav-link:hover {
   cursor: pointer;
 
   &:before {
-      width: 100%;
-      opacity: 1;
+    width: 100%;
+    opacity: 1;
   }
 }
 
@@ -45,33 +45,39 @@ body {
   font-size: 18px;
 
   &:focus {
-      background-color: $gray-100;
+    background-color: $gray-100;
   }
 }
 
 // Headers
-.h1, h1 {
+.h1,
+h1 {
   font-size: 48px;
 }
 
-.h2, h2 {
+.h2,
+h2 {
   font-size: 36px;
 }
 
-.h3, h3 {
+.h3,
+h3 {
   font-size: 24px;
   line-height: 28px;
 }
 
-.h4, h4 {
+.h4,
+h4 {
   font-size: 20px;
 }
 
-.h5, h5 {
+.h5,
+h5 {
   font-size: 16px;
 }
 
-.h6, h6 {
+.h6,
+h6 {
   font-size: 14px;
 }
 
@@ -122,7 +128,7 @@ hr {
 
 .hr-slate-20 {
   border: 1px solid $slate-20;
-  opacity: .25;
+  opacity: 0.25;
 }
 
 // Links
@@ -131,7 +137,7 @@ a {
   color: $secondary;
 
   &:hover {
-      color: $main;
+    color: $main;
   }
 }
 
@@ -149,11 +155,11 @@ a {
 
 @media (max-width: 576px) {
   .margin-negative {
-      margin-left: 0;
+    margin-left: 0;
   }
 
   .smallermobile {
-      width: 65px !important;
+    width: 65px !important;
   }
 }
 
@@ -166,13 +172,10 @@ a {
   padding: 14px 57px;
   border-radius: 2px;
   transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
 
   &:hover {
-      background-color: $secondary;
-      color: $white;
+    background-color: $secondary;
+    color: $white;
   }
 }
 
@@ -183,15 +186,12 @@ a {
   padding: 14px 40px;
   display: inline-block;
   transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
   background: transparent;
   border-radius: 2px;
 
   &:hover {
-      color: white;
-      background: $secondary;
+    color: white;
+    background: $secondary;
   }
 }
 
@@ -201,7 +201,7 @@ button {
   border: none;
 
   &:hover {
-      cursor: pointer;
+    cursor: pointer;
   }
 }
 
@@ -212,7 +212,7 @@ button {
   border: $slate-60;
 
   &:hover {
-      background-color: $slate-70;
+    background-color: $slate-70;
   }
 }
 
@@ -226,37 +226,31 @@ button {
   border: none;
   border-radius: 2px;
   transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
 
   &:hover {
-      background-color: $teal-30;
-      color: $slate-80;
+    background-color: $teal-30;
+    color: $slate-80;
   }
 }
 
 @media (max-width: 575px) {
   .button-main {
-  background-color: $teal-20;
-  color: $slate-80;
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
-  padding: 12px 60px;
-  display: block;
-  border: none;
-  border-radius: 2px;
-  transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
+    background-color: $teal-20;
+    color: $slate-80;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 12px 60px;
+    display: block;
+    border: none;
+    border-radius: 2px;
+    transition: 0.25s ease-in-out;
 
-  &:hover {
+    &:hover {
       background-color: $teal-30;
       color: $slate-80;
+    }
   }
-}
 }
 
 .button-main-sm {
@@ -268,13 +262,10 @@ button {
   padding: 12px 50px;
   border-radius: 2px;
   transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
 
   &:hover {
-      background-color: $main;
-      color: $white;
+    background-color: $main;
+    color: $white;
   }
 }
 
@@ -289,34 +280,34 @@ button {
   padding: 5px 10px;
 
   &:hover {
-      color: $slate-90;
-      background-color: $slate-20;
+    color: $slate-90;
+    background-color: $slate-20;
   }
 
   &::after {
-      font-family: "Font Awesome 5 Free";
-      content: "\f078";
-      margin-left: 5px;
-      display: inline-block;
-      vertical-align: middle;
-      font-weight: 700;
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
   }
 }
 
 @media (max-width: 992px) {
   .full-width-sm {
-      width: 100% !important;
-      flex-basis: auto !important;
+    width: 100% !important;
+    flex-basis: auto !important;
   }
 }
 
 @media (max-width: 767px) {
   .full-width-md {
-      margin: 1.5rem 0 0 0;
+    margin: 1.5rem 0 0 0;
   }
 
   .hidemobile {
-      display: none;
+    display: none;
   }
 }
 
@@ -347,7 +338,7 @@ blockquote {
 
 @media (max-width: 575px) {
   blockquote {
-      margin-left: 0;
+    margin-left: 0;
   }
 }
 
@@ -367,92 +358,96 @@ blockquote {
   color: $slate-40;
 
   &:hover {
-      color: $slate-30;
+    color: $slate-30;
   }
 }
 
 // Posts
 
 .post-content {
-
   & p {
-      margin-bottom: 25px;
+    margin-bottom: 25px;
   }
 
   & a {
-      color: $slate-60;
-      text-decoration: underline;
+    color: $slate-60;
+    text-decoration: underline;
 
-      &:hover {
-          text-decoration: none;
-      }
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   & img {
-      max-width: 100%;
+    max-width: 100%;
   }
 
   & p img {
-      padding: 15px 0 0;
+    padding: 15px 0 0;
   }
 
   & blockquote p {
-      color: $slate-80;
+    color: $slate-80;
   }
 
   & .left {
-      text-align: left;
+    text-align: left;
   }
 
   & .right {
-      text-align: right;
+    text-align: right;
   }
 
   & .center {
-      text-align: center;
+    text-align: center;
   }
 
-  & h1, h2, h3, h4, h5, h6 {
-      color: $slate-80;
-      font-weight: 700;
+  & h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $slate-80;
+    font-weight: 700;
   }
 
   & li {
-      list-style-position: outside;
-      margin: 0 0 20px 20px;
+    list-style-position: outside;
+    margin: 0 0 20px 20px;
   }
 
   & ul li {
-      list-style-type: disc;
-      color: $gray-100;
+    list-style-type: disc;
+    color: $gray-100;
   }
 
   & img[alt$=">"] {
-      float: right;
-      margin: 0 0 20px 20px;
+    float: right;
+    margin: 0 0 20px 20px;
   }
 
   & img[alt$="<"] {
-      float: left;
-      margin: 0 20px 20px 0;
+    float: left;
+    margin: 0 20px 20px 0;
   }
 
   & img[alt$="><"] {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      margin: auto;
-      float: none !important;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    float: none !important;
   }
 
   & .mono {
-      font-family: "Mono", "Courier New", sans-serif;
+    font-family: "Mono", "Courier New", sans-serif;
   }
 
   & .box {
-      border: 1px solid $gray-100;
-      padding: 10px;
-      font-family: "Mono", "Courier New", sans-serif;
+    border: 1px solid $gray-100;
+    padding: 10px;
+    font-family: "Mono", "Courier New", sans-serif;
   }
 }
 
@@ -495,12 +490,9 @@ blockquote {
   align-items: center;
   justify-content: center;
   transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
 
   &:hover {
-      transform: scale(1.02);
+    transform: scale(1.02);
   }
 }
 
@@ -516,15 +508,12 @@ blockquote {
   border-radius: 4px;
   padding: 25px;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-  -webkit-transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-  -moz-transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-  -o-transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
   cursor: pointer;
 
   &:hover {
-      background: $gray-20;
-      transform: translateY(-8px);
-      border-radius: 4px;
+    background: $gray-20;
+    transform: translateY(-8px);
+    border-radius: 4px;
   }
 }
 
@@ -534,21 +523,18 @@ blockquote {
   border-radius: 4px;
   padding: 25px;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-  -webkit-transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-  -moz-transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-  -o-transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
   cursor: pointer;
 
   &:hover {
-      background: $gray-20;
-      transform: translateY(-8px);
-      border-radius: 4px;
+    background: $gray-20;
+    transform: translateY(-8px);
+    border-radius: 4px;
   }
 }
 
 // Input
 
-input[type=text] {
+input[type="text"] {
   padding: 10px 15px;
   width: 100%;
 }
@@ -559,7 +545,7 @@ input[type=text] {
   background: $slate-10;
 
   &-black {
-      background: #000;
+    background: #000;
   }
 
   &-footer {
@@ -567,46 +553,46 @@ input[type=text] {
   }
 
   &-teal {
-      background: $teal-10 !important;
+    background: $teal-10 !important;
   }
 
   &-teal-20 {
-      background: $teal-20 !important;
+    background: $teal-20 !important;
   }
 
   &-teal-30 {
-      background: $teal-30;
+    background: $teal-30;
   }
 
   &-slate {
-      background-color: $slate-10;
+    background-color: $slate-10;
   }
 
   &-slate-80 {
-      background-color: $slate-80;
+    background-color: $slate-80;
   }
 
   &-slate-90 {
-      background-color: $slate-90;
+    background-color: $slate-90;
   }
 
   &-white {
-      background: #fff;
-      padding: 45px;
+    background: #fff;
+    padding: 45px;
   }
 
   &-gray {
-      background: $gray-10;
+    background: $gray-10;
   }
 
   & .title {
-      font-size: 18px;
-      font-weight: 500;
-      margin: 5px 0 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0 0;
   }
 
   & .text-muted {
-      font-size: 14px;
+    font-size: 14px;
   }
 }
 
@@ -617,7 +603,8 @@ table {
   margin: 1.5rem 0;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #999;
   padding: 0.5rem;
 }
@@ -643,16 +630,14 @@ td, th {
   cursor: pointer;
   margin-left: 10px;
   margin-right: 10px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 
   &:hover {
-      opacity: 1;
+    opacity: 1;
   }
 
   &.active {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -669,19 +654,17 @@ td, th {
   cursor: pointer;
   outline: none !important;
   padding: 12px 0 12px 24px;
-  border-left: 4px solid $teal-70;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
+  border-left: 4px solid $main;
   transition: all 0.3s ease-in-out;
 
   &:hover {
-      opacity: 1;
-      background-color: rgba(75, 90, 107, 0.05);
+    opacity: 1;
+    background-color: rgba(75, 90, 107, 0.05);
   }
 
   &.active {
-      opacity: 1;
-      background-color: rgba(75, 90, 107, 0.05);
+    opacity: 1;
+    background-color: rgba(75, 90, 107, 0.05);
   }
 }
 
@@ -719,11 +702,11 @@ td, th {
   background-color: $gray-10;
 
   &:hover {
-      background-color: $gray-20;
+    background-color: $gray-20;
   }
 
   &:focus {
-      background-color: $gray-20;
+    background-color: $gray-20;
   }
 }
 
@@ -750,11 +733,20 @@ td, th {
 #showmore {
   cursor: pointer;
   transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
 
   &:hover {
     color: $secondary;
   }
+}
+
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0, 0, 0, 0);
 }
