@@ -10,6 +10,7 @@ plugins:
   - jekyll-paginate
   - jekyll-compose
   - jekyll-feed
+  - jekyll-redirect-from
 
 collections:
   documentation:
