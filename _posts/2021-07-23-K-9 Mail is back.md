@@ -15,7 +15,7 @@ There's finally a new stable release available: K-9 Mail 5.800 🎉
 [![K-9 Mail 5.800 screenshot](/assets/img/posts/5-800-screenshot4-thumbnail.png "K-9 Mail 5.800 screenshot")](/assets/img/posts/5-800-screenshot4.png)
 
 ### Noteworthy changes
-- The user interface has been redesigned. Some of you will love it, some will hate it. You're welcome and sorry.
+- The user interface has been redesigned. Some of you will love it, some will hate it. You're welcome and we're sorry.
 - Starting with Android 6 the platform introduced a lot of changes to limit what apps can do in the background. Old versions of K-9 Mail didn't work too well with these limitations. In 5.800 we've made the necessary changes so periodic background sync and Push now work much more reliably.
 - This version of K-9 Mail only runs on Android 5.0 and newer.
 - The support for WebDAV accounts has been deprecated. You won't be able to set up new WebDAV accounts. However, existing accounts will continue to work for now.
