@@ -3,6 +3,7 @@ description: "K-9 Mail is an open source email client focused on making it easy 
 url: "https://k9mail.app"
 github: k9mail
 repository: k9mail/k9
+timezone: Europe/Berlin
 
 # Build settings
 plugins:
