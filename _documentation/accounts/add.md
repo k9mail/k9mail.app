@@ -6,8 +6,8 @@ layout: doc
 # Add an Account
 The account set-up wizard will launch automatically after the [Welcome Screen](/documentation/setup). 
 
-For any additional accounts they can be added by going to the accounts menu, 
-and then tapping the 'Add account' option in the overflow menu.
+For any additional accounts they can be added by going to the settings menu, 
+and then tapping the 'Add account' option.
 
 First you are asked for your email address and password.
 

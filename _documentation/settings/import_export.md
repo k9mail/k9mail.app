@@ -9,10 +9,7 @@ The settings are exported as a file, stored in [external storage](/documentation
 You can now move this file to a new device or just keep it there when you uninstall and then re-install K-9 Mail on the same device.
  They do not contain your password.
 
-To export your settings tap the bottom action bar's overflow menu on the accounts page, then "Export settings and accounts"
-
-<img src="../../assets/img/documentation/accounts_menu.png" width="300" alt="Accounts Menu" /> 
-<img src="../../assets/img/documentation/settings_import_export_menu.png" width="300" alt="Import/Export Menu" />
+To export your settings, tap the "Export settings" button.
 
 Assuming the export is successful they will be stored in the K9 folder. This can then be e-mailed or otherwise transferred.
 
