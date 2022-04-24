@@ -13,10 +13,6 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
-collections:
-  documentation:
-    output: "true"
-
 exclude:
    - .sass-cache/
    - .jekyll-cache/
