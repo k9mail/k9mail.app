@@ -1,24 +1,24 @@
-# k9mail.github.io
+# k9mail.app
 
-This GitHub repository provides the source for [K-9's website](https://k9mail.app) which provides public-facing documentation for K-9.
+This GitHub repository provides the source for [K-9 Mail's website](https://k9mail.app).
 
 It is a combination of Markdown, HTML, CSS which is rendered by [Jekyll](https://jekyllrb.com/).
 
-## Writing content
 
-Pages are written mainly using Markdown along with included headers that set-up much of the formatting and pages. 
-There are headers that provide the necessary navigation sections (for example the documentation page listing).
-The main documentation page is generated automatically based on the top level pages set by front matter tags.
+## Building the site
 
-To submit new content, provide a pull-request.
+Read Jekyll's [Quickstart](https://jekyllrb.com/docs/) page to learn how to install the required software.
 
-## Writing a blog
+To build the site and make it available on a local server, type:
 
-These are written using Markdown. A new template has been writen for them and all past and new posts will be updated to reflect it.
-When adding images, you can choose whether to align them to the left, middle or right just by adding an <, >< or > at the end of the alt text for that image. If you want to know how to align other items, you can have a look at previous posts. 
+```text
+bundle exec jekyll serve
+```
 
-## Suggesting content
+Then open http://localhost:4000/ in your browser.
 
-Ideas for new website content currently mainly comes from individual thoughts and comments on the app's issue tracker, as well as from issues raised on this project.
 
-If you feel there's content missing then feel free to favourite an existing issue here or if it's not been covered by an issue, open a new one.
+## Writing a blog post
+
+Blog posts are written using Markdown. Add a new file to the `_posts` directory.
+When adding images, you can choose whether to align them to the left, middle or right just by adding an `<`, `><` or `>` at the end of the alt text for that image. If you want to know how to align other items, you can have a look at previous posts. 
