@@ -13,6 +13,8 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
+include: 
+   - .well-known
 exclude:
    - .sass-cache/
    - .jekyll-cache/
