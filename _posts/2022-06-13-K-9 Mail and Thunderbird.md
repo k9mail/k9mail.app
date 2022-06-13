@@ -1,6 +1,6 @@
 ---
 title: "K-9 Mail joins the Thunderbird family"
-date: "2022-06-13 15:30:00"
+date: "2022-06-13 15:00:00"
 image: "/assets/img/posts/k9mail_and_thunderbird.png"
 layout: post
 author: cketti
