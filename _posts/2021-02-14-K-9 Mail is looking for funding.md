@@ -7,27 +7,14 @@ author: cketti
 excerpt: K-9 Mail is looking to raise money to fund development.
 ---
 
+**Update**: Since this blog post was originally published a lot of things have happened. One of them was that [K-9 Mail has joined the Thunderbird family](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird). Development of the app is still funded by user donations 💖 But please make your donations here: [https://mzla.link/k9-give](https://mzla.link/k9-give)
 
-<div style="display: flex;">
+---
 
-<div markdown="1">
 K-9 Mail is looking to raise 1,000 EUR per week (~52,000 EUR per year) to fund development.
 
 The app has a lot of users. If everyone who is able to do so donated a small amount we should be able to reach that 
 goal in no time.
-</div>
-
-<div style="margin-left: 1em; margin-bottom: 1.5em;">
-  <style type="text/css" scoped>
-    a:hover span { 
-      border: none;
-    } 
-  </style>
-
-  <script src="https://liberapay.com/k9mail/widgets/receiving.js"></script>
-</div>
-
-</div>
 
 ### Why?
 
@@ -97,7 +84,7 @@ software and run by a team of volunteers ❤️
 Recurring donations are the best way to ensure a relatively stable income. So we'd prefer that. But you can also
 use Liberapay to make one-time donations by selecting "manual renewal".
 
-[![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/k9mail/donate)
+**Note:** The original donation link was removed. Please donate here instead: [https://mzla.link/k9-give](https://mzla.link/k9-give)
 
 
 ### Can I help out in any other way?

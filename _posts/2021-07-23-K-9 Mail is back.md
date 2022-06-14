@@ -29,31 +29,6 @@ The new version also includes a lot of bug fixes and minor changes. For details,
 If you have questions about the new version, please join our [support forum](https://forum.k9mail.app/). It's also a great place to provide feedback and have discussions about the future of the app.
 
 
-### Funding
-
-<div style="display: flex;">
-
-<div markdown="1">
-Earlier this year we started to ask for donations to fund development of K-9 Mail. More than 1,000 users already contribute money towards making development of the app a more sustainable effort ❤️  
-If you can afford it, please consider donating, too.
-
-To learn more, read the blog post [K-9 Mail is looking for funding](https://k9mail.app/2021/02/14/K-9-Mail-is-looking-for-funding).
-
-</div>
-
-<div style="margin-left: 1em; margin-bottom: 1.5em;">
-  <style type="text/css" scoped>
-    a:hover span { 
-      border: none;
-    } 
-  </style>
-
-  <script src="https://liberapay.com/k9mail/widgets/receiving.js"></script>
-</div>
-
-</div>
-
-
 ### Thank you
 
 A big thank you to all the people who made this release possible – the developers, designers, translators, beta testers, forum members, donors, and everyone else – for contributions large and small. You're what makes K-9 Mail a community project 💞
