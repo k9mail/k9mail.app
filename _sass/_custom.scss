@@ -480,6 +480,10 @@ blockquote {
 
 // Boxes and Cards
 
+.card {
+  height: 100% !important;
+}
+
 .box-small {
   padding: 20px;
   width: 100% !important;
