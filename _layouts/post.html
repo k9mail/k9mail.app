@@ -2,7 +2,11 @@
 layout: page
 ---
 
-{% assign author = site.data.authors[page.author] %}
+{% if page.authors %}
+  {% assign author_keys = page.authors %}
+{% else %}
+  {% assign author_keys = page.author | split: ',' %}
+{% endif %}
 
 <div class="container-fluid">
   <div class="container pt-4">
@@ -16,7 +20,14 @@ layout: page
             {% else %}
             <p class="body-10-bold gray-700">{{ words | divided_by:150 }} min read</p>
             {% endif %}
-            <p class="text-muted">By {% if author %}<a class="underline" href="{{ author.web }}" target="_blank" rel="noopener">{{ author.name }}</a>{% endif %} • {{ page.date | date: "%b %-d, %Y" }}</p>
+            <p class="text-muted">By
+              {% for author_key in author_keys %}
+                {% assign author = site.data.authors[author_key] %}
+                {% if forloop.first %}{% elsif forloop.last %} and {% else %}, {% endif %}
+                <a class="underline" href="{{ author.web }}" target="_blank" rel="noopener">{{ author.name }}</a>
+              {% endfor %}
+              • {{ page.date | date: "%b %-d, %Y" }}
+            </p>
   </div>
     </div>
   </div>
