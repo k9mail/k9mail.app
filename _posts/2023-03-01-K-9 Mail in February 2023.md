@@ -17,7 +17,7 @@ As [already announced on Mastodon](https://mastodon.online/@thunderbird/10983608
 
 ### Message view redesign
 
-In July 2022 [ByteHamster](https://github.com/ByteHamster) proposed a change to the message view header. cketti's decision to take a more holistic approach sent us on a months-long journey redesigning this screen in close cooperation with the Thunderbird design team. A first version finally shipped with [K-9 Mail v6.505 (beta)](https://github.com/thundernest/k-9/releases/tag/6.505) at the start of February. The UI has since been refined based on user feedback.
+In July 2022 [ByteHamster](https://github.com/ByteHamster) proposed a change to the message view header. cketti's decision to take a more holistic approach sent us on a months-long journey redesigning this screen in close cooperation with the Thunderbird design team. A first version finally shipped with [K-9 Mail v6.505 (beta)](https://github.com/thunderbird/thunderbird-android/releases/tag/6.505) at the start of February. The UI has since been refined based on user feedback.
 
 [![K-9 Mail 6.509 screenshot <](/assets/img/posts/2023-02-screenshot-message-view-thumbnail.png "Message list density setting")](/assets/img/posts/2023-02-screenshot-message-view.png)
 [![K-9 Mail 6.509 screenshot](/assets/img/posts/2023-02-screenshot-message-details-thumbnail.png "Message list density setting")](/assets/img/posts/2023-02-screenshot-message-details.png)
@@ -35,7 +35,7 @@ We also added three different message list density settings: compact, default, r
 [![K-9 Mail 6.509 screenshot <](/assets/img/posts/2023-02-screenshot-message-list-default-thumbnail.png "Message list density: default")](/assets/img/posts/2023-02-screenshot-message-list-default.png)
 [![K-9 Mail 6.509 screenshot](/assets/img/posts/2023-02-screenshot-message-list-relaxed-thumbnail.png "Message list density: relaxed")](/assets/img/posts/2023-02-screenshot-message-list-relaxed.png)
 
-A first version of these changes can be found in [K-9 Mail v6.509 (beta)](https://github.com/thundernest/k-9/releases/tag/6.509). We're looking forward to getting your feedback on this.
+A first version of these changes can be found in [K-9 Mail v6.509 (beta)](https://github.com/thunderbird/thunderbird-android/releases/tag/6.509). We're looking forward to getting your feedback on this.
 
 ### Bug fixes
 
@@ -43,8 +43,8 @@ Most of the bugs we fixed this month were related to newly added functionality. 
 
 ## Releases
 
-* [K-9 Mail v6.505 (beta)](https://github.com/thundernest/k-9/releases/tag/6.505) (2023-02-01)
-* [K-9 Mail v6.506 (beta)](https://github.com/thundernest/k-9/releases/tag/6.506) (2023-02-03)
-* [K-9 Mail v6.507 (beta)](https://github.com/thundernest/k-9/releases/tag/6.507) (2023-02-10)
-* [K-9 Mail v6.508 (beta)](https://github.com/thundernest/k-9/releases/tag/6.508) (2023-02-15)
-* [K-9 Mail v6.509 (beta)](https://github.com/thundernest/k-9/releases/tag/6.509) (2023-02-28)
+* [K-9 Mail v6.505 (beta)](https://github.com/thunderbird/thunderbird-android/releases/tag/6.505) (2023-02-01)
+* [K-9 Mail v6.506 (beta)](https://github.com/thunderbird/thunderbird-android/releases/tag/6.506) (2023-02-03)
+* [K-9 Mail v6.507 (beta)](https://github.com/thunderbird/thunderbird-android/releases/tag/6.507) (2023-02-10)
+* [K-9 Mail v6.508 (beta)](https://github.com/thunderbird/thunderbird-android/releases/tag/6.508) (2023-02-15)
+* [K-9 Mail v6.509 (beta)](https://github.com/thunderbird/thunderbird-android/releases/tag/6.509) (2023-02-28)
