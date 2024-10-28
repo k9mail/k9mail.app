@@ -6,9 +6,9 @@
 .tbfa-banner {
   position: relative;
   display: grid;
-  grid-gap: 12px;
-  grid-template-columns: auto auto 1fr;
-  place-items: center;
+  gap: 12px;
+  grid-template-columns: auto 1fr;
+  align-items: center;
   font-size: 1rem;
   line-height: 1;
   font-weight: bold;
@@ -21,26 +21,49 @@
   max-width: 1000px;
   isolation: isolate;
   z-index: 2;
+}
 
-  .banner-icon {
-    height: 24px;
-    width: 24px;
-    vertical-align: middle;
+.banner-icon {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.banner-text {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-link {
+  color: inherit;
+  justify-self: end;
+}
+
+.banner-link:active,
+.banner-link:visited {
+  color: #3A0764;
+}
+
+.banner-link:hover {
+  color: #1373D9;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+}
+
+@media (max-width: 575px) {
+  .tbfa-banner {
+    border-radius: 0.5rem;
+    padding: 6px;
   }
 
-  .banner-link {
-    color: inherit;
-    justify-self: end;
+  .logo {
+    align-self: start;
   }
 
-  .banner-link:active,
-  .banner-link:visited {
-    color: #3A0764;
+  .banner-text {
+    flex-direction: column;
+    align-items: start;
   }
-
-  .banner-link:hover {
-      color: #1373D9;
-      text-decoration: underline;
-      text-decoration-skip-ink: auto;
-    }
 }
