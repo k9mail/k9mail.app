@@ -1,0 +1,46 @@
+.banner-container {
+  background: #EDF4F7;
+  padding: 1rem;
+}
+
+.tbfa-banner {
+  position: relative;
+  display: grid;
+  grid-gap: 12px;
+  grid-template-columns: auto auto 1fr;
+  place-items: center;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: bold;
+  background: #F0F8FF;
+  color: #2E61A0;
+  border: 1px solid #2E61A0;
+  border-radius: 1000px;
+  padding: 6px 24px;
+  margin: 0 auto;
+  max-width: 1000px;
+  isolation: isolate;
+  z-index: 2;
+
+  .banner-icon {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+  }
+
+  .banner-link {
+    color: inherit;
+    justify-self: end;
+  }
+
+  .banner-link:active,
+  .banner-link:visited {
+    color: #3A0764;
+  }
+
+  .banner-link:hover {
+      color: #1373D9;
+      text-decoration: underline;
+      text-decoration-skip-ink: auto;
+    }
+}
