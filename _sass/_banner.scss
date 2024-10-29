@@ -16,7 +16,7 @@
   color: #2E61A0;
   border: 1px solid #2E61A0;
   border-radius: 1000px;
-  padding: 6px 24px;
+  padding: 12px 36px;
   margin: 0 auto;
   max-width: 1000px;
   isolation: isolate;
@@ -55,7 +55,7 @@
 @media (max-width: 575px) {
   .tbfa-banner {
     border-radius: 0.5rem;
-    padding: 6px;
+    padding: 24px;
   }
 
   .logo {
