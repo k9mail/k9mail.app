@@ -5,12 +5,14 @@ title: K-9 Mail Privacy Notice
 
 # K-9 Mail Privacy Notice
 
-Last updated November 15, 2024
-{: datetime="2024-11-15" }
+Last updated December 9, 2024
+{: datetime="2024-12-09" }
 
 The Thunderbird Desktop, Thunderbird for Android, and K-9 Mail applications (together, “Thunderbird”) allow users to privately integrate and manage their online communications. K-9 Mail is a variant of Thunderbird for Android. All references to “Thunderbird” or “Thunderbird for Android” apply equally to K-9 Mail.
 
 This Privacy Notice explains what data Thunderbird collects and shares, and why. We also adhere to the [Mozilla Privacy Policy](https://www.mozilla.org/privacy/) for how we receive, handle, and share information.
+
+This privacy notice is for the most recent general release version of Thunderbird distributed by MZLA Technologies Corporation (a subsidiary of Mozilla Foundation). If you obtain Thunderbird elsewhere, or are running an older version, your copy of Thunderbird may contain different privacy characteristics.
 
 ## Thunderbird Collects Data To:
 
@@ -90,9 +92,11 @@ __Technical data for updates__: Thunderbird periodically connects to our server 
 
 OAuth is a secure authorization protocol that allows third-party applications to access resources without sharing login credentials. Thunderbird uses OAuth to connect with certain email or calendar providers that mandate or prefer its use, such as Google, Yahoo and Microsoft.
 
-When using OAuth to authorize access to your email or calendars, all data is strictly exchanged over an encrypted connection between the email client application and the OAuth service. Mozilla does not collect, access, or store any sensitive information exchanged during this process.
+When using OAuth to authorize access to your email or calendars, all data is strictly exchanged over an encrypted connection between the email client application and the OAuth service. Mozilla does not collect, access, retain, or store any sensitive information exchanged during this process.
 
-On your device, login credentials are not retained; instead, they are exchanged for OAuth tokens. These tokens, along with your email and calendar data, are stored within the application sandbox (on Android) or confined within your user profile (on Desktop). When you remove an account, all associated content and tokens will be deleted from your device. On Desktop, the tokens may be retained for a longer period of time in case you have multiple accounts, but can be removed separately in the password manager.
+On your device, login credentials are not retained; instead, they are exchanged for OAuth tokens. These tokens, along with your email and calendar data, are stored within the application sandbox (on Android) or confined within your user profile (on Desktop).
+
+Your email and calendar data (including data associated with your Apple Calendar, Microsoft 365, or Google Calendars) reside solely on your device for the duration required to operate Thunderbird. When you remove an account, all associated content and tokens will be deleted from your device. On Desktop, the tokens may be retained for a longer period of time in case you have multiple accounts, but can be removed separately in the password manager.
 
 ## Thunderbird May Disclose Information To:
 
@@ -104,3 +108,17 @@ __Amazon Web Services__: Thunderbird uses Amazon Web Services (AWS) to host its 
 
 __Email address providers (Desktop Only Legacy)__: Prior to version 128, Thunderbird partnered with Gandi.net and Mailfence to allow you to create a new email address through Thunderbird. If you choose to use this feature, your email address search terms are sent to Gandi.net and Mailfence to return available addresses. In addition, your country location is also shared to provide the correct prices. You can learn more about [Gandi.net’s](https://contract.gandi.net/v5/contracts/14420/Privacy_Policy_US_2.0_en.pdf) and [Mailfence’s](https://mailfence.com/en/privacy.jsp) data practices by reading their privacy notices.
 
+## Contact Us
+
+If you want to make a correction to your information, or you have any questions about our privacy policies, please get in touch with:
+
+__MZLA Technologies Corporation__
+Attn: Mozilla - Privacy
+149 New Montgomery St, 4th Floor,
+San Francisco, CA 94105
+USA
+compliance@mozilla.com
+
+[See here for Data Subject Access Requests](https://privacyportal.onetrust.com/webform/1350748f-7139-405c-8188-22740b3b5587/4ba08202-2ede-4934-a89e-f0b0870f95f0). If you are under 13, we don’t want your personal information, and you must not provide it to us. If you are a parent and believe that your child who is under 13 has provided us with personal information, please contact us to have your child’s information removed.
+
+For product support requests, please [visit our forums](https://support.mozilla.org/).
