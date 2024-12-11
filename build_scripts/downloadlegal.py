@@ -1,6 +1,5 @@
-import re
-import sys
-import time
+#!/usr/bin/env python
+
 import urllib.request as request
 
 # Download the Thunderbird Privacy Policy and fit it into our layout
@@ -16,7 +15,7 @@ title: K-9 Mail Privacy Notice
 
 
 def main():
-    url = f"{THUNDERBIRD_PRIVACY_POLICY_URL}?token={int(time.time())}"
+    url = f"{THUNDERBIRD_PRIVACY_POLICY_URL}"
     with request.urlopen(url) as response:
         contents = (
             response.read()
