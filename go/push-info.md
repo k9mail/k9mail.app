@@ -1,4 +1,4 @@
 ---
 title: Push Info
-redirect_to: https://forum.k9mail.app/t/how-to-configure-push/1102
+redirect_to: https://support.mozilla.org/kb/configure-push-email-thunderbird-android
 ---
