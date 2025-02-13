@@ -5,8 +5,8 @@ title: K-9 Mail Privacy Notice
 
 # K-9 Mail Privacy Notice
 
-Last updated December 9, 2024
-{: datetime="2024-12-09" }
+Last updated February 12, 2025
+{: datetime="2025-02-12" }
 
 The Thunderbird Desktop, Thunderbird for Android, and K-9 Mail applications (together, “Thunderbird”) allow users to privately integrate and manage their online communications. K-9 Mail is a variant of Thunderbird for Android. All references to “Thunderbird” or “Thunderbird for Android” apply equally to K-9 Mail.
 
@@ -92,11 +92,20 @@ __Technical data for updates__: Thunderbird periodically connects to our server 
 
 OAuth is a secure authorization protocol that allows third-party applications to access resources without sharing login credentials. Thunderbird uses OAuth to connect with certain email or calendar providers that mandate or prefer its use, such as Google, Yahoo and Microsoft.
 
-When using OAuth to authorize access to your email or calendars, all data is strictly exchanged over an encrypted connection between the email client application and the OAuth service. Mozilla does not collect, access, retain, or store any sensitive information exchanged during this process.
+OAuth authentication and user data synchronization occur directly between Thunderbird and the respective service provider over an encrypted connection, without involving any Mozilla-operated services. Mozilla does not collect, access, retain, or store any sensitive information exchanged during this process.
 
-On your device, login credentials are not retained; instead, they are exchanged for OAuth tokens. These tokens, along with your email and calendar data, are stored within the application sandbox (on Android) or confined within your user profile (on Desktop).
+Data protection on your device:
 
-Your email and calendar data (including data associated with your Apple Calendar, Microsoft 365, or Google Calendars) reside solely on your device for the duration required to operate Thunderbird. When you remove an account, all associated content and tokens will be deleted from your device. On Desktop, the tokens may be retained for a longer period of time in case you have multiple accounts, but can be removed separately in the password manager.
+* Login credentials are not stored on your device; instead, they are exchanged for OAuth tokens. These tokens, along with your email and calendar data, are secured within the application sandbox (on Android) or confined within your user profile (on Desktop). Additional security measures such as operating system level full disk encryption increase the security of your data.
+* Email and calendar data reside solely on your device for the duration required to operate Thunderbird. This includes sensitive user data associated with your Apple Calendar, Microsoft 365 or Google Calendar.
+* Thunderbird does not share OAuth tokens, email contents, calendar events, contact lists, or account details with third parties, except as necessary to provide the services requested by the user (e.g., sending an email or scheduling a calendar event).
+
+Retention and deletion:
+
+* OAuth tokens are stored only as long as necessary to maintain the authorized connection.
+* When you remove an account, all associated sensitive user data and OAuth tokens are immediately deleted from your device.
+* On Thunderbird Desktop, the OAuth tokens are retained until manually deleted in the password manager.
+* If you revoke Thunderbird’s access to your account via your OAuth provider’s account settings (e.g., Google security settings), Thunderbird will be unable to refresh the connection. Locally stored data will remain on your device until you remove the account from Thunderbird.
 
 ## Thunderbird May Disclose Information To:
 
