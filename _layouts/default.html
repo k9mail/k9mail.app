@@ -3,10 +3,13 @@
 {% include head.html %}
 
 <body>
+    <a class="sr-only sr-only-focusable" href="#main">Skip to content</a>
     {% include banner.html %}
     {% include nav.html %}
     {% include header.html %}
+    <main id="main">
     {{ content }}
+    </main>
     {% include footer.html %}
 </body>
 
