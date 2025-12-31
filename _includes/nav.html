@@ -2,10 +2,10 @@
     <div class="container py-3">
         <div class="navbar navbar-expand-lg justify-content-between">
             <div class="d-lg-none">
-                <a class="navbar-toggler mr-1" href="" data-id="headers-4-sidebar-toggle"><img src="{{ "/assets/img/glyphs/burger.svg" | prepend: site.url }}" /></a>
+                <a class="navbar-toggler mr-1" href="#" role="button" aria-label="Open menu" aria-controls="headers-4-sidebar" data-id="headers-4-sidebar-toggle"><img src="{{ "/assets/img/glyphs/burger.svg" | prepend: site.url }}" alt="" aria-hidden="true" /></a>
             </div>
             <div>
-                <a href="/"><img class="smallermobile" src="{{ "/assets/img/k9-logo.svg" | prepend: site.url }}" width="80px" height="auto" /></a>
+                <a href="/"><img class="smallermobile" src="{{ "/assets/img/k9-logo.svg" | prepend: site.url }}" width="80" height="auto" alt="K-9 Mail" /></a>
             </div>
             <div class="collapse navbar-collapse flex-grow-0 weight-500">
                 <div class="navbar-nav">
@@ -30,7 +30,7 @@
         <div class="navbar-side background" id="headers-4-sidebar">
             <div class="navbar-side-content background d-flex flex-column justify-content-between">
                 <div class="weight-700">
-                    <a class="navbar-side-close mb-4" href="" data-id="headers-4-sidebar-close"><img src="{{ "/assets/img/glyphs/close.svg" | prepend: site.url }}" width="32" /></a>
+                    <a class="navbar-side-close mb-4" href="#" role="button" aria-label="Close menu" data-id="headers-4-sidebar-close"><img src="{{ "/assets/img/glyphs/close.svg" | prepend: site.url }}" width="32" height="32" alt="" aria-hidden="true" /></a>
                     <div class="navbar-nav">
                         {% for link in site.data.navbar %}
                         {% unless link contains 'dropdown' %}
@@ -56,37 +56,8 @@
                 </div>
             </div>
             <div class="navbar-side-content weight-700">
-                <a class="navbar-side-close mb-4" href="" data-id="headers-4-sidebar-close"><img src="{{ "/assets/img/glyphs/close.svg" | prepend: site.url }}" width="32" /></a>
+                <a class="navbar-side-close mb-4" href="#" role="button" aria-label="Close menu" data-id="headers-4-sidebar-close"><img src="{{ "/assets/img/glyphs/close.svg" | prepend: site.url }}" width="32" height="32" alt="" aria-hidden="true" /></a>
             </div>
         </div>
     </div>
 </div>
-<script>
-    $(function() {
-        $('[data-id=headers-4-sidebar-toggle]').click(function(e) {
-            e.preventDefault();
-            $('#headers-4-sidebar').toggleClass('show');
-        });
-        $('[data-id=headers-4-sidebar-close]').click(function(e) {
-            e.preventDefault();
-            $('#headers-4-sidebar').removeClass('show');
-        });
-    });
-</script>
-<script>
-    $('.navbar-nav .dropdown > a').click(function() {
-        if (!$(this).hasClass("parent-clicked")) {
-            $(this).addClass("parent-clicked");
-        } else {
-            location.href = this.href;
-        }
-    });
-
-    $('.navbar-nav.nav-item > a').click(function() {
-        if (!$(this).hasClass("parent-clicked")) {
-            $(this).addClass("parent-clicked");
-        } else {
-            location.href = this.href;
-        }
-    });
-</script>

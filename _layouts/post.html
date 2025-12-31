@@ -39,7 +39,9 @@ layout: page
  <div class="row justify-content-center">
     <div class="col-md-8 col-sm-12 pt-5">
         <article class="post-content">
-            {{ content }}
+            {% assign post_content = content %}
+            {% assign post_content = post_content | replace: '<img src=', '<img loading="lazy" decoding="async" src=' %}
+            {{ post_content }}
         </article>
     </div>
  </div>
@@ -61,7 +63,7 @@ layout: page
                 <div class="col-md-2 col-sm-12">
                 </div>
                  <div class="col-md-9">
-                  <a class="text-main underline size-18" href='{{ page.previous.url | replace:'.html','' }}'>{{ page.previous.title }}</a>
+                  <a class="text-main underline size-18" href="{{ page.previous.url | replace:'.html','' }}">{{ page.previous.title }}</a>
                 </div>
               </div>
                 {% endif %}
@@ -75,7 +77,7 @@ layout: page
                 <div class="col-md-2 col-sm-12">
                 </div>
                 <div class="col-md-9">
-                  <a class="text-main underline size-18" href='{{ page.next.url | replace:'.html','' }}'>{{ page.next.title }}</a>
+                  <a class="text-main underline size-18" href="{{ page.next.url | replace:'.html','' }}">{{ page.next.title }}</a>
                 </div>
               </div>
                 {% endif %}
